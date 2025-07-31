@@ -1,0 +1,238 @@
+--- term le 0 ---
+term le 0
+ID-DC-N7K-ADM-02# 
+--- show int status ---
+show int status
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --         
+ID-DC-N7K-ADM-02# 
+--- show int desc ---
+show int desc
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+ID-DC-N7K-ADM-02# 
+--- show mac address-table ---
+show mac address-table
+ Note: MAC table entries displayed are getting read from software.
+ Use the 'hardware-age' keyword to get information related to 'Age' 
+
+ Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False ,  ~~~ - use 'hardware-age' keyword to retrieve age info 
+   VLAN     MAC Address      Type      age     Secure NTFY Ports/SWID.SSID.LID
+---------+-----------------+--------+---------+------+----+------------------
+G     -    8478.ac0d.1b41    static       -       F    F  sup-eth1(R)
+
+ID-DC-N7K-ADM-02# 
+--- show proc cpu ---
+show proc cpu
+                         ^
+% Invalid command at '^' marker.
+ID-DC-N7K-ADM-02# 
+--- show proc mem ---
+show proc mem
+                         ^
+% Invalid command at '^' marker.
+ID-DC-N7K-ADM-02# 
+--- show system reso ---
+show system reso
+Load average:   1 minute: 0.26   5 minutes: 0.23   15 minutes: 0.25
+Processes   :   1516 total, 2 running
+CPU states  :   0.65% user,   0.89% kernel,   98.44% idle
+        CPU0 states  :   0.98% user,   0.00% kernel,   99.01% idle
+        CPU1 states  :   0.00% user,   0.00% kernel,   99.99% idle
+        CPU2 states  :   4.71% user,   2.83% kernel,   92.45% idle
+        CPU3 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU4 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU5 states  :   0.00% user,   0.93% kernel,   99.06% idle
+        CPU6 states  :   0.00% user,   0.00% kernel,   99.99% idle
+        CPU7 states  :   4.76% user,   9.52% kernel,   85.71% idle
+        CPU8 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU9 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU10 states  :   0.00% user,   0.96% kernel,   99.03% idle
+        CPU11 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU12 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU13 states  :   0.00% user,   0.00% kernel,   99.99% idle
+        CPU14 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU15 states  :   0.00% user,   0.00% kernel,   100.00% idle
+Memory usage:   32745060K total,   6649300K used,   26095760K free
+Current memory status: OK
+ID-DC-N7K-ADM-02# 
+--- show env ---
+show env
+Power Supply:
+Voltage: 50 Volts
+Power                              Actual        Total
+Supply    Model                    Output     Capacity    Status
+                                 (Watts )     (Watts )
+-------  -------------------  -----------  -----------  --------------
+1        N7K-AC-7.5KW-INT          1038 W       7500 W     Ok        
+2        N7K-AC-7.5KW-INT           990 W       7500 W     Ok        
+
+
+                                  Actual        Power      
+Module    Model                     Draw    Allocated    Status
+                                 (Watts )     (Watts )     
+-------  -------------------  -----------  -----------  --------------
+1        N7K-SUP2E                  128 W        265 W    Powered-Up
+2        N7K-SUP2E                  131 W        265 W    Powered-Up
+3        N7K-M132XP-12L             573 W        750 W    Powered-Up
+4        N7K-M132XP-12L             538 W        750 W    Powered-Up
+5        N7K-M148GT-11L             299 W        400 W    Powered-Up
+6        N7K-M148GT-11L             285 W        400 W    Powered-Up
+Xb1      N7K-C7009-FAB-2             39 W         70 W    Powered-Up
+Xb2      N7K-C7009-FAB-2             39 W         70 W    Powered-Up
+Xb3      N7K-C7009-FAB-2             37 W         70 W    Powered-Up
+Xb4      N7K-C7009-FAB-2             37 W         70 W    Powered-Up
+Xb5      N7K-C7009-FAB-2             32 W         70 W    Powered-Up
+fan1     N7K-C7009-FAN               68 W        650 W    Powered-Up
+
+N/A - Per module power not available
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)               7500 W
+Total Power of all Inputs (cumulative)                       15000 W
+Total Power Output (actual draw)                              2028 W
+Total Power Allocated (budget)                                3830 W
+Total Power Available for additional modules                  3670 W
+
+Clock:
+----------------------------------------------------------
+Clock           Model                Hw         Status
+----------------------------------------------------------
+A               Clock Module         --         NotSupported/None
+B               Clock Module         --         NotSupported/None
+
+
+Fan:
+------------------------------------------------------
+Fan             Model                Hw         Status
+------------------------------------------------------
+Fan1(sys_fan1)  N7K-C7009-FAN        1.0        Ok  
+Fan_in_PS1      --                   --         Ok             
+Fan_in_PS2      --                   --         Ok             
+Fan Zone Speed: Zone 1: 0x7f Zone 2: 0x30 Zone 3: 0x30 Zone 4: 0x0
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        Inlet  (s1)     60              42          25         Ok             
+1        PMFPGA (s2)     80              60          43         Ok             
+1        Crossbar(s3)    105             95          52         Ok             
+1        L2L3Dev1(s4)    105             95          38         Ok             
+1        Arbiter (s5)    105             95          49         Ok             
+1        CPU1CORE1(s6)   85              70          43         Ok             
+1        CPU1CORE2(s7)   85              70          40         Ok             
+1        CPU1CORE3(s8)   85              70          44         Ok             
+1        CPU1CORE4(s9)   85              70          40         Ok             
+1        CPU2CORE1(s10)  85              70          38         Ok             
+1        CPU2CORE2(s11)  85              70          33         Ok             
+1        CPU2CORE3(s12)  85              70          37         Ok             
+1        CPU2CORE4(s13)  85              70          36         Ok             
+1        DDR3DIMM1(s14)  95              85          46         Ok             
+1        DDR3DIMM2(s15)  95              85          46         Ok             
+1        DDR3DIMM4(s17)  95              85          37         Ok             
+1        DDR3DIMM5(s18)  95              85          36         Ok             
+2        Inlet  (s1)     60              42          25         Ok             
+2        PMFPGA (s2)     80              60          42         Ok             
+2        Crossbar(s3)    105             95          52         Ok             
+2        L2L3Dev1(s4)    105             95          37         Ok             
+2        Arbiter (s5)    105             95          48         Ok             
+2        CPU1CORE1(s6)   85              70          41         Ok             
+2        CPU1CORE2(s7)   85              70          40         Ok             
+2        CPU1CORE3(s8)   85              70          37         Ok             
+2        CPU1CORE4(s9)   85              70          39         Ok             
+2        CPU2CORE1(s10)  85              70          37         Ok             
+2        CPU2CORE2(s11)  85              70          35         Ok             
+2        CPU2CORE3(s12)  85              70          36         Ok             
+2        CPU2CORE4(s13)  85              70          34         Ok             
+2        DDR3DIMM1(s14)  95              85          44         Ok             
+2        DDR3DIMM2(s15)  95              85          45         Ok             
+2        DDR3DIMM4(s17)  95              85          38         Ok             
+2        DDR3DIMM5(s18)  95              85          37         Ok             
+3        Crossbar(s5)    105             95          65         Ok             
+3        QEng1Sn1(s12)   115             110         67         Ok             
+3        QEng1Sn2(s13)   115             110         65         Ok             
+3        QEng1Sn3(s14)   115             110         63         Ok             
+3        QEng1Sn4(s15)   115             110         65         Ok             
+3        QEng2Sn1(s16)   115             110         67         Ok             
+3        QEng2Sn2(s17)   115             110         65         Ok             
+3        QEng2Sn3(s18)   115             110         64         Ok             
+3        QEng2Sn4(s19)   115             110         65         Ok             
+3        L2Lookup(s27)   115             105         55         Ok             
+3        L3Lookup(s28)   120             110         64         Ok             
+4        Crossbar(s5)    105             95          59         Ok             
+4        QEng1Sn1(s12)   115             110         67         Ok             
+4        QEng1Sn2(s13)   115             110         65         Ok             
+4        QEng1Sn3(s14)   115             110         63         Ok             
+4        QEng1Sn4(s15)   115             110         64         Ok             
+4        QEng2Sn1(s16)   115             110         67         Ok             
+4        QEng2Sn2(s17)   115             110         65         Ok             
+4        QEng2Sn3(s18)   115             110         63         Ok             
+4        QEng2Sn4(s19)   115             110         64         Ok             
+4        L2Lookup(s27)   115             105         47         Ok             
+4        L3Lookup(s28)   115             105         47         Ok             
+4        LkUpInt1(s29)   115             105         69         Ok             
+4        LkUpInt2(s30)   115             105         70         Ok             
+5        CPU     (s4)    115             95          51         Ok             
+5        Crossbar(s5)    105             95          52         Ok             
+5        CTSdev4 (s9)    115             105         64         Ok             
+5        CTSdev5 (s10)   115             105         63         Ok             
+5        CTSdev7 (s12)   115             105         61         Ok             
+5        CTSdev9 (s14)   115             105         57         Ok             
+5        CTSdev10(s15)   115             105         57         Ok             
+5        CTSdev11(s16)   115             105         54         Ok             
+5        CTSdev12(s17)   115             105         53         Ok             
+5        QEng1Sn1(s18)   115             105         60         Ok             
+5        QEng1Sn2(s19)   115             105         59         Ok             
+5        QEng1Sn3(s20)   115             105         56         Ok             
+5        QEng1Sn4(s21)   115             105         56         Ok             
+5        L2Lookup(s22)   115             105         44         Ok             
+5        L3Lookup(s23)   115             105         44         Ok             
+5        LkUpInt1(s24)   115             105         69         Ok             
+5        LkUpInt2(s25)   115             105         71         Ok             
+6        CPU     (s4)    115             95          53         Ok             
+6        Crossbar(s5)    105             95          57         Ok             
+6        CTSdev4 (s9)    115             105         72         Ok             
+6        CTSdev5 (s10)   115             105         68         Ok             
+6        CTSdev7 (s12)   115             105         65         Ok             
+6        CTSdev9 (s14)   115             105         60         Ok             
+6        CTSdev10(s15)   115             105         62         Ok             
+6        CTSdev11(s16)   115             105         58         Ok             
+6        CTSdev12(s17)   115             105         59         Ok             
+6        QEng1Sn1(s18)   115             105         73         Ok             
+6        QEng1Sn2(s19)   115             105         71         Ok             
+6        QEng1Sn3(s20)   115             105         68         Ok             
+6        QEng1Sn4(s21)   115             105         69         Ok             
+6        L2Lookup(s22)   115             105         51         Ok             
+6        L3Lookup(s23)   115             105         50         Ok             
+6        LkUpInt1(s24)   115             105         81         Ok             
+6        LkUpInt2(s25)   115             105         81         Ok             
+xbar-1   Crossbar(s1)    105             95          54         Ok             
+xbar-2   Crossbar(s1)    105             95          50         Ok             
+xbar-3   Crossbar(s1)    105             95          45         Ok             
+xbar-4   Crossbar(s1)    105             95          48         Ok             
+xbar-5   Crossbar(s1)    105             95          42         Ok             
+
+
+ID-DC-N7K-ADM-02# 
+--- show env all ---
+show env all
+                           ^
+% Invalid command at '^' marker.
+ID-DC-N7K-ADM-02#

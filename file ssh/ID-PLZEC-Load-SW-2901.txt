@@ -1,0 +1,1153 @@
+--- term le 0 ---
+term le 0
+ID-PLZEC-Load-SW-2901#
+--- show int status ---
+show int status
+
+Port         Name               Status       Vlan       Duplex  Speed Type
+Gi1/0/1                         connected    221        a-full a-1000 10/100/1000BaseTX
+Gi1/0/2                         connected    221        a-full a-1000 10/100/1000BaseTX
+Gi1/0/3                         connected    221        a-full a-1000 10/100/1000BaseTX
+Gi1/0/4                         connected    221        a-full a-1000 10/100/1000BaseTX
+Gi1/0/5                         connected    221        a-full a-1000 10/100/1000BaseTX
+Gi1/0/6                         connected    221        a-full a-1000 10/100/1000BaseTX
+Gi1/0/7                         notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/8                         notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/9                         notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/10                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/11                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/12                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/13                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/14                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/15                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/16                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/17                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/18                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/19                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/20                        notconnect   221          auto   auto 10/100/1000BaseTX
+Gi1/0/21     ** To ID-PLZCR-CRs connected    28         a-full   1000 10/100/1000BaseTX
+Gi1/0/22     ** To ID-PLZCR-CRs connected    28         a-full   1000 10/100/1000BaseTX
+Gi1/0/23     ** To ID-PLZEC-Loa connected    28         a-full   1000 10/100/1000BaseTX
+Gi1/0/24     ** COnnected To ID connected    trunk      a-full   1000 10/100/1000BaseTX
+Te1/1/1                         notconnect   1            auto   auto unknown
+Te1/1/2                         notconnect   1            auto   auto unknown
+Te1/1/3                         notconnect   1            auto   auto unknown
+Te1/1/4                         notconnect   1            auto   auto unknown
+ID-PLZEC-Load-SW-2901#
+--- show int desc ---
+show int desc
+Interface                      Status         Protocol Description
+Vl1                            up             down     
+Vl221                          up             up       
+Gi0/0                          up             up       
+Gi1/0/1                        up             up       
+Gi1/0/2                        up             up       
+Gi1/0/3                        up             up       
+Gi1/0/4                        up             up       
+Gi1/0/5                        up             up       
+Gi1/0/6                        up             up       
+Gi1/0/7                        down           down     
+Gi1/0/8                        down           down     
+Gi1/0/9                        down           down     
+Gi1/0/10                       down           down     
+Gi1/0/11                       down           down     
+Gi1/0/12                       down           down     
+Gi1/0/13                       down           down     
+Gi1/0/14                       down           down     
+Gi1/0/15                       down           down     
+Gi1/0/16                       down           down     
+Gi1/0/17                       down           down     
+Gi1/0/18                       down           down     
+Gi1/0/19                       down           down     
+Gi1/0/20                       down           down     
+Gi1/0/21                       up             up       ** To ID-PLZCR-CRsW-2901 Eth1/30 **
+Gi1/0/22                       up             up       ** To ID-PLZCR-CRsW-2902 Eth1/30 **
+Gi1/0/23                       up             up       ** To ID-PLZEC-Load-RT-2902 Gi0/0/2 **
+Gi1/0/24                       up             up       ** COnnected To ID-PLZEC-Load-RT-2902 Gi0/0/1 **
+Te1/1/1                        down           down     
+Te1/1/2                        down           down     
+Te1/1/3                        down           down     
+Te1/1/4                        down           down     
+ID-PLZEC-Load-SW-2901#
+--- show mac address-table ---
+show mac address-table
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+ All    0100.0ccc.cccc    STATIC      CPU
+ All    0100.0ccc.cccd    STATIC      CPU
+ All    0180.c200.0000    STATIC      CPU
+ All    0180.c200.0001    STATIC      CPU
+ All    0180.c200.0002    STATIC      CPU
+ All    0180.c200.0003    STATIC      CPU
+ All    0180.c200.0004    STATIC      CPU
+ All    0180.c200.0005    STATIC      CPU
+ All    0180.c200.0006    STATIC      CPU
+ All    0180.c200.0007    STATIC      CPU
+ All    0180.c200.0008    STATIC      CPU
+ All    0180.c200.0009    STATIC      CPU
+ All    0180.c200.000a    STATIC      CPU
+ All    0180.c200.000b    STATIC      CPU
+ All    0180.c200.000c    STATIC      CPU
+ All    0180.c200.000d    STATIC      CPU
+ All    0180.c200.000e    STATIC      CPU
+ All    0180.c200.000f    STATIC      CPU
+ All    0180.c200.0010    STATIC      CPU
+ All    0180.c200.0021    STATIC      CPU
+ All    ffff.ffff.ffff    STATIC      CPU
+   1    24d5.e41b.10c7    STATIC      Vl1 
+ 221    0050.568c.02b9    DYNAMIC     Gi1/0/5
+ 221    0050.568c.7361    DYNAMIC     Gi1/0/5
+ 221    0050.568c.a56c    DYNAMIC     Gi1/0/6
+ 221    24d5.e41b.10ed    STATIC      Vl221 
+ 221    5ced.8c81.a0d2    DYNAMIC     Gi1/0/3
+ 221    5ced.8c81.b6c2    DYNAMIC     Gi1/0/5
+ 221    5ced.8c82.79e0    DYNAMIC     Gi1/0/2
+ 221    5ced.8c96.1d4a    DYNAMIC     Gi1/0/6
+ 221    5ced.8cd0.0dfe    DYNAMIC     Gi1/0/1
+ 221    5ced.8cd0.0ee8    DYNAMIC     Gi1/0/4
+ 221    6cd6.e319.fa41    DYNAMIC     Gi1/0/24
+  28    0000.0c07.ac1c    DYNAMIC     Gi1/0/21
+  28    4c42.1ee4.263f    DYNAMIC     Gi1/0/21
+  28    6cd6.e319.fa42    DYNAMIC     Gi1/0/23
+  28    a411.bbd0.d97f    DYNAMIC     Gi1/0/22
+Total Mac Addresses for this criterion: 37
+ID-PLZEC-Load-SW-2901#
+--- show proc cpu ---
+show proc cpu
+CPU utilization for five seconds: 1%/0%; one minute: 1%; five minutes: 0%
+ PID Runtime(ms)     Invoked      uSecs   5Sec   1Min   5Min TTY Process 
+   1           4           6        666  0.00%  0.00%  0.00%   0 Chunk Manager    
+   2       21382     7741327          2  0.00%  0.00%  0.00%   0 Load Meter       
+   3           0           1          0  0.00%  0.00%  0.00%   0 PKI Trustpool    
+   4           0           1          0  0.00%  0.00%  0.00%   0 Retransmission o 
+   5           0           1          0  0.00%  0.00%  0.00%   0 IPC ISSU Dispatc 
+   6          68          15       4533  0.00%  0.00%  0.00%   0 RF Slave Main Th 
+   7           0           1          0  0.00%  0.00%  0.00%   0 RO Notify Timers 
+   8         211     1290220          0  0.00%  0.00%  0.00%   0 VIDB BACKGD MGR  
+   9    35111796     5897446       5953  0.71%  0.11%  0.06%   0 Check heaps      
+  10      749322      645111       1161  0.00%  0.00%  0.00%   0 Pool Manager     
+  11           0           1          0  0.00%  0.00%  0.00%   0 DiscardQ Backgro 
+  12           0           2          0  0.00%  0.00%  0.00%   0 Timers           
+  13         143        7094         20  0.00%  0.00%  0.00%   0 WATCH_AFS        
+  14      837782     8053177        104  0.00%  0.00%  0.00%   0 DB Lock Manager  
+  15        3435    38706630          0  0.00%  0.00%  0.00%   0 GraphIt          
+  16           0           1          0  0.00%  0.00%  0.00%   0 DB Notification  
+  17        1843    19352744          0  0.00%  0.00%  0.00%   0 IOSXE heartbeat  
+  18          64          26       2461  0.00%  0.00%  0.00%   0 PrstVbl          
+  19           0           1          0  0.00%  0.00%  0.00%   0 IPC Apps Task    
+  20     1476659     9648246        153  0.00%  0.00%  0.00%   0 ARP Input        
+  21        6045    40367679          0  0.00%  0.00%  0.00%   0 ARP Background   
+  22          12          67        179  0.00%  0.00%  0.00%   0 AAA_SERVER_DEADT 
+  23           0           1          0  0.00%  0.00%  0.00%   0 Policy Manager   
+  24           0           2          0  0.00%  0.00%  0.00%   0 DDR Timers       
+  25         138          71       1943  0.00%  0.00%  0.00%   0 Entity MIB API   
+  26           0           1          0  0.00%  0.00%  0.00%   0 ifIndex Receive  
+  27           0           1          0  0.00%  0.00%  0.00%   0 IFS Agent Manage 
+  28         733     7741203          0  0.00%  0.00%  0.00%   0 IPC Event Notifi 
+  29        4197    37796821          0  0.00%  0.00%  0.00%   0 IPC Mcast Pendin 
+  30           0           1          0  0.00%  0.00%  0.00%   0 Platform appsess 
+  31          63      645111          0  0.00%  0.00%  0.00%   0 IPC Dynamic Cach 
+  32         886     7741203          0  0.00%  0.00%  0.00%   0 IPC Service NonC 
+  33           0           1          0  0.00%  0.00%  0.00%   0 IPC Zone Manager 
+  34        4442    37796820          0  0.00%  0.00%  0.00%   0 IPC Periodic Tim 
+  35        3938    37796820          0  0.00%  0.00%  0.00%   0 IPC Deferred Por 
+  36           0           1          0  0.00%  0.00%  0.00%   0 IPC Process leve 
+  37           0           1          0  0.00%  0.00%  0.00%   0 IPC Seat Manager 
+  38         267     2211800          0  0.00%  0.00%  0.00%   0 IPC Check Queue  
+  39           0           1          0  0.00%  0.00%  0.00%   0 IPC Seat RX Cont 
+  40           0           1          0  0.00%  0.00%  0.00%   0 IPC Seat TX Cont 
+  41         409     3870665          0  0.00%  0.00%  0.00%   0 IPC Keep Alive M 
+  42        1660     7741227          0  0.00%  0.00%  0.00%   0 IPC Loadometer   
+  43           0           1          0  0.00%  0.00%  0.00%   0 IPC Session Deta 
+  44           0           1          0  0.00%  0.00%  0.00%   0 SENSOR-MGR event 
+  45           0           2          0  0.00%  0.00%  0.00%   0 Serial Backgroun 
+  46           0           1          0  0.00%  0.00%  0.00%   0 RMI RM Notify Wa 
+  47           0           1          0  0.00%  0.00%  0.00%   0 CEF MIB API      
+  48           0           2          0  0.00%  0.00%  0.00%   0 ATM Idle Timer   
+  49           0           1          0  0.00%  0.00%  0.00%   0 ATM ASYNC PROC   
+  50          16          19        842  0.00%  0.00%  0.00%   0 SL Platform Back 
+  51           0           1          0  0.00%  0.00%  0.00%   0 License IPC stat 
+  52           0           1          0  0.00%  0.00%  0.00%   0 License IPC serv 
+  53      392528     8859737         44  0.00%  0.00%  0.00%   0 Net Input        
+  54           0           1          0  0.00%  0.00%  0.00%   0 IOSXE signals IO 
+  55           0           1          0  0.00%  0.00%  0.00%   0 client_entity_se 
+  56           0           1          0  0.00%  0.00%  0.00%   0 SERIAL A'detect  
+  57           0           1          0  0.00%  0.00%  0.00%   0 ARP Snoop        
+  58        5454    38704063          0  0.00%  0.00%  0.00%   0 Dynamic ARP Insp 
+  59        4368         652       6699  0.00%  0.00%  0.00%   0 crypto sw pk pro 
+  60           0           2          0  0.00%  0.00%  0.00%   0 XML Proxy Client 
+  61           0           1          0  0.00%  0.00%  0.00%   0 License Client N 
+  62          68         182        373  0.00%  0.00%  0.00%   0 SAEventLog       
+  63          28           2      14000  0.00%  0.00%  0.00%   0 SAStorage        
+  64           0           4          0  0.00%  0.00%  0.00%   0 SASConnect       
+  65       13151    20089351          0  0.00%  0.00%  0.00%   0 SASRcvWQ         
+  66           0           5          0  0.00%  0.00%  0.00%   0 SACConnect       
+  67       12735    20132142          0  0.00%  0.00%  0.00%   0 SACRcvWQ         
+  68           0           1          0  0.00%  0.00%  0.00%   0 Image License br 
+  69        1007     1290220          0  0.00%  0.00%  0.00%   0 Licensing Auto U 
+  70           0           1          0  0.00%  0.00%  0.00%   0 License HA Consi 
+  71           0           1          0  0.00%  0.00%  0.00%   0 Critical Bkgnd   
+  72    26059310    75611783        344  0.00%  0.19%  0.13%   0 Net Background   
+  73           0           3          0  0.00%  0.00%  0.00%   0 IDB Work         
+  74          20         923         21  0.00%  0.00%  0.00%   0 Logger           
+  75        5389    38704050          0  0.00%  0.00%  0.00%   0 TTY Background   
+  76           8           9        888  0.00%  0.00%  0.00%   0 CTS CORE         
+  77           0           1          0  0.00%  0.00%  0.00%   0 NGWC SGACL Statu 
+  78        5096    19352616          0  0.00%  0.00%  0.00%   0 SASRcvWQWrk1     
+  79          28         114        245  0.00%  0.00%  0.00%   0 SXP CORE         
+  80    12516639   103383308        121  0.00%  0.04%  0.01%   0 IOSD ipc task    
+  81     8377810    69037060        121  0.07%  0.02%  0.00%   0 IOSD chasfs task 
+  82           0           1          0  0.00%  0.00%  0.00%   0 NGWC OIR CC Proc 
+  83         696     5529473          0  0.00%  0.00%  0.00%   0 REDUNDANCY FSM   
+  84           0           2          0  0.00%  0.00%  0.00%   0 mDNS HA          
+  85           0           2          0  0.00%  0.00%  0.00%   0 mDNS HA CF       
+  86           0           1          0  0.00%  0.00%  0.00%   0 MATM SPI client  
+  87           8           4       2000  0.00%  0.00%  0.00%   0 NGWC_OIRSHIM_TAS 
+  88           0           1          0  0.00%  0.00%  0.00%   0 Punt FP Stats Du 
+  89       21011    19352689          1  0.00%  0.00%  0.00%   0 PuntInject Keepa 
+  90           0           1          0  0.00%  0.00%  0.00%   0 Ng3k envvar sync 
+  91          20          17       1176  0.00%  0.00%  0.00%   0 IF-MGR control p 
+  92           4         224         17  0.00%  0.00%  0.00%   0 IF-MGR event pro 
+  93           0           1          0  0.00%  0.00%  0.00%   0 FQDN HA          
+  94           0           2          0  0.00%  0.00%  0.00%   0 CTS HA           
+  95           0           2          0  0.00%  0.00%  0.00%   0 CTS HA IPC flow  
+  96           0           1          0  0.00%  0.00%  0.00%   0 CTS HA operation 
+  97           0           2          0  0.00%  0.00%  0.00%   0 cpf_msg_holdq_pr 
+  98           0           1          0  0.00%  0.00%  0.00%   0 cpf_msg_rcvq_pro 
+  99           0           1          0  0.00%  0.00%  0.00%   0 cpf_process_tpQ  
+ 100        4459    38704063          0  0.00%  0.00%  0.00%   0 Environmental Mo 
+ 101        5761    38704063          0  0.00%  0.00%  0.00%   0 RP HA Periodic   
+ 102           0           1          0  0.00%  0.00%  0.00%   0 DHCP Snooping cl 
+ 103         207      322557          0  0.00%  0.00%  0.00%   0 DHCP Snooping    
+ 104           0           1          0  0.00%  0.00%  0.00%   0 DHCP Snooping db 
+ 105           0           2          0  0.00%  0.00%  0.00%   0 Crimson interfac 
+ 106     2487468      387067       6426  0.00%  0.00%  0.00%   0 Crimson Database 
+ 107    13968242    11435426       1221  0.00%  0.03%  0.02%   0 Crimson flush tr 
+ 108         699         457       1529  0.00%  0.00%  0.00%   0 DBAL EVENTS      
+ 109           0           1          0  0.00%  0.00%  0.00%   0 CONSOLE helper p 
+ 110       17921      680909         26  0.00%  0.00%  0.00%   0 EM_SHIM_TASK     
+ 111           0          13          0  0.00%  0.00%  0.00%   0 EM_SHIM_NOTIFY_T 
+ 112           0           1          0  0.00%  0.00%  0.00%   0 DHCPD HA         
+ 113           0           4          0  0.00%  0.00%  0.00%   0 ARP HA           
+ 114           0           1          0  0.00%  0.00%  0.00%   0 XDR RRP RF waite 
+ 115        5323    38704471          0  0.00%  0.00%  0.00%   0 REDUNDANCY peer  
+ 116       61792   386969908          0  0.00%  0.00%  0.00%   0 100ms check      
+ 117           0           2          0  0.00%  0.00%  0.00%   0 SISF HA Process  
+ 118           0           1          0  0.00%  0.00%  0.00%   0 ACCESS_TUNNEL CF 
+ 119           0           1          0  0.00%  0.00%  0.00%   0 DHCP Snooping HA 
+ 120           0           1          0  0.00%  0.00%  0.00%   0 MATM CF Flow Con 
+ 121         499       10478         47  0.00%  0.00%  0.00%   0 NGWC Learning Pr 
+ 122     2604185    30098142         86  0.15%  0.01%  0.00%   0 IOSXE-RP Punt Se 
+ 123           0           1          0  0.00%  0.00%  0.00%   0 IOSXE-RP Punt IP 
+ 124           0           1          0  0.00%  0.00%  0.00%   0 ACL Log Punt Ser 
+ 125           0           1          0  0.00%  0.00%  0.00%   0 ACL deny punt se 
+ 126      239088  2414269636          0  0.00%  0.00%  0.00%   0 L2 LISP Punt Pro 
+ 127           0           1          0  0.00%  0.00%  0.00%   0 OFSDN Punject Pr 
+ 128      236965  2414269641          0  0.00%  0.00%  0.00%   0 SIS Punt Process 
+ 129           0           1          0  0.00%  0.00%  0.00%   0 NGWC ILP CF Proc 
+ 130           0           1          0  0.00%  0.00%  0.00%   0 NGWC Configurati 
+ 131      995183     7740329        128  0.00%  0.00%  0.00%   0 SIF-IOSD IPC pro 
+ 132           0           1          0  0.00%  0.00%  0.00%   0 IOSXE-RP SPA TSM 
+ 133           4           3       1333  0.00%  0.00%  0.00%   0 STACK MGR Proces 
+ 134           0           1          0  0.00%  0.00%  0.00%   0 CEF RRP RF waite 
+ 135           0           1          0  0.00%  0.00%  0.00%   0 DHCPC HA         
+ 136           0           1          0  0.00%  0.00%  0.00%   0 DHCPv6 Relay HA  
+ 137           0           1          0  0.00%  0.00%  0.00%   0 DHCPv6 Server HA 
+ 138           0           1          0  0.00%  0.00%  0.00%   0 Crypto PKI-HA    
+ 139           0           1          0  0.00%  0.00%  0.00%   0 Network-rf Notif 
+ 140           8          13        615  0.00%  0.00%  0.00%   0 RF Master Main T 
+ 141           0           9          0  0.00%  0.00%  0.00%   0 RF Master Status 
+ 142        5086    19352606          0  0.00%  0.00%  0.00%   0 SACRcvWQWrk1     
+ 143       15995    19395376          0  0.00%  0.00%  0.00%   0 SACRcvWQWrk2     
+ 144      135893    20089404          6  0.00%  0.00%  0.00%   0 SASRcvWQWrk2     
+ 145           4         211         18  0.00%  0.00%  0.00%   0 BACK CHECK       
+ 146     3835795     1271778       3016  0.00%  0.00%  0.00%   0 SAMsgThread      
+ 147        4237     3870665          1  0.00%  0.00%  0.00%   0 Compute load avg 
+ 148     6550392     2572517       2546  0.00%  0.00%  0.00%   0 Per-minute Jobs  
+ 149       10138    38706636          0  0.00%  0.00%  0.00%   0 Per-Second Jobs  
+ 150           0           1          0  0.00%  0.00%  0.00%   0 AggMgr Process   
+ 151          87         108        805  0.00%  0.00%  0.00%   0 ACT2 Crypto Engi 
+ 152           0        3370          0  0.00%  0.00%  0.00%   0 Transport Port A 
+ 153           0           1          0  0.00%  0.00%  0.00%   0 SFF8472          
+ 154           4           4       1000  0.00%  0.00%  0.00%   0 EEM ED Identity  
+ 155           0           1          0  0.00%  0.00%  0.00%   0 IOSXE-RP FastPat 
+ 156       54812      866368         63  0.00%  0.00%  0.00%   0 NGWC L2M         
+ 157           0           2          0  0.00%  0.00%  0.00%   0 NGWC_MACSEC_IOSD 
+ 158           0           1          0  0.00%  0.00%  0.00%   0 NGWC DOT1X Proce 
+ 159           0           1          0  0.00%  0.00%  0.00%   0 ngpm main proces 
+ 160           0           1          0  0.00%  0.00%  0.00%   0 ACL Logging Proc 
+ 161           0           1          0  0.00%  0.00%  0.00%   0 Inline Power     
+ 162    13170402    18550011        709  0.00%  0.01%  0.01%   0 CMAN IPC process 
+ 163           0           2          0  0.00%  0.00%  0.00%   0 IOMD IPC process 
+ 164           0           1          0  0.00%  0.00%  0.00%   0 Remote Console P 
+ 165           0           1          0  0.00%  0.00%  0.00%   0 NGWC diag proces 
+ 166          96      645110          0  0.00%  0.00%  0.00%   0 MMN bkgrd proces 
+ 167    10297409    43135884        238  0.00%  0.01%  0.00%   0 FED IPC process  
+ 168      130580     9676659         13  0.00%  0.00%  0.00%   0 FEP background p 
+ 169    26229805     9676659       2710  0.07%  0.04%  0.06%   0 Thermal backgrou 
+ 170           0           4          0  0.00%  0.00%  0.00%   0 EEM ED MAT       
+ 171           4         467          8  0.00%  0.00%  0.00%   0 EEM ED ND        
+ 172           0           1          0  0.00%  0.00%  0.00%   0 Src Fltr backgro 
+ 173        3801    37796817          0  0.00%  0.00%  0.00%   0 fanrp_l2fib      
+ 174           0           1          0  0.00%  0.00%  0.00%   0 IPv6 Access Cont 
+ 175      930868     7734585        120  0.00%  0.00%  0.00%   0 MGMTE stats Proc 
+ 176           8         124         64  0.00%  0.00%  0.00%   0 SpanTree Flush   
+ 177          16           2       8000  0.00%  0.00%  0.00%   0 CWAN OIR Handler 
+ 178        8455       20978        403  0.00%  0.00%  0.00%   0 MATM RP Shim Pro 
+ 179           0           1          0  0.00%  0.00%  0.00%   0 TP CUTOVER EVENT 
+ 180           0           1          0  0.00%  0.00%  0.00%   0 CCK MSG Process  
+ 181           0           1          0  0.00%  0.00%  0.00%   0 IOSXE-RP FastPat 
+ 182      377052     7734584         48  0.00%  0.00%  0.00%   0 BlueTooth stats  
+ 183           0           1          0  0.00%  0.00%  0.00%   0 RTTYS Process    
+ 184           0           2          0  0.00%  0.00%  0.00%   0 PPP SIP          
+ 185           0           2          0  0.00%  0.00%  0.00%   0 PPP Bind         
+ 186           0           2          0  0.00%  0.00%  0.00%   0 PPP IP Route     
+ 187           0           2          0  0.00%  0.00%  0.00%   0 REP Topology cha 
+ 188         379     3870642          0  0.00%  0.00%  0.00%   0 Ethchnl          
+ 189           0           2          0  0.00%  0.00%  0.00%   0 MVRP Process     
+ 190          28         269        104  0.00%  0.00%  0.00%   0 AAA Server       
+ 191         144        2363         60  0.00%  0.00%  0.00%   0 AAA ACCT Proc    
+ 192           0           1          0  0.00%  0.00%  0.00%   0 ACCT Periodic Pr 
+ 193         167      645111          0  0.00%  0.00%  0.00%   0 Call Home Timer  
+ 194           0           1          0  0.00%  0.00%  0.00%   0 WSMA_NOTIFY      
+ 195           0           1          0  0.00%  0.00%  0.00%   0 SEP_webui_wsma_h 
+ 196           0           2          0  0.00%  0.00%  0.00%   0 AAA Dictionary R 
+ 197       11730    38704059          0  0.00%  0.00%  0.00%   0 FHRP Main thread 
+ 198           0           1          0  0.00%  0.00%  0.00%   0 TRACK Main threa 
+ 199           0           1          0  0.00%  0.00%  0.00%   0 TRACK Client thr 
+ 200           0           1          0  0.00%  0.00%  0.00%   0 VRRP Main thread 
+ 201      150130   604503406          0  0.00%  0.00%  0.00%   0 VRRS Main thread 
+ 202           0           2          0  0.00%  0.00%  0.00%   0 HQF BLT UPDATE   
+ 203           0           1          0  0.00%  0.00%  0.00%   0 HQF TARGET DYNAM 
+ 204       26617      247223        107  0.00%  0.00%  0.00%   0 IP ARP Adjacency 
+ 205      129047  1207856786          0  0.00%  0.00%  0.00%   0 IP ARP Retry Age 
+ 206      868376     6495195        133  0.00%  0.00%  0.00%   0 IP Input         
+ 207           0           1          0  0.00%  0.00%  0.00%   0 ICMP event handl 
+ 208           0           1          0  0.00%  0.00%  0.00%   0 FQDN ACL Mgr     
+ 209           0           1          0  0.00%  0.00%  0.00%   0 IPv6 ping proces 
+ 210        2617    38704448          0  0.00%  0.00%  0.00%   0 loopdetect       
+ 211         104         336        309  0.00%  0.00%  0.00%   0 SpanTree Helper  
+ 212           0           1          0  0.00%  0.00%  0.00%   0 radius radsec cl 
+ 213           0           1          0  0.00%  0.00%  0.00%   0 RADIUS Proxy     
+ 214       94951   386997264          0  0.00%  0.00%  0.00%   0 UDLD             
+ 215           0           2          0  0.00%  0.00%  0.00%   0 CDP Forward Proc 
+ 216         155         211        734  0.00%  0.00%  0.00%   0 802.1x switch    
+ 217        1171     1290247          0  0.00%  0.00%  0.00%   0 DTP Protocol     
+ 218           0           2          0  0.00%  0.00%  0.00%   0 FMANRP REP Helpe 
+ 219           0           2          0  0.00%  0.00%  0.00%   0 REP LSL Hello Pr 
+ 220         526     2580434          0  0.00%  0.00%  0.00%   0 PI MATM Aging Pr 
+ 221      373527      680050        549  0.00%  0.00%  0.00%   0 mcprp callhome p 
+ 222           0           2          0  0.00%  0.00%  0.00%   0 NGWC led process 
+ 223         239      645111          0  0.00%  0.00%  0.00%   0 Port-Security    
+ 224           4           2       2000  0.00%  0.00%  0.00%   0 SKA IPC process  
+ 225           4          19        210  0.00%  0.00%  0.00%   0 EPM IAL Process  
+ 226           0           2          0  0.00%  0.00%  0.00%   0 SNMP DBAL WRAPPE 
+ 227           0           1          0  0.00%  0.00%  0.00%   0 SNMP DBAL Cache  
+ 228           0           1          0  0.00%  0.00%  0.00%   0 SNMP DBAL Cache  
+ 229           0           1          0  0.00%  0.00%  0.00%   0 PPCP RP Stats Ba 
+ 230           0           2          0  0.00%  0.00%  0.00%   0 CEF switching ba 
+ 231           0           1          0  0.00%  0.00%  0.00%   0 ADJ NSF process  
+ 232          47           2      23500  0.00%  0.00%  0.00%   0 MKA              
+ 233           0           1          0  0.00%  0.00%  0.00%   0 Spanning Tree St 
+ 234           0           3          0  0.00%  0.00%  0.00%   0 PIM register asy 
+ 235      103011    56350396          1  0.07%  0.00%  0.00%   0 Spanning Tree    
+ 236           0         115          0  0.00%  0.00%  0.00%   0 SpanTree Msg     
+ 237           0           6          0  0.00%  0.00%  0.00%   0 RIB LM VALIDATE  
+ 238           0           1          0  0.00%  0.00%  0.00%   0 SEP_webui_wsma_h 
+ 239           0           1          0  0.00%  0.00%  0.00%   0 AAA EPD HANDLER  
+ 240           0           1          0  0.00%  0.00%  0.00%   0 PM EPD API       
+ 241          80      645110          0  0.00%  0.00%  0.00%   0 SSS Manager      
+ 242           0           1          0  0.00%  0.00%  0.00%   0 SSS Policy Manag 
+ 243           0           1          0  0.00%  0.00%  0.00%   0 SSS Feature Mana 
+ 244       17792   151196618          0  0.00%  0.00%  0.00%   0 SSS Feature Time 
+ 245          19          35        542  0.00%  0.00%  0.00%   0 TurboACL         
+ 246           0           2          0  0.00%  0.00%  0.00%   0 TurboACL chunk   
+ 247           4           2       2000  0.00%  0.00%  0.00%   0 SSM connection m 
+ 248           0           1          0  0.00%  0.00%  0.00%   0 VRRS             
+ 249           0           1          0  0.00%  0.00%  0.00%   0 L2FIB Timer Disp 
+ 250           0           1          0  0.00%  0.00%  0.00%   0 MLRIB L2 Msg Thr 
+ 251           0           2          0  0.00%  0.00%  0.00%   0 NVE main thread  
+ 252           0           1          0  0.00%  0.00%  0.00%   0 Timer handler fo 
+ 253           0           1          0  0.00%  0.00%  0.00%   0 Prepaid response 
+ 254           0           1          0  0.00%  0.00%  0.00%   0 Timed Policy act 
+ 255           0           1          0  0.00%  0.00%  0.00%   0 AAA response han 
+ 256           0           2          0  0.00%  0.00%  0.00%   0 IPAM/ODAP Events 
+ 257      139417  1207856790          0  0.00%  0.00%  0.00%   0 IPAM Manager     
+ 258           0           2          0  0.00%  0.00%  0.00%   0 IPAM Events      
+ 259           0           1          0  0.00%  0.00%  0.00%   0 L2LISP XID Proce 
+ 260           0           1          0  0.00%  0.00%  0.00%   0 Umbrella DNS     
+ 261           0           1          0  0.00%  0.00%  0.00%   0 Stealthwatch Clo 
+ 262           0           3          0  0.00%  0.00%  0.00%   0 BFD HA           
+ 263           0           1          0  0.00%  0.00%  0.00%   0 XDR background p 
+ 264         153      645111          0  0.00%  0.00%  0.00%   0 XDR mcast        
+ 265           0           1          0  0.00%  0.00%  0.00%   0 XDR RP Ping Back 
+ 266           0           1          0  0.00%  0.00%  0.00%   0 XDR receive      
+ 267           0           1          0  0.00%  0.00%  0.00%   0 IPC LC Message H 
+ 268           0           1          0  0.00%  0.00%  0.00%   0 XDR RP Test Back 
+ 269          71        8116          8  0.00%  0.00%  0.00%   0 TCP Timer        
+ 270         306         827        370  0.00%  0.00%  0.00%   0 TCP Protocols    
+ 271           0           1          0  0.00%  0.00%  0.00%   0 Socket Timers    
+ 272       33661      132620        253  0.00%  0.00%  0.00%   0 HTTP CORE        
+ 273           0           2          0  0.00%  0.00%  0.00%   0 EFP Errd         
+ 274           0           2          0  0.00%  0.00%  0.00%   0 Ether EFP Proces 
+ 275        3754    38704054          0  0.00%  0.00%  0.00%   0 nbar-graph-sende 
+ 276        1674     7741201          0  0.00%  0.00%  0.00%   0 nbar-custom-prot 
+ 277        8912    38704054          0  0.00%  0.00%  0.00%   0 nbar-sdavc-sched 
+ 278         156      645111          0  0.00%  0.00%  0.00%   0 nbar-pp-monitor  
+ 279           0         242          0  0.00%  0.00%  0.00%   0 Flow Exporter Ti 
+ 280           0           2          0  0.00%  0.00%  0.00%   0 Flow Exporter Pa 
+ 281          76      645110          0  0.00%  0.00%  0.00%   0 FRR Background P 
+ 282        2258     3889174          0  0.00%  0.00%  0.00%   0 CEF background p 
+ 283           0           1          0  0.00%  0.00%  0.00%   0 fib_fib_bfd_sb e 
+ 284           0           1          0  0.00%  0.00%  0.00%   0 IP IRDP          
+ 285         111         458        242  0.00%  0.00%  0.00%   0 IGMPSN L2MCM     
+ 286           0           1          0  0.00%  0.00%  0.00%   0 IGMPSN MRD       
+ 287         908        9478         95  0.00%  0.00%  0.00%   0 IGMPSN           
+ 288           0           1          0  0.00%  0.00%  0.00%   0 IGMPQR           
+ 289           0           1          0  0.00%  0.00%  0.00%   0 IGMPSN-HA        
+ 290          40         448         89  0.00%  0.00%  0.00%   0 MLDSN L2MCM      
+ 291           0           1          0  0.00%  0.00%  0.00%   0 MRD              
+ 292           0           1          0  0.00%  0.00%  0.00%   0 MLD_SNOOP        
+ 293           0           1          0  0.00%  0.00%  0.00%   0 MLDSN-HA         
+ 294           0           1          0  0.00%  0.00%  0.00%   0 IP Traceroute    
+ 295           0           2          0  0.00%  0.00%  0.00%   0 Routing Topology 
+ 296         144          25       5760  0.00%  0.00%  0.00%   0 IP RIB Update    
+ 297         135      645111          0  0.00%  0.00%  0.00%   0 IP Background    
+ 298          24         380         63  0.00%  0.00%  0.00%   0 IP Connected Rou 
+ 299           0           1          0  0.00%  0.00%  0.00%   0 BSO_Query        
+ 300         172         129       1333  0.23%  0.22%  0.05%   2 SSH Process      
+ 301           0           1          0  0.00%  0.00%  0.00%   0 XOS async sync X 
+ 302           0           2          0  0.00%  0.00%  0.00%   0 REP LSL Proc     
+ 303           0           2          0  0.00%  0.00%  0.00%   0 REP BPA/EPA Proc 
+ 304           0           2          0  0.00%  0.00%  0.00%   0 AUTO LAG Protoco 
+ 305           0           1          0  0.00%  0.00%  0.00%   0 CEF RP Backgroun 
+ 306           0           1          0  0.00%  0.00%  0.00%   0 Tunnel FIB       
+ 307        5328    19352099          0  0.00%  0.00%  0.00%   0 CEF: IPv4 proces 
+ 308          20           8       2500  0.00%  0.00%  0.00%   0 ADJ background   
+ 309           0           6          0  0.00%  0.00%  0.00%   0 Collection proce 
+ 310        4341    19352099          0  0.00%  0.00%  0.00%   0 CEF: IPv6 proces 
+ 311           0           1          0  0.00%  0.00%  0.00%   0 AAA System Acct  
+ 312           0          27          0  0.00%  0.00%  0.00%   0 static           
+ 313           0           1          0  0.00%  0.00%  0.00%   0 IPv6 RIB Cleanup 
+ 314           0           3          0  0.00%  0.00%  0.00%   0 IPv6 RIB Event H 
+ 315           0           1          0  0.00%  0.00%  0.00%   0 IPv6 Static Hand 
+ 316           0        2814          0  0.00%  0.00%  0.00%   0 DNS Service      
+ 317       30275        7251       4175  0.00%  0.00%  0.00%   0 Exec             
+ 318        4767     3870641          1  0.00%  0.00%  0.00%   0 QoS stats proces 
+ 319           0           2          0  0.00%  0.00%  0.00%   0 SCTP Main Proces 
+ 320          12          15        800  0.00%  0.00%  0.00%   0 SNMP Timers      
+ 321           0           1          0  0.00%  0.00%  0.00%   0 TCP HA PROC      
+ 322           0           1          0  0.00%  0.00%  0.00%   0 RETRY_REPOPULATE 
+ 323           0           1          0  0.00%  0.00%  0.00%   0 Connection Mgr   
+ 324           0           1          0  0.00%  0.00%  0.00%   0 DAI Packet Proce 
+ 325           0           3          0  0.00%  0.00%  0.00%   0 L2TRACE SERVER   
+ 326         389         231       1683  0.00%  0.00%  0.00%   0 VMATM Callback   
+ 327           0           2          0  0.00%  0.00%  0.00%   0 Tunnel           
+ 328           4           5        800  0.00%  0.00%  0.00%   0 ADJ resolve proc 
+ 329           0           2          0  0.00%  0.00%  0.00%   0 XDR FOF process  
+ 330           0           2          0  0.00%  0.00%  0.00%   0 DHCPv6 LQ client 
+ 331        9630    75587818          0  0.00%  0.00%  0.00%   0 TLSCLIENT_PROCES 
+ 332           0           2          0  0.00%  0.00%  0.00%   0 STP HA IPC flow  
+ 333          72         230        313  0.00%  0.00%  0.00%   0 MVPN Mgr Process 
+ 334           0           2          0  0.00%  0.00%  0.00%   0 Multicast Offloa 
+ 335           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 336           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 337          23      126911          0  0.00%  0.00%  0.00%   0 MFIB Master back 
+ 338           0           1          0  0.00%  0.00%  0.00%   0 MRIB RP PROCESS  
+ 339           0           1          0  0.00%  0.00%  0.00%   0 MRIB RP Proxy    
+ 340           0          13          0  0.00%  0.00%  0.00%   0 Service Routing  
+ 341          24         345         69  0.00%  0.00%  0.00%   0 SR CapMan Proces 
+ 342           0           2          0  0.00%  0.00%  0.00%   0 GLBP HA          
+ 343          24           2      12000  0.00%  0.00%  0.00%   0 HSRP HA          
+ 344           0           2          0  0.00%  0.00%  0.00%   0 VRRP HA          
+ 345          12           2       6000  0.00%  0.00%  0.00%   0 L2FIB Event Disp 
+ 346           0           1          0  0.00%  0.00%  0.00%   0 EVPN main thread 
+ 347           0           1          0  0.00%  0.00%  0.00%   0 NVE MGR RWATCH T 
+ 348           0           1          0  0.00%  0.00%  0.00%   0 COPS             
+ 349           4         102         39  0.00%  0.00%  0.00%   0 PIM Snooping Pro 
+ 350           0           1          0  0.00%  0.00%  0.00%   0 NGWC-PIMSN Proce 
+ 351           0           2          0  0.00%  0.00%  0.00%   0 vxlan sr main    
+ 352           0           1          0  0.00%  0.00%  0.00%   0 Consent token pr 
+ 353           0           1          0  0.00%  0.00%  0.00%   0 DynCmd Package P 
+ 354           0           2          0  0.00%  0.00%  0.00%   0 AAA Cached Serve 
+ 355           0           2          0  0.00%  0.00%  0.00%   0 ENABLE AAA       
+ 356           0           1          0  0.00%  0.00%  0.00%   0 EM Background Pr 
+ 357           0           1          0  0.00%  0.00%  0.00%   0 Key chain liveke 
+ 358           0           2          0  0.00%  0.00%  0.00%   0 LINE AAA         
+ 359         732          77       9506  0.00%  0.00%  0.00%   0 LOCAL AAA        
+ 360           0           1          0  0.00%  0.00%  0.00%   0 Opaque Database  
+ 361           0         743          0  0.00%  0.00%  0.00%   0 TACACS+          
+ 362           0           3          0  0.00%  0.00%  0.00%   0 LDAP process     
+ 363           0           3          0  0.00%  0.00%  0.00%   0 EST Client       
+ 364       11776       10752       1095  0.00%  0.00%  0.00%   0 NIST rng proc    
+ 365        8741    75587818          0  0.00%  0.00%  0.00%   0 Timer Library    
+ 366           0           2          0  0.00%  0.00%  0.00%   0 Crypto Support   
+ 367           0           1          0  0.00%  0.00%  0.00%   0 IPSECv6 PS Proc  
+ 368        4742       17495        271  0.07%  0.01%  0.00%   0 TPLUS            
+ 369           0           1          0  0.00%  0.00%  0.00%   0 IDMGR CORE       
+ 370           0           1          0  0.00%  0.00%  0.00%   0 EEM MLANG MANAGE 
+ 371        6721    38704060          0  0.00%  0.00%  0.00%   0 FQDN Mgr Main    
+ 372           0           1          0  0.00%  0.00%  0.00%   0 FQDN Mgr Packet  
+ 373           0           1          0  0.00%  0.00%  0.00%   0 iosp_eem_global_ 
+ 374           0           2          0  0.00%  0.00%  0.00%   0 REP Switch Helpe 
+ 375           0           2          0  0.00%  0.00%  0.00%   0 MVRP SWITCH Proc 
+ 376         203      101568          1  0.00%  0.00%  0.00%   0 crypto engine pr 
+ 377           0           1          0  0.00%  0.00%  0.00%   0 AAA Proxy        
+ 378           0           1          0  0.00%  0.00%  0.00%   0 NGINX/AAA IPC pr 
+ 379          12           5       2400  0.00%  0.00%  0.00%   0 TPS IPC Process  
+ 380           0           2          0  0.00%  0.00%  0.00%   0 File Copy Handle 
+ 381           0           2          0  0.00%  0.00%  0.00%   0 COND_DEBUG HA IP 
+ 382          16           1      16000  0.00%  0.00%  0.00%   0 pki_app          
+ 383           0           1          0  0.00%  0.00%  0.00%   0 encrypt proc     
+ 384           0         449          0  0.00%  0.00%  0.00%   0 RSA background p 
+ 385         330       43145          7  0.00%  0.00%  0.00%   0 Crypto CA        
+ 386           0           3          0  0.00%  0.00%  0.00%   0 Crypto PKI-CRL   
+ 387           0           1          0  0.00%  0.00%  0.00%   0 Crypto PKI-Rev-P 
+ 388           0           1          0  0.00%  0.00%  0.00%   0 PKI OCSP         
+ 389           0           1          0  0.00%  0.00%  0.00%   0 PKI Revocation   
+ 390       13827    39991231          0  0.00%  0.00%  0.00%   0 Crypto IKEv2     
+ 391           0           1          0  0.00%  0.00%  0.00%   0 IKEv2 AAA handle 
+ 392           0           3          0  0.00%  0.00%  0.00%   0 CRYPTO MAP FREE  
+ 393           0           1          0  0.00%  0.00%  0.00%   0 Crypto INT       
+ 394           4           3       1333  0.00%  0.00%  0.00%   0 Crypto IKE Dispa 
+ 395          31           3      10333  0.00%  0.00%  0.00%   0 Crypto IKMP      
+ 396           0           1          0  0.00%  0.00%  0.00%   0 IPSEC manual key 
+ 397         415     1935328          0  0.00%  0.00%  0.00%   0 IPSEC key engine 
+ 398           0           1          0  0.00%  0.00%  0.00%   0 Crypto ACL       
+ 399           0           1          0  0.00%  0.00%  0.00%   0 Crypto PAS Proc  
+ 400           0           1          0  0.00%  0.00%  0.00%   0 IPSec background 
+ 401           0           2          0  0.00%  0.00%  0.00%   0 PIM HA           
+ 402           0           1          0  0.00%  0.00%  0.00%   0 Licensing MIB pr 
+ 403           0           1          0  0.00%  0.00%  0.00%   0 dcm_cli_engine   
+ 404           0           3          0  0.00%  0.00%  0.00%   0 dcm_cli_provider 
+ 405           0           4          0  0.00%  0.00%  0.00%   0 DCM Core Thread  
+ 406     3733360    43952190         84  0.00%  0.00%  0.00%   0 IP SNMP          
+ 407           0          17          0  0.00%  0.00%  0.00%   0 VTP Trap Process 
+ 408     5272904    21972816        239  0.00%  0.03%  0.00%   0 PDU DISPATCHER   
+ 409           8         228         35  0.00%  0.00%  0.00%   0 ASP Process Crea 
+ 410          55         278        197  0.00%  0.00%  0.00%   0 AAA SEND STOP EV 
+ 411           0           1          0  0.00%  0.00%  0.00%   0 Test AAA Client  
+ 412         255          88       2897  0.00%  0.00%  0.00%   0 Syslog Traps     
+ 413           0           2          0  0.00%  0.00%  0.00%   0 DHCP Security He 
+ 414           4           3       1333  0.00%  0.00%  0.00%   0 EEM GED BINOS PR 
+ 415           0           1          0  0.00%  0.00%  0.00%   0 NCD Process      
+ 416    17055997    22938257        743  0.00%  0.07%  0.05%   0 SNMP ENGINE      
+ 417          46      645110          0  0.00%  0.00%  0.00%   0 SPA ENTITY Proce 
+ 418         414     3096515          0  0.00%  0.00%  0.00%   0 dhcp snooping sw 
+ 419          36         731         49  0.00%  0.00%  0.00%   0 EEM ED Syslog    
+ 420           3           4        750  0.00%  0.00%  0.00%   0 EEM ED Generic   
+ 421           0           4          0  0.00%  0.00%  0.00%   0 EEM ED NHRP      
+ 422           0           4          0  0.00%  0.00%  0.00%   0 EEM ED Routing   
+ 423           0           1          0  0.00%  0.00%  0.00%   0 Online Diag EEM  
+ 424           0           1          0  0.00%  0.00%  0.00%   0 IKEv2 FlexVPN Pr 
+ 425           0           1          0  0.00%  0.00%  0.00%   0 IKEv2 Cluster Lo 
+ 426           0           1          0  0.00%  0.00%  0.00%   0 IP SNMPV6        
+ 427           0           2          0  0.00%  0.00%  0.00%   0 AUTO DEPLOY PROC 
+ 428           0           1          0  0.00%  0.00%  0.00%   0 NGWC SWC Process 
+ 429       75231      128938        583  0.00%  0.00%  0.00%   0 SLE DB Util      
+ 430        1370        1069       1281  0.00%  0.00%  0.00%   0 DCM snmp dp Thre 
+ 431           0           3          0  0.00%  0.00%  0.00%   0 snmp dcm ma shim 
+ 432         970     3870653          0  0.00%  0.00%  0.00%   0 Bulkstat-Client  
+ 433          43         435         98  0.00%  0.00%  0.00%   0 EEM Server       
+ 434           0           6          0  0.00%  0.00%  0.00%   0 EEM ED Test      
+ 435           0           4          0  0.00%  0.00%  0.00%   0 EEM ED Config    
+ 436           0           6          0  0.00%  0.00%  0.00%   0 EEM ED Env       
+ 437           4           4       1000  0.00%  0.00%  0.00%   0 EEM ED DS        
+ 438           0           6          0  0.00%  0.00%  0.00%   0 EEM ED CRASH     
+ 439           0           6          0  0.00%  0.00%  0.00%   0 EM ED GOLD       
+ 440          63      645110          0  0.00%  0.00%  0.00%   0 FNF background p 
+ 441       20081   120003787          0  0.00%  0.00%  0.00%   0 PM Callback      
+ 442           0           1          0  0.00%  0.00%  0.00%   0 ISSU Utility Pro 
+ 443          36          22       1636  0.00%  0.00%  0.00%   0 Call Home proces 
+ 444           0           1          0  0.00%  0.00%  0.00%   0 Call Home DS     
+ 445           0           1          0  0.00%  0.00%  0.00%   0 Call Home DSfile 
+ 446          56         470        119  0.00%  0.00%  0.00%   0 Syslog           
+ 447          16           5       3200  0.00%  0.00%  0.00%   0 WSMAN Process    
+ 448           4       10754          0  0.00%  0.00%  0.00%   0 SSH Event handle 
+ 449           0           4          0  0.00%  0.00%  0.00%   0 SPAN switch      
+ 450           0           6          0  0.00%  0.00%  0.00%   0 RBM CORE         
+ 451          20       43008          0  0.00%  0.00%  0.00%   0 SGACL LOG CORE   
+ 452           0           3          0  0.00%  0.00%  0.00%   0 EEM Policy Direc 
+ 453           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 454           0           4          0  0.00%  0.00%  0.00%   0 EEM ED CLI       
+ 455           0           4          0  0.00%  0.00%  0.00%   0 EEM ED Counter   
+ 456           4           4       1000  0.00%  0.00%  0.00%   0 EEM ED Interface 
+ 457           0           4          0  0.00%  0.00%  0.00%   0 EEM ED IOSWD     
+ 458           0           4          0  0.00%  0.00%  0.00%   0 EEM ED None      
+ 459           8           7       1142  0.00%  0.00%  0.00%   0 EEM ED OIR       
+ 460           0           7          0  0.00%  0.00%  0.00%   0 EEM ED RF        
+ 461           0           4          0  0.00%  0.00%  0.00%   0 EEM ED SNMP      
+ 462           0           4          0  0.00%  0.00%  0.00%   0 EEM ED SNMP Obje 
+ 463           0           4          0  0.00%  0.00%  0.00%   0 EEM ED SNMP Noti 
+ 464         208      760167          0  0.00%  0.00%  0.00%   0 EEM ED Timer     
+ 465           4          38        105  0.00%  0.00%  0.00%   0 PnP-Monitor      
+ 466           0           1          0  0.00%  0.00%  0.00%   0 SNMP ConfCopyPro 
+ 467           0           4          0  0.00%  0.00%  0.00%   0 EEM ED Nf        
+ 468           0           4          0  0.00%  0.00%  0.00%   0 EEM ED Ipsla     
+ 469           0           4          0  0.00%  0.00%  0.00%   0 EEM ED RPC       
+ 470           0           3          0  0.00%  0.00%  0.00%   0 CTS credentials  
+ 471           0           1          0  0.00%  0.00%  0.00%   0 IP SLAs ICMP Jit 
+ 472           0           1          0  0.00%  0.00%  0.00%   0 IP SLAs Jitter E 
+ 473          83           8      10375  0.00%  0.00%  0.00%   0 VLAN Manager     
+ 474           0           2          0  0.00%  0.00%  0.00%   0 MRIB Process     
+ 475          32         566         56  0.00%  0.00%  0.00%   0 EEM Helper Threa 
+ 476           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 477           0           1          0  0.00%  0.00%  0.00%   0 OFSDN IPC        
+ 478         213         230        926  0.00%  0.00%  0.00%   0 SNMP Traps       
+ 479           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 480           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 481           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 482           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch po 
+ 483           0           1          0  0.00%  0.00%  0.00%   0 ONEP Dispatch XD 
+ 484       70573   193456130          0  0.00%  0.00%  0.00%   0 ONEP Network Ele 
+ 486       16076    38733931          0  0.00%  0.00%  0.00%   0 NTP              
+ 487          76      645112          0  0.00%  0.00%  0.00%   0 NTP Auxiliary Pr 
+ 488      283871     1737417        163  0.00%  0.00%  0.00%   0 DiagCard1/-1    
+ID-PLZEC-Load-SW-2901#
+--- show proc mem ---
+show proc mem
+Processor Pool Total:  530870408 Used:  114867648 Free:  416002760
+reserve P Pool Total:     102400 Used:         48 Free:     102352
+ lsmpi_io Pool Total:    3145264 Used:    3144292 Free:        972
+
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+   0   0  117068304   21955432   84516488        359  272733410 *Init*          
+   0   0        280    8055328        280          0          0 *Sched*         
+   0   0  116329036  108955412    3520808        575        523 *Dead*          
+   0   0          0          0     460360          0          0 *MallocLite*    
+   1   0      67824       2236      82956          0          0 Chunk Manager   
+   2   0        240        240      11368          0          0 Load Meter      
+   3   0          0          0      29368          0          0 PKI Trustpool   
+   4   0          0          0      17368          0          0 Retransmission o
+   5   0          0          0      17368          0          0 IPC ISSU Dispatc
+   6   0     577516      82792     442120          0          0 RF Slave Main Th
+   7   0          0          0      17368          0          0 RO Notify Timers
+   8   0          0          0      17368          0          0 VIDB BACKGD MGR 
+   9   0       4744        240      21872          0          0 Check heaps     
+  10   0 1385190440 1385208948     197976         51          0 Pool Manager    
+  11   0          0          0      17368          0          0 DiscardQ Backgro
+  12   0        240        240      17368          0          0 Timers          
+  13   0          0          0      11368          0          0 WATCH_AFS       
+  14   0          0          0      17368          0          0 DB Lock Manager 
+  15   0        240        240      17368          0          0 GraphIt         
+  16   0          0          0      17368          0          0 DB Notification 
+  17   0          0          0      17368          0          0 IOSXE heartbeat 
+  18   0       5520       5520      17368          0          0 PrstVbl         
+  19   0          0          0      17368          0          0 IPC Apps Task   
+  20   0  737889644  737837048      69964    9652841    9652841 ARP Input       
+  21   0   31790680   31790680      17368       5047       5047 ARP Background  
+  22   0          0          0      17368          0          0 AAA_SERVER_DEADT
+  23   0          0          0      29368          0          0 Policy Manager  
+  24   0        240        240      17368          0          0 DDR Timers      
+  25   0     152644     135268      34744        137        137 Entity MIB API  
+  26   0          0          0      17368          0          0 ifIndex Receive 
+  27   0          0          0      17368          0          0 IFS Agent Manage
+  28   0          0          0      17368          0          0 IPC Event Notifi
+  29   0          0          0      17368          0          0 IPC Mcast Pendin
+  30   0          0          0      17368          0          0 Platform appsess
+  31   0          0          0      17368          0          0 IPC Dynamic Cach
+  32   0          0          0      17368          0          0 IPC Service NonC
+  33   0          0          0      17368          0          0 IPC Zone Manager
+  34   0          0          0      17368          0          0 IPC Periodic Tim
+  35   0          0          0      17368          0          0 IPC Deferred Por
+  36   0          0          0      17368          0          0 IPC Process leve
+  37   0       2104          0      19472          0          0 IPC Seat Manager
+  38   0          0          0      17368          0          0 IPC Check Queue 
+  39   0          0          0      17368          0          0 IPC Seat RX Cont
+  40   0          0          0      17368          0          0 IPC Seat TX Cont
+  41   0          0          0      17368          0          0 IPC Keep Alive M
+  42   0          0          0      17368          0          0 IPC Loadometer  
+  43   0          0          0      17368          0          0 IPC Session Deta
+  44   0          0          0      17368          0          0 SENSOR-MGR event
+  45   0        240        240      17368          0          0 Serial Backgroun
+  46   0          0          0      11368          0          0 RMI RM Notify Wa
+  47   0          0          0      17368          0          0 CEF MIB API     
+  48   0        240        240      17368          0          0 ATM Idle Timer  
+  49   0          0          0      17368          0          0 ATM ASYNC PROC  
+  50   0      50388      51516      17368          0          0 SL Platform Back
+  51   0          0          0      29368          0          0 License IPC stat
+  52   0          0          0      29368          0          0 License IPC serv
+  53   0          0          0      17368    8860377    8860377 Net Input       
+  54   0          0          0      17368          0          0 IOSXE signals IO
+  55   0          0          0      17368          0          0 client_entity_se
+  56   0          0          0      17368          0          0 SERIAL A'detect 
+  57   0          0          0      17368          0          0 ARP Snoop       
+  58   0          0          0      17368          0          0 Dynamic ARP Insp
+  59   0    3358912    4526576      20732          8          8 crypto sw pk pro
+  60   0        240        240      29368          0          0 XML Proxy Client
+  61   0          0          0      17368          0          0 License Client N
+  62   0      47328      48584      31456          0          0 SAEventLog      
+  63   0      66504      72668      31572          0          0 SAStorage       
+  64   0      21528      19512      31636          0          0 SASConnect      
+  65   0      66140       2196      34396          0          0 SASRcvWQ        
+  66   0      24188      21780      31636          0          0 SACConnect      
+  67   0      64408       2516      34332          0          0 SACRcvWQ        
+  68   0          0          0      17368          0          0 Image License br
+  69   0  424670624  424670624      17368          0          0 Licensing Auto U
+  70   0          0          0      17368          0          0 License HA Consi
+  71   0          0          0      17368          0          0 Critical Bkgnd  
+  72   0    1279204     327328      49316   37540740   37540740 Net Background  
+  73   0       1168       1168      29368          0          0 IDB Work        
+  74   0        240        240      29368       1339       1339 Logger          
+  75   0      35212      15560      18104        108        108 TTY Background  
+  76   0       2532       1516      30384          0          0 CTS CORE        
+  77   0          0          0      17368          0          0 NGWC SGACL Statu
+  78   0    3236704    3215764      49740          2          2 SASRcvWQWrk1    
+  79   0       1044      21596      30172          0          0 SXP CORE        
+  80   0 1818262252      11364    8744460         48         48 IOSD ipc task   
+  81   0       4388       4388      53368          0          0 IOSD chasfs task
+  82   0          0          0      17368          0          0 NGWC OIR CC Proc
+  83   0          0          0      23368          0          0 REDUNDANCY FSM  
+  84   0        240        240      17368          0          0 mDNS HA         
+  85   0        240        240      17368          0          0 mDNS HA CF      
+  86   0       4352          0      21720          0          0 MATM SPI client 
+  87   0      91040       6464      17436          0          0 NGWC_OIRSHIM_TAS
+  88   0          0          0      23368          0          0 Punt FP Stats Du
+  89   0       1508        240      24636   19352687   19352687 PuntInject Keepa
+  90   0          0          0      17368          0          0 Ng3k envvar sync
+  91   0       3660         80      20948          0          0 IF-MGR control p
+  92   0          0          0      17368         88         88 IF-MGR event pro
+  93   0          0          0      17368          0          0 FQDN HA         
+  94   0        240        240      17368          0          0 CTS HA          
+  95   0          0          0      17368          0          0 CTS HA IPC flow 
+  96   0          0          0      17368          0          0 CTS HA operation
+  97   0          0          0      17368          0          0 cpf_msg_holdq_pr
+  98   0          0          0      17368          0          0 cpf_msg_rcvq_pro
+  99   0          0          0      17368          0          0 cpf_process_tpQ 
+ 100   0          0          0      17368          0          0 Environmental Mo
+ 101   0          0          0      17368          0          0 RP HA Periodic  
+ 102   0          0          0      17368          0          0 DHCP Snooping cl
+ 103   0          0          0      17368          0          0 DHCP Snooping   
+ 104   0          0          0      17368          0          0 DHCP Snooping db
+ 105   0      65964        428      82904          0          0 Crimson interfac
+ 106   0          0          0      17368          0          0 Crimson Database
+ 107   0 1427280128 1427246348      51148          0          0 Crimson flush tr
+ 108   0      49384       7956     102752          0          0 DBAL EVENTS     
+ 109   0          0          0      23368          0          0 CONSOLE helper p
+ 110   0        240       1412      17368        140        140 EM_SHIM_TASK    
+ 111   0        240       6644      17368          0          0 EM_SHIM_NOTIFY_T
+ 112   0          0          0      17368          0          0 DHCPD HA        
+ 113   0          0          0      17368          0          0 ARP HA          
+ 114   0          0          0      11368          0          0 XDR RRP RF waite
+ 115   0          0          0      17368          0          0 REDUNDANCY peer 
+ 116   0          0          0      17368          0          0 100ms check     
+ 117   0        240        240      23368          0          0 SISF HA Process 
+ 118   0          0          0      17368          0          0 ACCESS_TUNNEL CF
+ 119   0          0          0      17368          0          0 DHCP Snooping HA
+ 120   0          0          0      17368          0          0 MATM CF Flow Con
+ 121   0          0     342880      17368          0          0 NGWC Learning Pr
+ 122   0    2778792    8989068      19844   30157301   30157296 IOSXE-RP Punt Se
+ 123   0          0          0      17368          0          0 IOSXE-RP Punt IP
+ 124   0          0          0      17368          0          0 ACL Log Punt Ser
+ 125   0          0          0      17368          0          0 ACL deny punt se
+ 126   0       3516          0      20884          0          0 L2 LISP Punt Pro
+ 127   0          0          0      17368          0          0 OFSDN Punject Pr
+ 128   0          0          0      17368          0          0 SIS Punt Process
+ 129   0          0          0      17368          0          0 NGWC ILP CF Proc
+ 130   0          0          0      17368          0          0 NGWC Configurati
+ 131   0          0 2404792420      17368          0          0 SIF-IOSD IPC pro
+ 132   0          0          0      17368          0          0 IOSXE-RP SPA TSM
+ 133   0        392       2608      17368          0          0 STACK MGR Proces
+ 134   0          0          0      11368          0          0 CEF RRP RF waite
+ 135   0          0          0      17368          0          0 DHCPC HA        
+ 136   0          0          0      17368          0          0 DHCPv6 Relay HA 
+ 137   0          0          0      17368          0          0 DHCPv6 Server HA
+ 138   0          0          0      29368          0          0 Crypto PKI-HA   
+ 139   0          0          0      17368          0          0 Network-rf Notif
+ 140   0      26756      44816      29024          0          0 RF Master Main T
+ 141   0       1792        208      19160          0          0 RF Master Status
+ 142   0       2488       3068      31416          0          0 SACRcvWQWrk1    
+ 143   0      28160      23716      32296          0          0 SACRcvWQWrk2    
+ 144   0 1301138276 1301080388      40988          0          0 SASRcvWQWrk2    
+ 145   0          0          0      17368          0          0 BACK CHECK      
+ 146   0 3062887364 3062451608     397248         15         15 SAMsgThread     
+ 147   0        240        240      17368          0          0 Compute load avg
+ 148   0  339841232  339838996      19604          0          0 Per-minute Jobs 
+ 149   0          0          0      23368          0          0 Per-Second Jobs 
+ 150   0          0          0      17368          0          0 AggMgr Process  
+ 151   0      19404      19404      29432          0          0 ACT2 Crypto Engi
+ 152   0          0          0      17368          0          0 Transport Port A
+ 153   0          0          0      17368          0          0 SFF8472         
+ 154   0      16024       9292      30100          0          0 EEM ED Identity 
+ 155   0          0          0      17368          0          0 IOSXE-RP FastPat
+ 156   0          0          0      17368    1696352    1696352 NGWC L2M        
+ 157   0          0         76      17368          0          0 NGWC_MACSEC_IOSD
+ 158   0          0          0      17368          0          0 NGWC DOT1X Proce
+ 159   0          0          0      23368          0          0 ngpm main proces
+ 160   0          0          0      11368          0          0 ACL Logging Proc
+ 161   0          0          0      17368          0          0 Inline Power    
+ 162   0       3536 3699555524      17368         96         96 CMAN IPC process
+ 163   0          0        268      17368          0          0 IOMD IPC process
+ 164   0          0          0      17368          0          0 Remote Console P
+ 165   0          0          0      17368          0          0 NGWC diag proces
+ 166   0          0          0      17368          0          0 MMN bkgrd proces
+ 167   0   11823168   10888420     128980          3          3 FED IPC process 
+ 168   0          0          0      29368          0          0 FEP background p
+ 169   0          0          0      29368          0          0 Thermal backgrou
+ 170   0      24548       9292      38624          0          0 EEM ED MAT      
+ 171   0      54156     596360      67776          0          0 EEM ED ND       
+ 172   0        240          0      17608          0          0 Src Fltr backgro
+ 173   0          0          0      17368          0          0 fanrp_l2fib     
+ 174   0          0          0      17368          0          0 IPv6 Access Cont
+ 175   0 1459257908 1459257908      17368          0          0 MGMTE stats Proc
+ 176   0          0     454672      17368          0          0 SpanTree Flush  
+ 177   0       1924       1128      30164          0          0 CWAN OIR Handler
+ 178   0   13933880   13933880      17368         18         18 MATM RP Shim Pro
+ 179   0          0          0      17368          0          0 TP CUTOVER EVENT
+ 180   0          0          0      23368          0          0 CCK MSG Process 
+ 181   0          0          0      17368          0          0 IOSXE-RP FastPat
+ 182   0          0          0      17368          0          0 BlueTooth stats 
+ 183   0          0          0      17368          0          0 RTTYS Process   
+ 184   0        240        240      17368          0          0 PPP SIP         
+ 185   0        240        240      17368          0          0 PPP Bind        
+ 186   0        240        240      29368          0          0 PPP IP Route    
+ 187   0        240        240      17368          0          0 REP Topology cha
+ 188   0        240        240      17368          0          0 Ethchnl         
+ 189   0        240        240      23368          0          0 MVRP Process    
+ 190   0        240        240      17368          0          0 AAA Server      
+ 191   0      16640          0      34008          0          0 AAA ACCT Proc   
+ 192   0      49452          0      66820          0          0 ACCT Periodic Pr
+ 193   0     303468       1076      19152          0          0 Call Home Timer 
+ 194   0          0          0      53368          0          0 WSMA_NOTIFY     
+ 195   0          0          0      54484          0          0 SEP_webui_wsma_h
+ 196   0        240        240      17368          0          0 AAA Dictionary R
+ 197   0       1968          0      19336          0          0 FHRP Main thread
+ 198   0       1900          0      19268          0          0 TRACK Main threa
+ 199   0       1896          0      19264          0          0 TRACK Client thr
+ 200   0       1884          0      19252          0          0 VRRP Main thread
+ 201   0      18860          0      36296          0          0 VRRS Main thread
+ 202   0          0          0      17368          0          0 HQF BLT UPDATE  
+ 203   0          0          0      23368          0          0 HQF TARGET DYNAM
+ 204   0      16896      10620      46264          0          0 IP ARP Adjacency
+ 205   0      36724       3672      50420         38         38 IP ARP Retry Age
+ 206   0       2420       2420      29368    5850701    5850701 IP Input        
+ 207   0          0          0      17368          0          0 ICMP event handl
+ 208   0          0          0      17368          0          0 FQDN ACL Mgr    
+ 209   0          0          0      17368          0          0 IPv6 ping proces
+ 210   0        464        240      17592          0          0 loopdetect      
+ 211   0     898088     379464      18060          0          0 SpanTree Helper 
+ 212   0      50356          0      67724          0          0 radius radsec cl
+ 213   0          0          0      17368          0          0 RADIUS Proxy    
+ 214   0       3584        240      20712          0          0 UDLD            
+ 215   0        240        240      17368          0          0 CDP Forward Proc
+ 216   0          0          0      17368          0          0 802.1x switch   
+ 217   0      38664      25084      31172    1290263    1290263 DTP Protocol    
+ 218   0        240        240      17368          0          0 FMANRP REP Helpe
+ 219   0        240        240      17368          0          0 REP LSL Hello Pr
+ 220   0       4592        240      21720          0          0 PI MATM Aging Pr
+ 221   0  328117668  328117668      17368          0          0 mcprp callhome p
+ 222   0          0       3536      17368          0          0 NGWC led process
+ 223   0        224          0      17592          0          0 Port-Security   
+ 224   0       2840        100      56208          0          0 SKA IPC process 
+ 225   0          0          0      23368          0          0 EPM IAL Process 
+ 226   0        240        240      53368          0          0 SNMP DBAL WRAPPE
+ 227   0          0          0      17368          0          0 SNMP DBAL Cache 
+ 228   0          0          0      17368          0          0 SNMP DBAL Cache 
+ 229   0          0          0      17368          0          0 PPCP RP Stats Ba
+ 230   0        224          0      29592          0          0 CEF switching ba
+ 231   0        224          0      11592          0          0 ADJ NSF process 
+ 232   0      10584        712      27240          0          0 MKA             
+ 233   0          0          0      17368          0          0 Spanning Tree St
+ 234   0        240        240      17368          0          0 PIM register asy
+ 235   0     160844        240      17608  187689835  187689835 Spanning Tree   
+ 236   0        240        240      17368         44         44 SpanTree Msg    
+ 237   0          0          0      17368          0          0 RIB LM VALIDATE 
+ 238   0          0          0      54552          0          0 SEP_webui_wsma_h
+ 239   0          0          0      17368          0          0 AAA EPD HANDLER 
+ 240   0          0          0      17368          0          0 PM EPD API      
+ 241   0          0          0      29368          0          0 SSS Manager     
+ 242   0          0          0      29368          0          0 SSS Policy Manag
+ 243   0      10052          0      27420          0          0 SSS Feature Mana
+ 244   0          0          0      17368          0          0 SSS Feature Time
+ 245   0        240        240      17368          0          0 TurboACL        
+ 246   0        240        240      17368          0          0 TurboACL chunk  
+ 247   0        240        240      29368          0          0 SSM connection m
+ 248   0          0          0      17368          0          0 VRRS            
+ 249   0      10264          0      27632          0          0 L2FIB Timer Disp
+ 250   0       1732          0      19100          0          0 MLRIB L2 Msg Thr
+ 251   0       1836          0      19204          0          0 NVE main thread 
+ 252   0          0          0      17368          0          0 Timer handler fo
+ 253   0          0          0      17368          0          0 Prepaid response
+ 254   0          0          0      17368          0          0 Timed Policy act
+ 255   0          0          0      17368          0          0 AAA response han
+ 256   0        240        240      17368          0          0 IPAM/ODAP Events
+ 257   0      49384          0      78752          0          0 IPAM Manager    
+ 258   0        240        240      29368          0          0 IPAM Events     
+ 259   0          0          0      17368          0          0 L2LISP XID Proce
+ 260   0          0          0      17368          0          0 Umbrella DNS    
+ 261   0          0          0      17368          0          0 Stealthwatch Clo
+ 262   0          0          0      17368          0          0 BFD HA          
+ 263   0        224          0      17592          0          0 XDR background p
+ 264   0          0          0      17368          0          0 XDR mcast       
+ 265   0          0          0      17368          0          0 XDR RP Ping Back
+ 266   0          0          0      29368          0          0 XDR receive     
+ 267   0          0          0      17368          0          0 IPC LC Message H
+ 268   0          0          0      17368          0          0 XDR RP Test Back
+ 269   0      20944    1233040      29368       4262       4262 TCP Timer       
+ 270   0    3277612    1941184      31476          0          0 TCP Protocols   
+ 271   0          0          0      17368          0          0 Socket Timers   
+ 272   0   41085820   38410448     115100       1820       1820 HTTP CORE       
+ 273   0        240        240      17368          0          0 EFP Errd        
+ 274   0        240        240      17368          0          0 Ether EFP Proces
+ 275   0        240        368      29368          0          0 nbar-graph-sende
+ 276   0        240        316      29368          0          0 nbar-custom-prot
+ 277   0        240       1564      29368          0          0 nbar-sdavc-sched
+ 278   0        240        316      29368          0          0 nbar-pp-monitor 
+ 279   0        240        388      29368          0          0 Flow Exporter Ti
+ 280   0        240        240      29368          0          0 Flow Exporter Pa
+ 281   0          0          0      17368          0          0 FRR Background P
+ 282   0      19444      13984      33652          0          0 CEF background p
+ 283   0        224          0      29592          0          0 fib_fib_bfd_sb e
+ 284   0          0          0      23368          0          0 IP IRDP         
+ 285   0     173676     475588      60504          0          0 IGMPSN L2MCM    
+ 286   0          0          0      17368          0          0 IGMPSN MRD      
+ 287   0          0          0      29368       9483       9483 IGMPSN          
+ 288   0          0          0      17368          0          0 IGMPQR          
+ 289   0          0          0      23368          0          0 IGMPSN-HA       
+ 290   0     157228     461672      41488          0          0 MLDSN L2MCM     
+ 291   0          0          0      17368          0          0 MRD             
+ 292   0          0          0      29368          0          0 MLD_SNOOP       
+ 293   0          0          0      23368          0          0 MLDSN-HA        
+ 294   0          0          0      17368          0          0 IP Traceroute   
+ 295   0          0          0      29368          0          0 Routing Topology
+ 296   0      94832      49996      61644          0          0 IP RIB Update   
+ 297   0      19520      20816      23952          0          0 IP Background   
+ 298   0      43000       4320      62048          0          0 IP Connected Rou
+ 299   0          0          0      17368          0          0 BSO_Query       
+ 300   2     233612     142272     116560        253        248 SSH Process     
+ 301   0       1824          0      31192          0          0 XOS async sync X
+ 302   0        240        240      17368          0          0 REP LSL Proc    
+ 303   0       6644        240      23772          0          0 REP BPA/EPA Proc
+ 304   0        480        240      23608          0          0 AUTO LAG Protoco
+ 305   0        252          0      17620          0          0 CEF RP Backgroun
+ 306   0        252          0      23620          0          0 Tunnel FIB      
+ 307   0      65556      39780      54372          0          0 CEF: IPv4 proces
+ 308   0        224        568      29592          0          0 ADJ background  
+ 309   0        224          0      29592          0          0 Collection proce
+ 310   0      20636       4548      45556          0          0 CEF: IPv6 proces
+ 311   0          0          0      17368          0          0 AAA System Acct 
+ 312   0        240       1160      23368          0          0 static          
+ 313   0          0          0      23368          0          0 IPv6 RIB Cleanup
+ 314   0          0          0      23368          0          0 IPv6 RIB Event H
+ 315   0          0          0      23368          0          0 IPv6 Static Hand
+ 316   0        752          0      17616          0          0 DNS Service     
+ 317   0  101480020  100398532    1059272        171        171 Exec            
+ 318   0  358693840  358693840      23368          0          0 QoS stats proces
+ 319   0      19496        240      36624          0          0 SCTP Main Proces
+ 320   0          0          0      17368          0          0 SNMP Timers     
+ 321   0       4352          0      21720          0          0 TCP HA PROC     
+ 322   0          0          0      17368          0          0 RETRY_REPOPULATE
+ 323   0          0          0      23368          0          0 Connection Mgr  
+ 324   0          0          0      11368          0          0 DAI Packet Proce
+ 325   0      27952        240      21712          0          0 L2TRACE SERVER  
+ 326   0          0      19496      17368          0          0 VMATM Callback  
+ 327   0        240        240      29368          0          0 Tunnel          
+ 328   0        944        692      29620          3          3 ADJ resolve proc
+ 329   0        224          0      17592          0          0 XDR FOF process 
+ 330   0        240        240      17368          0          0 DHCPv6 LQ client
+ 331   0        240        240      53368          0          0 TLSCLIENT_PROCES
+ 332   0          0          0      17368          0          0 STP HA IPC flow 
+ 333   0       1164        240      24292          0          0 MVPN Mgr Process
+ 334   0        480        240      23608          0          0 Multicast Offloa
+ 335   0        392          0      29760          0          0 ONEP Dispatch po
+ 336   0        392          0      29760          0          0 ONEP Dispatch po
+ 337   0        224          0      29592          0          0 MFIB Master back
+ 338   0          0          0      17368          0          0 MRIB RP PROCESS 
+ 339   0        420          0      29788          0          0 MRIB RP Proxy   
+ 340   0        400      15656      17768          0          0 Service Routing 
+ 341   0      54888      29496      27104          0          0 SR CapMan Proces
+ 342   0          0          0      17368          0          0 GLBP HA         
+ 343   0          0          0      17368          0          0 HSRP HA         
+ 344   0          0          0      17368          0          0 VRRP HA         
+ 345   0     137744        168     154776          0          0 L2FIB Event Disp
+ 346   0       2336          0      19704          0          0 EVPN main thread
+ 347   0       2336        168      19704          0          0 NVE MGR RWATCH T
+ 348   0        972          0     126340          0          0 COPS            
+ 349   0        168      18744      17536          0          0 PIM Snooping Pro
+ 350   0          0          0      17368          0          0 NGWC-PIMSN Proce
+ 351   0        240        240      23368          0          0 vxlan sr main   
+ 352   0          0          0      17368          0          0 Consent token pr
+ 353   0          0          0      23368          0          0 DynCmd Package P
+ 354   0        240        240      17368          0          0 AAA Cached Serve
+ 355   0        240        240      17368          0          0 ENABLE AAA      
+ 356   0          0          0      17368          0          0 EM Background Pr
+ 357   0          0          0      17368          0          0 Key chain liveke
+ 358   0        240        240      17368          0          0 LINE AAA        
+ 359   0    6445408    6441384      32876          0          0 LOCAL AAA       
+ 360   0          0          0      29368          0          0 Opaque Database 
+ 361   0      36232          0      17440        371        371 TACACS+         
+ 362   0       1064        240      30192          0          0 LDAP process    
+ 363   0       4484        480      25372          0          0 EST Client      
+ 364   0  302925024  302923600      18792      10753      10753 NIST rng proc   
+ 365   0      49632        240      66760          0          0 Timer Library   
+ 366   0        240        240      17424          0          0 Crypto Support  
+ 367   0          0          0      17368          0          0 IPSECv6 PS Proc 
+ 368   0   17090900    9139080      30988      11832      11832 TPLUS           
+ 369   0          0          0      17368          0          0 IDMGR CORE      
+ 370   0          0          0      11368          0          0 EEM MLANG MANAGE
+ 371   0          0          0      29368          0          0 FQDN Mgr Main   
+ 372   0          0          0      29368          0          0 FQDN Mgr Packet 
+ 373   0          0          0      17368          0          0 iosp_eem_global_
+ 374   0        240        240      17368          0          0 REP Switch Helpe
+ 375   0        240        240      23368          0          0 MVRP SWITCH Proc
+ 376   0    1347468    1343944      20892          0          0 crypto engine pr
+ 377   0       5192          0      34560          0          0 AAA Proxy       
+ 378   0       2872          0      20240          0          0 NGINX/AAA IPC pr
+ 379   0       2024       2428      54804          0          0 TPS IPC Process 
+ 380   0        240        240      17368          0          0 File Copy Handle
+ 381   0          0          0      17368          0          0 COND_DEBUG HA IP
+ 382   0       2872          0      32240          0          0 pki_app         
+ 383   0          0          0      29368          0          0 encrypt proc    
+ 384   0          0          0      29368          0          0 RSA background p
+ 385   0    1339788    1178964     164372         17         17 Crypto CA       
+ 386   0        240        240      29368          0          0 Crypto PKI-CRL  
+ 387   0          0          0      29368          0          0 Crypto PKI-Rev-P
+ 388   0        996          0      30428          0          0 PKI OCSP        
+ 389   0          0          0      29368          0          0 PKI Revocation  
+ 390   0     200624        244     229748   24190778   24190778 Crypto IKEv2    
+ 391   0          0          0      17368          0          0 IKEv2 AAA handle
+ 392   0       4592        704      21720          0          0 CRYPTO MAP FREE 
+ 393   0          0          0      29368          0          0 Crypto INT      
+ 394   0        240        400      29368          4          4 Crypto IKE Dispa
+ 395   0      38560        240      67688          1          1 Crypto IKMP     
+ 396   0          0          0      23368          0          0 IPSEC manual key
+ 397   0       5292       4660      29536         13         13 IPSEC key engine
+ 398   0          0          0      53368          0          0 Crypto ACL      
+ 399   0          0          0      17368          0          0 Crypto PAS Proc 
+ 400   0          0          0      29368          0          0 IPSec background
+ 401   0        480        240      17608          0          0 PIM HA          
+ 402   0          0          0      23368          0          0 Licensing MIB pr
+ 403   0       2576          0      19944          0          0 dcm_cli_engine  
+ 404   0       5636        332      22816          0          0 dcm_cli_provider
+ 405   0      17088       3696      30688          0          0 DCM Core Thread 
+ 406   0 2234638364 2234637344      30388   44024364   44024364 IP SNMP         
+ 407   0       4592        240      21720          0          0 VTP Trap Process
+ 408   0 1004924408 3941237024      53368          0          0 PDU DISPATCHER  
+ 409   0        240        492      53368          0          0 ASP Process Crea
+ 410   0      53744     212764      17368          0          0 AAA SEND STOP EV
+ 411   0          0          0      29368          0          0 Test AAA Client 
+ 412   0    1798424    1798424      17368        736        736 Syslog Traps    
+ 413   0        240        240      17368          0          0 DHCP Security He
+ 414   0      21980       9292      36056          0          0 EEM GED BINOS PR
+ 415   0          0          0      17368          0          0 NCD Process     
+ 416   0  552890960 1911545640      53368          0          0 SNMP ENGINE     
+ 417   0          0          0      17368          0          0 SPA ENTITY Proce
+ 418   0        240        240      17368          0          0 dhcp snooping sw
+ 419   0    3413436     121236    3315568        753        721 EEM ED Syslog   
+ 420   0     324128       9292     338204          0          0 EEM ED Generic  
+ 421   0      15968       9292      30044          0          0 EEM ED NHRP     
+ 422   0      15968       9292      30044          0          0 EEM ED Routing  
+ 423   0        224          0      17592          0          0 Online Diag EEM 
+ 424   0          0          0      29368          0          0 IKEv2 FlexVPN Pr
+ 425   0        972          0      18340          0          0 IKEv2 Cluster Lo
+ 426   0       1084          0      30452          0          0 IP SNMPV6       
+ 427   0        504        240      29632          0          0 AUTO DEPLOY PROC
+ 428   0          0          0      17368          0          0 NGWC SWC Process
+ 429   0   57426608   57426608      17368          0          0 SLE DB Util     
+ 430   0      18440        268      24696          0          0 DCM snmp dp Thre
+ 431   0       3580        156      20604          0          0 snmp dcm ma shim
+ 432   0       8608      13100      23836          0          0 Bulkstat-Client 
+ 433   0    2077596     311564    1783400          0          0 EEM Server      
+ 434   0      42000      34624      30744          0          0 EEM ED Test     
+ 435   0      15864       9292      29940          0          0 EEM ED Config   
+ 436   0      40124      32588      30904          0          0 EEM ED Env      
+ 437   0      21676       9292      35752          0          0 EEM ED DS       
+ 438   0      46500      33172      36696          0          0 EEM ED CRASH    
+ 439   0      50124      38712      34780          0          0 EM ED GOLD      
+ 440   0          0          0      29368          0          0 FNF background p
+ 441   0     336680     683184      21788          6          6 PM Callback     
+ 442   0          0          0      17368          0          0 ISSU Utility Pro
+ 443   0     171400      64984     147908          0          0 Call Home proces
+ 444   0      20588         76      19652          0          0 Call Home DS    
+ 445   0       1732          0      19100          0          0 Call Home DSfile
+ 446   0     208432     211168      31492       1471       1471 Syslog          
+ 447   0      43328      39372      57324          0          0 WSMAN Process   
+ 448   0       8984        336      25912          4          4 SSH Event handle
+ 449   0        240        240      17368          0          0 SPAN switch     
+ 450   0      14216        480      43104          0          0 RBM CORE        
+ 451   0          0          0      17368          0          0 SGACL LOG CORE  
+ 452   0      21624       1168      43824          0          0 EEM Policy Direc
+ 453   0        392          0      29760          0          0 ONEP Dispatch po
+ 454   0      15872       9292      29948          0          0 EEM ED CLI      
+ 455   0      15864       9292      29940          0          0 EEM ED Counter  
+ 456   0      17096       9628      31172          0          0 EEM ED Interface
+ 457   0      15908       9292      29984          0          0 EEM ED IOSWD    
+ 458   0      15864       9292      29940          0          0 EEM ED None     
+ 459   0      50248      44820      32148          0          0 EEM ED OIR      
+ 460   0      16564       9764      30184          0          0 EEM ED RF       
+ 461   0      15864       9292      29940          0          0 EEM ED SNMP     
+ 462   0      15864       9292      29940          0          0 EEM ED SNMP Obje
+ 463   0      15968       9292      30104          0          0 EEM ED SNMP Noti
+ 464   0     597024     588776      31616          0          0 EEM ED Timer    
+ 465   0          0          0      61380          0          0 PnP-Monitor     
+ 466   0          0          0      29368          0          0 SNMP ConfCopyPro
+ 467   0      21020       9292      35096          0          0 EEM ED Nf       
+ 468   0      15864       9292      29940          0          0 EEM ED Ipsla    
+ 469   0      15864       9292      29940          0          0 EEM ED RPC      
+ 470   0       3504        480      20392          0          0 CTS credentials 
+ 471   0          0          0      17368          0          0 IP SLAs ICMP Jit
+ 472   0          0          0      17368          0          0 IP SLAs Jitter E
+ 473   0     256660     225856      60256          0          0 VLAN Manager    
+ 474   0     117764        240     146892          0          0 MRIB Process    
+ 475   0     944004       3624      23940          0          0 EEM Helper Threa
+ 476   0        392          0      29760          0          0 ONEP Dispatch po
+ 477   0          0          0      17368          0          0 OFSDN IPC       
+ 478   0    4618456    4615624      32200       2052       2052 SNMP Traps      
+ 479   0        392          0      29760          0          0 ONEP Dispatch po
+ 480   0        392          0      29760          0          0 ONEP Dispatch po
+ 481   0        392          0      29760          0          0 ONEP Dispatch po
+ 482   0        392          0      29760          0          0 ONEP Dispatch po
+ 483   0       2120          0      31488          0          0 ONEP Dispatch XD
+ 484   0     188864       1196     193440          4          4 ONEP Network Ele
+ 486   0   31793460   31753844      50920    1452167    1452167 NTP             
+ 487   0        240        240      17368          0          0 NTP Auxiliary Pr
+ 488   0 2395971384 2395971884      17368          0          0 DiagCard1/-1    
+                                117968932 Total
+ID-PLZEC-Load-SW-2901#
+--- show system reso ---
+show system reso
+                                  ^
+% Invalid input detected at '^' marker.
+
+ID-PLZEC-Load-SW-2901#
+--- show env ---
+show env
+% Incomplete command.
+
+ID-PLZEC-Load-SW-2901#
+--- show env all ---
+show env all
+Sensor List: Environmental Monitoring 
+ Sensor          Location        State               Reading       Range(min-max)       
+ PS1 Vout        1               GOOD               12000 mV          na
+ PS1 Curout      1               GOOD                 800 mA          na
+ PS1 Powout      1               GOOD                9600 mW          na
+ PS1 Hotspot     1               GOOD                  26 Celsius     na
+ PS1 Fan Status  1               GOOD                4336 rpm         na
+ PS1 Status word 1               GOOD                   0             na
+ PS2 Vout        1               GOOD               12000 mV          na
+ PS2 CURout      1               GOOD                 800 mA          na
+ PS2 Powout      1               GOOD                9600 mW          na
+ PS2 Hotspot     1               GOOD                  27 Celsius     na
+ PS2 Fan Status  1               GOOD                4368 rpm         na
+ PS2 Status word 1               GOOD                   0             na
+ SYSTEM INLET    1               GREEN                 20 Celsius   0 - 56
+ SYSTEM OUTLET   1               GREEN                 26 Celsius   0 - 125
+ SYSTEM HOTSPOT  1               GREEN                 33 Celsius   0 - 125
+
+Switch	 FAN	 Speed	 State	 Airflow direction
+---------------------------------------------------
+  1  	  1	5130 	  OK	 Front to Back
+  1  	  2	5145 	  OK	 Front to Back
+
+SW  PID                 Serial#     Status           Sys Pwr  PoE Pwr  Watts
+--  ------------------  ----------  ---------------  -------  -------  -----
+1A  PWR-C5-125WAC       ART2723D4G3  OK              Good     n/a      125 
+1B  PWR-C5-125WAC       ART2703D5M5  OK              Good     n/a      125 
+
+---------------------------------------------------
+
+ID-PLZEC-Load-SW-2901#

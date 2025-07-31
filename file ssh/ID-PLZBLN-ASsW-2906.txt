@@ -1,0 +1,1169 @@
+--- term le 0 ---
+1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+ID-PLZBLN-ASsW-2906# term le 0
+ID-PLZBLN-ASsW-2906# 
+--- show int status ---
+show int status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        --                 connected 190       full    10G     10g        
+Eth1/2        --                 notconnec 190       auto    auto    10g        
+Eth1/3        --                 notconnec 190       auto    auto    10g        
+Eth1/4        --                 notconnec 190       auto    auto    10g        
+Eth1/5        --                 notconnec 190       auto    auto    10g        
+Eth1/6        vesxuid1l1 link ba connected 191       full    10G     10g        
+Eth1/7        vesxuid1l2 link ba connected 191       full    10G     10g        
+Eth1/8        ** To Server VESXU connected 191       full    10G     10g        
+Eth1/9        ** To Server VESXU connected 191       full    10G     10g        
+Eth1/10       ** To Server VESXU connected 191       full    10G     10g        
+Eth1/11       ** Conneted To ves connected 191       full    10G     10g        
+Eth1/12       ** VESXUID148, LAN connected 191       full    10G     10g        
+Eth1/13       " To Server SXSOLC connected 191       full    10G     10g        
+Eth1/14       --                 notconnec routed    auto    auto    10g        
+Eth1/15       " To Server SXSOLC connected 191       full    10G     10g        
+Eth1/16       " To Server SXSOLC connected 191       full    10G     10g        
+Eth1/17       --                 notconnec routed    auto    auto    10g        
+Eth1/18       --                 notconnec routed    auto    auto    10g        
+Eth1/19       --                 notconnec routed    auto    auto    10g        
+Eth1/20       --                 notconnec routed    auto    auto    10g        
+Eth1/21       --                 notconnec routed    auto    auto    10g        
+Eth1/22       --                 notconnec routed    auto    auto    10g        
+Eth1/23       --                 notconnec routed    auto    auto    10g        
+Eth1/24       --                 notconnec routed    auto    auto    10g        
+Eth1/25       --                 notconnec routed    auto    auto    10g        
+Eth1/26       --                 notconnec routed    auto    auto    10g        
+Eth1/27       --                 notconnec routed    auto    auto    10g        
+Eth1/28       --                 notconnec routed    auto    auto    10g        
+Eth1/29       --                 notconnec routed    auto    auto    10g        
+Eth1/30       --                 notconnec routed    auto    auto    10g        
+Eth1/31       --                 notconnec routed    auto    auto    10g        
+Eth1/32       --                 notconnec routed    auto    auto    10g        
+Eth1/33       --                 notconnec routed    auto    auto    10g        
+Eth1/34       --                 notconnec routed    auto    auto    10g        
+Eth1/35       --                 notconnec routed    auto    auto    10g        
+Eth1/36       --                 notconnec routed    auto    auto    10g        
+Eth1/37       --                 notconnec routed    auto    auto    10g        
+Eth1/38       --                 notconnec routed    auto    auto    10g        
+Eth1/39       --                 notconnec routed    auto    auto    10g        
+Eth1/40       --                 notconnec routed    auto    auto    10g        
+Eth1/41       --                 notconnec routed    auto    auto    10g        
+Eth1/42       --                 notconnec routed    auto    auto    10g        
+Eth1/43       --                 notconnec routed    auto    auto    10g        
+Eth1/44       --                 notconnec routed    auto    auto    10g        
+Eth1/45       --                 notconnec routed    auto    auto    10g        
+Eth1/46       --                 notconnec routed    auto    auto    10g        
+Eth1/47       --                 notconnec routed    auto    auto    10g        
+Eth1/48       --                 notconnec routed    auto    auto    10g        
+Eth1/49       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/50       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/51       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/52       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/53       ** To ID-PLZBLN-AS connected trunk     full    100G    QSFP-100G40G-BIDI
+Eth1/54       --                 notconnec routed    auto    auto    QSFP-40G-SR-BD
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Vlan1         --                 down      routed    auto    auto    --
+ID-PLZBLN-ASsW-2906# 
+--- show int desc ---
+show int desc
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    10G     --
+Eth1/2        eth    10G     --
+Eth1/3        eth    10G     --
+Eth1/4        eth    10G     --
+Eth1/5        eth    10G     --
+Eth1/6        eth    10G     vesxuid1l1 link backuplan
+Eth1/7        eth    10G     vesxuid1l2 link backuplan
+Eth1/8        eth    10G     ** To Server VESXUID1D3 **
+Eth1/9        eth    10G     ** To Server VESXUID1J7 **
+Eth1/10       eth    10G     ** To Server VESXUID1J8 **
+Eth1/11       eth    10G     ** Conneted To vesxrid114 LAN Backup Link 2 ** 
+Eth1/12       eth    10G     ** VESXUID148, LAN Backup Link 2 10G **
+Eth1/13       eth    10G     " To Server SXSOLCUIDP1E17 LAN BACKUP "
+Eth1/14       eth    10G     --
+Eth1/15       eth    10G     " To Server SXSOLCRIDP1E16 LAN BACKUP "
+Eth1/16       eth    10G     " To Server SXSOLCRIDP1E17 LAN BACKUP "
+Eth1/17       eth    10G     --
+Eth1/18       eth    10G     --
+Eth1/19       eth    10G     --
+Eth1/20       eth    10G     --
+Eth1/21       eth    10G     --
+Eth1/22       eth    10G     --
+Eth1/23       eth    10G     --
+Eth1/24       eth    10G     --
+Eth1/25       eth    10G     --
+Eth1/26       eth    10G     --
+Eth1/27       eth    10G     --
+Eth1/28       eth    10G     --
+Eth1/29       eth    10G     --
+Eth1/30       eth    10G     --
+Eth1/31       eth    10G     --
+Eth1/32       eth    10G     --
+Eth1/33       eth    10G     --
+Eth1/34       eth    10G     --
+Eth1/35       eth    10G     --
+Eth1/36       eth    10G     --
+Eth1/37       eth    10G     --
+Eth1/38       eth    10G     --
+Eth1/39       eth    10G     --
+Eth1/40       eth    10G     --
+Eth1/41       eth    10G     --
+Eth1/42       eth    10G     --
+Eth1/43       eth    10G     --
+Eth1/44       eth    10G     --
+Eth1/45       eth    10G     --
+Eth1/46       eth    10G     --
+Eth1/47       eth    10G     --
+Eth1/48       eth    10G     --
+Eth1/49       eth    100G    --
+Eth1/50       eth    100G    --
+Eth1/51       eth    100G    --
+Eth1/52       eth    100G    --
+Eth1/53       eth    100G    ** To ID-PLZBLN-ASsW-2901 Eth1/53 **
+Eth1/54       eth    40G     --
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+ID-PLZBLN-ASsW-2906# 
+--- show mac address-table ---
+show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan,
+        (NA)- Not Applicable
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
+*  190     000c.2957.41f6   dynamic  NA         F      F    Eth1/53
+*  190     000c.295b.b06f   dynamic  NA         F      F    Eth1/53
+*  190     000c.298c.f96b   dynamic  NA         F      F    Eth1/53
+*  190     0010.e01d.9fef   dynamic  NA         F      F    Eth1/53
+*  190     0010.e01d.a70f   dynamic  NA         F      F    Eth1/53
+*  190     0010.e01d.a84f   dynamic  NA         F      F    Eth1/53
+*  190     0010.e01d.b38f   dynamic  NA         F      F    Eth1/53
+*  190     0010.e070.71c6   dynamic  NA         F      F    Eth1/53
+*  190     0010.e070.7284   dynamic  NA         F      F    Eth1/53
+*  190     0010.e070.7fa4   dynamic  NA         F      F    Eth1/53
+*  190     0010.e070.87ec   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ff8.20c1   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ff8.d4f1   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ff8.db19   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ff9.52bf   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ff9.ef31   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ffa.0c19   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ffa.b0d6   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ffa.d88b   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ffa.df32   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ffb.3f46   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ffb.4ea2   dynamic  NA         F      F    Eth1/53
+*  190     0014.4ffb.f5e4   dynamic  NA         F      F    Eth1/53
+*  190     0050.5659.fc2c   dynamic  NA         F      F    Eth1/53
+*  190     0050.566e.4f1d   dynamic  NA         F      F    Eth1/53
+*  190     0050.5686.05e0   dynamic  NA         F      F    Eth1/53
+*  190     0050.5686.4969   dynamic  NA         F      F    Eth1/53
+*  190     0050.5686.4f3e   dynamic  NA         F      F    Eth1/53
+*  190     0050.5686.8282   dynamic  NA         F      F    Eth1/53
+*  190     0050.5686.956a   dynamic  NA         F      F    Eth1/53
+*  190     0050.5686.b3d7   dynamic  NA         F      F    Eth1/53
+*  190     0050.568c.cce9   dynamic  NA         F      F    Eth1/53
+*  190     0050.569a.248a   dynamic  NA         F      F    Eth1/53
+*  190     0050.569a.d67d   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.1e8b   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.3704   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.3b4b   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.7eba   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.a24f   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.a506   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.c2ad   dynamic  NA         F      F    Eth1/53
+*  190     0050.56ac.da5d   dynamic  NA         F      F    Eth1/53
+*  190     0050.56b7.bcaa   dynamic  NA         F      F    Eth1/53
+*  190     3cd9.2b0a.a350   dynamic  NA         F      F    Eth1/53
+*  190     4260.b02b.e2bb   dynamic  NA         F      F    Eth1/53
+*  190     4260.b0e1.92c3   dynamic  NA         F      F    Eth1/53
+*  190     4260.b3c2.3dc3   dynamic  NA         F      F    Eth1/53
+*  190     4260.b5b2.41bb   dynamic  NA         F      F    Eth1/53
+*  190     4260.ba07.07bb   dynamic  NA         F      F    Eth1/53
+*  190     4260.babc.77c3   dynamic  NA         F      F    Eth1/53
+*  190     4260.bc77.c2bb   dynamic  NA         F      F    Eth1/53
+*  190     4260.bcac.bcbb   dynamic  NA         F      F    Eth1/53
+*  190     441e.a137.ae9e   dynamic  NA         F      F    Eth1/53
+*  190     48df.37be.38fc   dynamic  NA         F      F    Eth1/53
+*  190     5480.2857.2150   dynamic  NA         F      F    Eth1/53
+*  190     5480.2857.22be   dynamic  NA         F      F    Eth1/53
+*  190     5480.2857.23cc   dynamic  NA         F      F    Eth1/53
+*  190     5480.2857.2dc2   dynamic  NA         F      F    Eth1/53
+*  190     5cba.2cc5.891c   dynamic  NA         F      F    Eth1/53
+*  190     7a37.35a3.f4e9   dynamic  NA         F      F    Eth1/53
+*  190     7a37.369e.bae8   dynamic  NA         F      F    Eth1/53
+*  190     7a37.396a.86e7   dynamic  NA         F      F    Eth1/53
+*  190     7a37.3a57.a97a   dynamic  NA         F      F    Eth1/53
+*  190     9418.827a.9cca   dynamic  NA         F      F    Eth1/53
+*  190     9a42.03ef.85a7   dynamic  NA         F      F    Eth1/53
+*  190     9a42.048e.d6df   dynamic  NA         F      F    Eth1/53
+*  190     9a42.04bc.4c43   dynamic  NA         F      F    Eth1/53
+*  190     9a42.05be.8d0b   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d86.e07b   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d86.f866   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d8c.2284   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d8c.2294   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d8d.aa60   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d8d.ac38   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d8d.adfc   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d8d.ae14   dynamic  NA         F      F    Eth1/53
+*  190     ac16.2d8d.b0c4   dynamic  NA         F      F    Eth1/53
+*  190     c274.133b.cabb   dynamic  NA         F      F    Eth1/53
+*  190     c274.153f.2abb   dynamic  NA         F      F    Eth1/53
+*  190     c274.15cf.87c3   dynamic  NA         F      F    Eth1/53
+*  190     c274.1743.7fc3   dynamic  NA         F      F    Eth1/53
+*  190     c274.177a.c1c3   dynamic  NA         F      F    Eth1/53
+*  190     c274.1798.6ebb   dynamic  NA         F      F    Eth1/53
+*  190     c274.1802.57bb   dynamic  NA         F      F    Eth1/53
+*  190     c274.1810.53bb   dynamic  NA         F      F    Eth1/53
+*  190     c274.1863.1cbb   dynamic  NA         F      F    Eth1/53
+*  190     c274.1ac1.b3bb   dynamic  NA         F      F    Eth1/53
+*  190     c274.1aed.3abb   dynamic  NA         F      F    Eth1/53
+*  190     e839.3526.e0c8   dynamic  NA         F      F    Eth1/53
+*  190     f2d4.26cf.f976   dynamic  NA         F      F    Eth1/53
+*  190     f2d4.278e.5ce9   dynamic  NA         F      F    Eth1/53
+*  190     f2d4.2db4.56e8   dynamic  NA         F      F    Eth1/53
+*  190     f2d4.2e6b.fde7   dynamic  NA         F      F    Eth1/53
+*  190     f4c7.aa15.511c   dynamic  NA         F      F    Eth1/53
+*  190     f4c7.aa15.511e   dynamic  NA         F      F    Eth1/53
+*  190     f4c7.aa18.608d   dynamic  NA         F      F    Eth1/53
+*  190     f4c7.aa18.608f   dynamic  NA         F      F    Eth1/53
+*  191     000c.299a.aa8a   dynamic  NA         F      F    Eth1/53
+*  191     000c.29d1.f554   dynamic  NA         F      F    Eth1/53
+*  191     0010.e0e1.5a88   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.1b99   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.2142   dynamic  NA         F      F    Eth1/12
+*  191     0014.4ff8.2b37   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.3a50   dynamic  NA         F      F    Eth1/13
+*  191     0014.4ff8.534a   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.8c07   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.9190   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.93f4   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.9700   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.a6cb   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.e8a8   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff8.fbd6   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff9.1a84   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff9.67ac   dynamic  NA         F      F    Eth1/13
+*  191     0014.4ff9.78ab   dynamic  NA         F      F    Eth1/12
+*  191     0014.4ff9.8294   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff9.aceb   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ff9.d15b   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ffa.019e   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ffa.0bd6   dynamic  NA         F      F    Eth1/15
+*  191     0014.4ffa.14da   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ffa.23db   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ffb.6f15   dynamic  NA         F      F    Eth1/53
+*  191     0014.4ffb.ef11   dynamic  NA         F      F    Eth1/53
+*  191     0050.5651.b8f4   dynamic  NA         F      F    Eth1/53
+*  191     0050.5653.a8a2   dynamic  NA         F      F    Eth1/53
+*  191     0050.5654.4677   dynamic  NA         F      F    Eth1/53
+*  191     0050.5655.1ae5   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.010e   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.01ad   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.01e3   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.0386   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.0434   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.09b4   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.09ed   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.0b7b   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.0fd1   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.105f   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.1793   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.18c8   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.1c9f   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.1d95   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.20a6   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.27b2   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.2a82   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.2b1d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.2e31   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.2f52   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.2f87   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.3c63   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.3dc8   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.3f2a   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.42cc   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.4596   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.46b8   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.46c9   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.496a   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.503d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.505b   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.50c7   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.5451   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.5ae9   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.5c0d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.5c8d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.5d38   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.5dd6   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.5df4   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.6132   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.61a5   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.61e7   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.6203   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.649d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.6503   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.658b   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.659c   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.65ab   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.6858   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.691f   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.6a3d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.6e81   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.7154   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.728e   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.729e   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.7713   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.7773   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.78bc   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.798c   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.7af6   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.7b8f   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.7bd8   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.7f45   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.833b   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.87f2   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.88b3   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.8a1a   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.8b81   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.8e6e   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.8fd8   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.903f   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.93bb   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.94d7   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.961a   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.9630   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.9677   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.9687   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.9b30   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.9f11   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.a224   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.acef   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.b428   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.b5e5   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.b685   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.b6ce   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.b9e6   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.bb0f   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.bce4   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.bed3   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.bf41   dynamic  NA         F      F    Eth1/11
+*  191     0050.5686.c2d5   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.c648   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.cab9   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.cbc3   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.ccb8   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.cf32   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.d065   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.d29b   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.d4b2   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.d5e6   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.d9c0   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.dc7d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.dc8d   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.dddd   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.deac   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e154   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e1b2   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e1e6   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e37f   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e417   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e480   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e4f2   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e584   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.e673   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.ed29   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.ed88   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.f8fa   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.f92b   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.f995   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.fdb0   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.fed2   dynamic  NA         F      F    Eth1/53
+*  191     0050.5686.ffa0   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.00d9   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.00da   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.046f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.061f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0621   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0821   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0852   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0911   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.0a20   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0c67   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0ca7   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0ce7   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0d76   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0ecb   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.0faf   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.10fc   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.12b6   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1350   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.13dd   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1422   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1432   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1447   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1542   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.15e8   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.16ed   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.1852   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.1980   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.19a2   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1a4e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1b88   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.1c0f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.2199   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.22a6   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.22be   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.23c7   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.24b3   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.25b8   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.2642   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.2664   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.26dc   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.2986   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.29e6   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.2b34   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.2b42   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.2b77   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.2d15   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.3299   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.32dd   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.3313   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.337a   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.33d1   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.366e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.374e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.3752   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.3857   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.3b86   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.3bb1   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.3cd2   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4348   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4370   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.45af   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4642   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4779   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.485d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.493e   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.49ad   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4a31   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4a36   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.4a6e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4a8a   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4b5d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4dba   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.4ecb   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5017   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5134   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.521b   dynamic  NA         F      F    Eth1/7
+*  191     0050.568c.522b   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5479   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.54ec   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.56f5   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.585c   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5980   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.5adf   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5bdc   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5dd0   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5ef5   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.5f2e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.6120   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.623c   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.62d0   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.62dc   dynamic  NA         F      F    Eth1/7
+*  191     0050.568c.6680   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.67cc   dynamic  NA         F      F    Eth1/8
+*  191     0050.568c.6857   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.69d3   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.6a23   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.6c4b   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.6d30   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.6dbf   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.6dc8   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7011   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7048   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.70c9   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7268   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7317   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7522   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.75fd   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7724   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.7778   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7833   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7965   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.79ca   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7a12   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7bde   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7c8f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7c9e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7d74   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.7dfb   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.80a0   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.80d4   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.83f2   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.84cd   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.85e8   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.85ff   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.8646   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.8920   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.8a5f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.8c86   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.9024   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.928d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.9436   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.95cd   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.9821   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.982f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.994a   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.9bef   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.9ca3   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.9d79   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.9e44   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.9f90   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a179   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a280   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a437   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a46b   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a493   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a6e7   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a8e0   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.a9ad   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.aa55   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.aa97   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.aab4   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.abec   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.ac39   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.ae6a   dynamic  NA         F      F    Eth1/7
+*  191     0050.568c.aea0   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.aeb0   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b10d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b14d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b2d8   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b377   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b4ab   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b580   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.b63e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b693   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b8f4   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b93a   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b982   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.b9e7   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.bb84   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.bbf8   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.bd07   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.bd88   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.be8b   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.c024   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.c083   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.c115   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.c122   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.c36e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.c672   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.c7e5   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.c896   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.c8a8   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.c92f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.c956   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.cdcb   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.ce70   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.ceae   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.cf88   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.cfdb   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.d04e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.d20d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.d324   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.d353   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.d6c2   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.d77e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.d7f3   dynamic  NA         F      F    Eth1/8
+*  191     0050.568c.d8f0   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.d990   dynamic  NA         F      F    Eth1/8
+*  191     0050.568c.db74   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.db84   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.dbad   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.dc2b   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.dc61   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.dc7b   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.ddd1   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.de60   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.dee3   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e03f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e321   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.e401   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.e40b   dynamic  NA         F      F    Eth1/10
+*  191     0050.568c.e422   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e54d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e565   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e582   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e586   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e5b2   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e699   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e72d   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e81f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e85a   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e8aa   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.e964   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.ea4e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.eaa7   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.eb22   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.eb60   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.ed4f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.ee2f   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.ee75   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.eee9   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f139   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f188   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f241   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f4e6   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f592   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f5ac   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f8c6   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.f91e   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.fa24   dynamic  NA         F      F    Eth1/53
+*  191     0050.568c.fbc0   dynamic  NA         F      F    Eth1/9
+*  191     0050.568c.fc01   dynamic  NA         F      F    Eth1/53
+*  191     0050.56a9.3fb3   dynamic  NA         F      F    Eth1/53
+*  191     0050.56a9.f337   dynamic  NA         F      F    Eth1/53
+*  191     0050.56b0.ea29   dynamic  NA         F      F    Eth1/53
+*  191     0050.56b7.5e3e   dynamic  NA         F      F    Eth1/53
+*  191     0050.56b7.7640   dynamic  NA         F      F    Eth1/53
+*  191     0050.56b7.7ef8   dynamic  NA         F      F    Eth1/53
+*  191     0050.56b7.9894   dynamic  NA         F      F    Eth1/53
+*  191     507c.6f2d.423a   dynamic  NA         F      F    Eth1/53
+*  191     507c.6f54.a011   dynamic  NA         F      F    Eth1/16
+*  191     507c.6f54.b0c9   dynamic  NA         F      F    Eth1/15
+*  191     507c.6f54.c959   dynamic  NA         F      F    Eth1/13
+*  191     507c.6f55.4111   dynamic  NA         F      F    Eth1/12
+*  191     507c.6f55.5182   dynamic  NA         F      F    Eth1/53
+*  191     507c.6f5a.f170   dynamic  NA         F      F    Eth1/53
+*  191     507c.6f5a.f172   dynamic  NA         F      F    Eth1/53
+*  191     5c6f.697f.6fa0   dynamic  NA         F      F    Eth1/53
+*  191     5c6f.697f.77a0   dynamic  NA         F      F    Eth1/53
+*  191     5c6f.697f.e160   dynamic  NA         F      F    Eth1/53
+*  191     5cba.2cc5.8914   dynamic  NA         F      F    Eth1/53
+*  191     5cba.2cc5.8918   dynamic  NA         F      F    Eth1/53
+*  191     5ced.8c82.2906   dynamic  NA         F      F    Eth1/53
+*  191     6c92.cfdd.b5c1   dynamic  NA         F      F    Eth1/53
+*  191     7486.e24b.d4a6   dynamic  NA         F      F    Eth1/53
+*  191     7486.e24b.d4ab   dynamic  NA         F      F    Eth1/53
+*  191     7486.e24c.2a26   dynamic  NA         F      F    Eth1/53
+*  191     7486.e24c.2a2b   dynamic  NA         F      F    Eth1/53
+*  191     8416.0c5e.6300   dynamic  NA         F      F    Eth1/53
+*  191     8416.0ceb.49f1   dynamic  NA         F      F    Eth1/53
+*  191     a6b6.c324.d3bb   dynamic  NA         F      F    Eth1/53
+*  191     a6b6.c95f.dbbb   dynamic  NA         F      F    Eth1/53
+*  191     a6b6.cc6b.d3bb   dynamic  NA         F      F    Eth1/53
+*  191     d404.e69e.7517   dynamic  NA         F      F    Eth1/53
+*  191     ece7.a702.03c5   dynamic  NA         F      F    Eth1/53
+*  191     ece7.a702.0f05   dynamic  NA         F      F    Eth1/53
+*  191     ece7.a702.1f29   dynamic  NA         F      F    Eth1/53
+*  191     ece7.a702.27b5   dynamic  NA         F      F    Eth1/53
+*  191     f4c7.aa11.0df1   dynamic  NA         F      F    Eth1/53
+G    -     cc36.cf9d.7657   static   -         F      F    sup-eth1(R)
+ID-PLZBLN-ASsW-2906# 
+--- show proc cpu ---
+show proc cpu
+
+--- show proc mem ---
+show proc mem
+
+PID    Runtime(ms)  Invoked   uSecs  1Sec    Process
+-----  -----------  --------  -----  ------  -----------
+    1       155905   5573042     27   0.00%  init
+ 7747        17170    927927     18   0.00%  rpcbind
+ 7846            0         1      0   0.00%  rpc.mountd
+ 7860            1         7    142   0.00%  rpc.statd
+ 8384            0         1      0   0.00%  sshd
+ 8513       493576   2431511    202   0.00%  crond
+ 9081            0         1      0   0.00%  mcelog
+ 9721          336       104   3230   0.00%  dcos_sshd
+ 9776           36       589     61   0.00%  dcos_sshd
+ 9777          368       315   1168   0.00%  vsh.bin
+10108            6         3   2000   0.00%  libvirtd_mon.sh
+10109            4         7    571   0.00%  sh
+10110      9163915  132737604     69   0.00%  sysmgr
+10122            1         1   1000   0.00%  inotifywait
+10150      5328807  142781161     37   0.00%  libvirtd
+10192           30        28   1071   0.00%  getty
+13951           38        81    469   0.00%  xinetd
+13952           17        12   1416   0.00%  tftpd
+13953           68       213    319   0.00%  sdwrapd
+13955          653       293   2228   0.00%  fw_app
+13957     29091191  89705362    324   0.00%  platform
+13970       105822   9255175     11   0.00%  dme_bootup_proxy
+13971       105798   9255103     11   0.00%  dme_proxy
+13972          947       201   4711   0.00%  event_manager
+13973       332928  27764011     11   0.00%  mts_telemetry_mgr
+13974          738       204   3617   0.00%  policyelem
+14054      1211835  28973442     41   0.00%  syslogd
+14230      4756992  101863732     46   0.00%  vshd
+14231        80084    931624     85   0.00%  template_manager
+14235        11121    466709     23   0.00%  tamnw
+14236          551        65   8476   0.00%  smm
+14237       412802  27782798     14   0.00%  psshelper
+14238       218312   6019928     36   0.00%  pixm_vl
+14239       198225   6004495     33   0.00%  pixm_gl
+14240         1396       222   6288   0.00%  nginx_dme
+14241        71406    922495     77   0.00%  mmode
+14243          772       208   3711   0.00%  kim
+14244      2117709   2857200    741   0.00%  fs-daemon
+14245      4011566  162897193     24   0.00%  feature-mgr
+14246        65956    944035     69   0.00%  confcheck
+14247       108421   3243599     33   0.00%  capability
+14248       262331   7214979     36   0.00%  bloggerd
+14249       404310  27781244     14   0.00%  psshelper_gsvc
+14250      1648645  37197323     44   0.00%  tams_proc
+14258     34876922  102803016    339   0.00%  clis
+14259       220605   5839051     37   0.00%  licmgr
+14285            5         1   5000   0.00%  sh
+14291     29978266  18293153   1638   0.00%  top
+14292       365997  14009602     26   0.00%  grep
+14295      1538161  26898467     57   0.00%  tamd_proc
+14321       199959   9439733     21   0.00%  xmlma
+14322       179788   6017137     29   0.00%  vmm
+14323       373088   5614452     66   0.00%  usbhsd
+14324       605407  14139190     42   0.00%  ttyd
+14325     94041585  44852955   2096   0.00%  sysinfo
+14326       117125   3279566     35   0.00%  snmpmib_proc
+14327       206901    448684    461   0.00%  sksd
+14329       114587    815824    140   0.00%  res_mgr
+14330       433453  28217574     15   0.00%  plugin
+14331    192932265  121036031   1594   0.00%  pltm
+14332       115259   5623969     20   0.00%  plog_sup
+14333       434101  27708315     15   0.00%  patch-installer
+14334          693       191   3628   0.00%  nxapi
+14335        92855   2307635     40   0.00%  mvsh
+14336        54911    440579    124   0.00%  mts_mgr
+14337           49       234    209   0.00%  mping_server
+14338      2271504  12015200    189   0.00%  module
+14339       122640   3256284     37   0.00%  kafka
+14340          957       572   1673   0.00%  issu_helper
+14341       101876   2299508     44   0.00%  evms
+14342          856       358   2391   0.00%  epld_upgrade_stdby
+14343      8884015   9065856    979   0.00%  diagclient
+14344       147375   3265911     45   0.00%  dhclient
+14345       458279   5742771     79   0.00%  crdcfg_server
+14346        30533    389154     78   0.00%  core-dmon
+14347       283264   1374091    206   0.00%  clk_mgr
+14348       479312   6120623     78   0.00%  bios_daemon
+14349       247763   3836322     64   0.00%  ascii-cfg
+14350       968740  27827930     34   0.00%  securityd
+14351       682686  28144906     24   0.00%  cert_enroll
+14352      1492556  36363784     41   0.00%  aaa
+14354        87906   3827213     22   0.00%  obfl
+14358       113897   2180781     52   0.00%  klogd
+14376        83048   1829713     45   0.00%  evmc
+14377          771       347   2221   0.00%  ExceptionLog
+14378      5396944  17545724    307   0.00%  bootvar
+14379     18546055  26176003    708   0.00%  diagmgr
+14381       712762   1160130    614   0.00%  aclmgr
+14399          756       160   4725   0.00%  l3vm
+14400          924       147   6285   0.00%  urib
+14412       192972   5609672     34   0.00%  cardclient
+14413      1260653  36131257     34   0.00%  device_test
+14414       739452   5593882    132   0.00%  ifmgr
+14416       202430   2616214     77   0.00%  xbar
+14545          578       140   4128   0.00%  npacl
+14572       362273   6056131     59   0.00%  vdc_mgr
+14592        76490   2788518     27   0.00%  statsclient
+14603          576       144   4000   0.00%  adjmgr
+14604          747       113   6610   0.00%  u6rib
+14778       197630   1134523    174   0.00%  incrond
+14785          732        77   9506   0.00%  arp
+14786          664        65  10215   0.00%  icmpv6
+14793          559        60   9316   0.00%  pktmgr
+14815          896       167   5365   0.00%  netstack
+14850       776969  28139223     27   0.00%  radius
+14851       981781   9571354    102   0.00%  cdp
+14852       278798   6948562     40   0.00%  cfs
+14853           46       190    242   0.00%  ip_dummy
+14854           41       186    220   0.00%  ipv6_dummy
+14855        78235   1369902     57   0.00%  otm
+14856      8915444  68686409    129   0.00%  snmpd
+14857           38       185    205   0.00%  tcpudp_dummy
+14859          815      1193    683   0.00%  dcos-xinetd
+14915       656070  27707944     23   0.00%  callhome
+17328            2         4    500   0.00%  nginx
+17329            1         3    333   0.00%  nginx
+17330            1         2    500   0.00%  nginx
+17331            1         1   1000   0.00%  nginx
+17347      2399848  26522714     90   0.00%  port-profile
+17360     15878079  109793934    144   0.00%  vman
+17364        14602    470732     31   0.00%  spm
+17365        52009    441976    117   0.00%  sdaa
+17367          781       105   7438   0.00%  rpm
+17370      7379337   9352637    789   0.00%  pltfm_config
+17372        64473    917544     70   0.00%  plcmgr
+17374     15630780  16796801    930   0.00%  pfstat
+17408       512693   3916504    130   0.00%  ntp
+17409       706533  27840676     25   0.00%  nia-mgr
+17411        39125   1468087     26   0.00%  nbproxy
+17417       373162   1682538    221   0.00%  monitor
+17419          950       218   4357   0.00%  mld
+17424       322737   6864446     47   0.00%  lim
+17428      1125402  27287897     41   0.00%  l2rib
+17431       201547   2782221     72   0.00%  ipfib
+17434      4726478   7606445    621   0.00%  intersight
+17439         1011       180   5616   0.00%  igmp
+17442     24459317  15934904   1534   0.00%  icam
+17445       366277   4042363     90   0.00%  eth_port_channel
+17449       121086   3225096     37   0.00%  eltm
+17451          629        82   7670   0.00%  ecp
+17452      3871590  16122618    240   0.00%  dcgrpc
+17456      3902129  16154001    241   0.00%  dc_nae
+17458      3875679  16119930    240   0.00%  cnmi
+17459      3793065  15642588    242   0.00%  cfg_cmp
+17464        78278   1383200     56   0.00%  adbm
+17465       143407   2752224     52   0.00%  acllog
+17468      3719435  32262756    115   0.00%  tacacs
+17574      1444261  35445318     40   0.00%  ntpd
+17606        39615    889471     44   0.00%  eth_dstats
+17607     51997511  64286707    808   0.00%  ipqosmgr
+17608       239678   3456779     69   0.00%  lacp
+17628     10039057  18261855    549   0.00%  vlan_mgr
+17660       485787   7841026     61   0.00%  aclqos
+17674      1478430   3237902    456   0.00%  diag_port_lb
+17675     11617787  42370532    274   0.00%  ethpm
+17678      2498412   4851239    515   0.00%  l2fm
+17697     13375701  158809004     84   0.00%  stp
+17698       197367   6045327     32   0.00%  stripcl
+17750      2278572   1743260   1307   0.00%  copp
+17753       275822   6277000     43   0.00%  ufdm
+17754        64939   2789135     23   0.00%  u2
+17756       120482   3239326     37   0.00%  sal
+17757       114595   1328252     86   0.00%  ofm
+17758          809       147   5503   0.00%  mrib
+17759    349202884  2295163980      0   0.00%  mfdm
+17760       198678   6035068     32   0.00%  mcm
+17761          838       155   5406   0.00%  m6rib
+17762      5380151  27971844    192   0.00%  l2pt
+17763       604615   2256118    267   0.00%  hsrp_engine
+17805       559493   3120890    179   0.00%  interface-vlan
+17811        90197   1847544     48   0.00%  m2rib
+18387      1367680  27064493     50   0.00%  tamd_proc
+18400     15351393  10308121   1489   0.00%  nxpython3
+18488      6228256  28188550    220   0.00%  nxpython3
+18489      5132832  23439831    218   0.00%  nxpython3
+18490      1485984  27637359     53   0.00%  nxpython3
+20759          877       108   8120   0.00%  nxos_dc
+20771        17172    318207     53   0.00%  libvirt_lxc
+20774        54132    331160    163   0.00%  systemd
+20786        23962    341365     70   0.00%  systemd-journal
+20800            8        41    195   0.00%  dbus-daemon
+20801          703     46431     15   0.00%  rsyslogd
+20805            2         7    285   0.00%  agetty
+20807            2        11    181   0.00%  agetty
+20808            3         8    375   0.00%  agetty
+20809            2        13    153   0.00%  agetty
+20811        22080    473553     46   0.00%  crond
+20812            2        10    200   0.00%  agetty
+20814           17        86    197   0.00%  sshd
+
+CPU util  :    1.88% user,    1.63% kernel,   96.47% idle
+
+CPU utilization for five seconds: 13%/0%; one minute: 9%; five minutes: 8%
+ Please note that only processes from the requested vdc are shown above
+ID-PLZBLN-ASsW-2906# show proc mem
+
+--- show system reso ---
+show system reso
+
+--- show env ---
+show env
+
+MemAlloc, MemLimit and MemUsed - all in KiloByte
+
+PID    MemAlloc  MemLimit    MemUsed     StackBase/Ptr              Process
+-----  --------  ----------  ----------  -------------------------  ----------------
+    1       176  0           2272        7ffef7a71090/0             init
+ 7747       376  0           2808        7ffd6b2a4860/0             rpcbind
+ 7846       376  0           3216        7ffdf0494ee0/0             rpc.mountd
+ 7860       272  0           2820        7fff1d423430/0             rpc.statd
+ 8384       456  0           6980        7fff2d29e6a0/0             sshd
+ 8513       712  0           3336        7ffc0140bf80/0             crond
+ 9081       716  0           2896        7ffdb15fd010/0             mcelog
+ 9721     70688  0           419188      7ffdd3bc2ed0/0             dcos_sshd
+ 9776     70688  0           419188      7ffdd3bc2ed0/0             dcos_sshd
+ 9777     81420  0           719012      7ffe2a768180/0             vsh.bin
+ 9934       820  0           3724        7ffc0140bf80/0             crond
+ 9938       264  0           3588        7ffdb986b3c0/0             sh
+ 9941       176  0           2268        7ffe749b5cf0/0             sleep
+10108       264  0           3588        7ffce0e2cb70/0             libvirtd_mon.sh
+10109       264  0           3588        7fffe76e45a0/0             sh
+10110     76744  0           517268      7ffeedb7cba0/0             sysmgr
+10122       272  0           2400        7ffe2d0bd7c0/0             inotifywait
+10150    133112  0           217336      7fffc9fee420/0             libvirtd
+10192       260  0           2636        7fff2343f2c0/0             getty
+13951       248  932889      2876        7ffcd9e7a1c0/0             xinetd
+13952      8788  309842      12180           ffc622c0/0             tftpd
+13953      2668  637415      288544      7ffc5880dae0/0             sdwrapd
+13955     74472  0           423468      7ffebdc82ba0/0             fw_app
+13957    107532  0           602520      7ffc29793780/0             platform
+13970       748  0           284388      7ffd277d6560/0             dme_bootup_proxy
+13971       748  0           284388      7fffb9f61270/0             dme_proxy
+13972    262404  0           1067656     7ffece42bdc0/0             event_manager
+13973     17724  0           303988      7ffed9387be0/0             mts_telemetry_mgr
+13974    261228  0           1129996     7ffe74c85210/0             policyelem
+14054    100244  871007      596568      7ffdb7489000/0             syslogd
+14230     73604  962135      500852      7ffeae6c28e0/0             vshd
+14231     77884  0           780312      7ffe9a392f40/0             template_manager
+14235      5952  620903      296704      7ffdcf6fbdf0/0             tamnw
+14236     74980  1018143     684936      7ffef2b9da80/0             smm
+14237     74272  804139      423032      7ffc23f64fa0/0             psshelper
+14238    422568  1027606     776684      7ffca8cd39b0/0             pixm_vl
+14239    144272  1110274     573912      7ffdb29597f0/0             pixm_gl
+14240    291832  0           1732232     7ffee90fc060/0             nginx_dme
+14241     75576  0           711216      7ffd52261950/0             mmode
+14243    109408  923122      528448      7ffd716f98d0/0             kim
+14244     74536  0           499368      7ffde1f65680/0             fs-daemon
+14245     80528  0           584076      7ffced9dee90/0             feature-mgr
+14246      1536  0           286072      7fff33fc4af0/0             confcheck
+14247     74496  846297      499196      7fff32274be0/0             capability
+14248     98144  770656      588936      7fff7d781720/0             bloggerd
+14249     74068  803990      420588      7fff8214b180/0             psshelper_gsvc
+14250       532  0           13272       7ffecad376c0/0             tams_proc
+14258    117672  0           1038348     7ffd301f8590/0             clis
+14259     97796  785842      607396      7fffe14f5dd0/0             licmgr
+14285       268  0           3632        7ffe7bf98430/0             sh
+14291      2336  0           4948        7ffd661b8c80/0             top
+14292       196  0           2516        7ffde1bf65b0/0             grep
+14295       680  0           13448       7ffc27d8f520/0             tamd_proc
+14321      1156  0           286184      7ffe4497bb40/0             xmlma
+14322     72336  785047      428024      7ffcaa81b6e0/0             vmm
+14323      9108  0           358304      7ffcb270d4e0/0             usbhsd
+14324     72336  769629      496264      7ffdba155140/0             ttyd
+14325     84268  784996      619416      7fff19d7a090/0             sysinfo
+14326     71852  760986      422360      7ffcb899d790/0             snmpmib_proc
+14327     73452  865895      502800      7ffd1ae5c0d0/0             sksd
+14329     90604  769321      517700      7ffd96ac6610/0             res_mgr
+14330      3400  1947915     365192      7ffc9f7f10a0/0             plugin
+14331     80144  761272      555024      7ffcb8d7e790/0             pltm
+14332     60396  725234      348644      7ffc7c354cc0/0             plog_sup
+14333     71944  0           507492      7fffa31634a0/0             patch-installer
+14334     71912  0           423100      7ffd477dfb60/0             nxapi
+14335      1916  1145620     291052      7ffdb447d250/0             mvsh
+14336     71964  0           497900      7ffd5869acf0/0             mts_mgr
+14337      1196  0           287184      7ffc0e1e97c0/0             mping_server
+14338     96124  798260      533556      7ffe70459fa0/0             module
+14339     73136  757866      495952      7ffc2ff85330/0             kafka
+14340     94372  746905      545500      7ffe67acde30/0             issu_helper
+14341     75240  760119      500884      7ffc43abb6f0/0             evms
+14342    126392  919336      476360      7ffecb3a0640/0             epld_upgrade_stdby
+14343     63880  694561      357348      7fffd0e1f0f0/0             diagclient
+14344     86364  0           3976752     7ffd552d8680/0             dhclient
+14345     72488  1126620     432476      7fffe458dca0/0             crdcfg_server
+14346     69568  0           416428      7ffeab71e490/0             core-dmon
+14347     73812  762438      501656      7fff1e3e2b70/0             clk_mgr
+14348     59144  1362577     350888      7fffd24c8650/0             bios_daemon
+14349     80240  0           694640      7fffc4f5afc0/0             ascii-cfg
+14350     79524  0           518704      7fff87436770/0             securityd
+14351     74812  0           505136      7ffe5f71f3b0/0             cert_enroll
+14352     74320  0           514400      7ffe50912c30/0             aaa
+14354     69960  803118      419804      7fffd557cef0/0             obfl
+14358       180  0           2268        7fff2a599450/0             klogd
+14376      4504  876960      291472      7ffdeaff4490/0             evmc
+14377     72660  806616      422880      7ffefe2816b0/0             ExceptionLog
+14378     84012  808288      514476      7ffd131a66d0/0             bootvar
+14379     77336  772621      504096      7fff95d9cf00/0             diagmgr
+14381     90416  1628191     526896      7ffc0aa97650/0             aclmgr
+14399     96680  1205671     597704      7ffec2200450/0             l3vm
+14400    624144  0           3285140     7ffd538f9700/0             urib
+14412     73100  0           423788      7fff827b5dd0/0             cardclient
+14413     83436  860173      631696      7ffea5b8d6f0/0             device_test
+14414    135812  845494      570248      7ffc2e9e5510/0             ifmgr
+14416     86424  0           515072      7ffd24717590/0             xbar
+14545    101008  1320238     520276      7ffe56a9d6b0/0             npacl
+14572     73268  919948      497228      7ffe7f50e710/0             vdc_mgr
+14592    132892  830633      483968      7ffd46c5b900/0             statsclient
+14603    148596  0           4194176     7ffcf3d77020/0             adjmgr
+14604    250668  10384039    4222256     7ffdf2e75010/0             u6rib
+14778       408  0           5864        7ffeaf5108c0/0             incrond
+14785    165940  7463955     2842860     7ffff02425b0/0             arp
+14786    160596  0           4156720     7ffeb5874820/0             icmpv6
+14793     93956  0           951952      7fffc9f26500/0             pktmgr
+14815    188544  0           4674368     7fffaecd94b0/0             netstack
+14850     75140  7010186     2631108     7fff1bf595b0/0             radius
+14851     98512  7226057     2655680     7ffca6a98970/0             cdp
+14852    105620  1080596     534032      7fffb0f4ba60/0             cfs
+14853       744  622625      284348      7ffcdb8f4bf0/0             ip_dummy
+14854       744  622625      284348      7ffdaa128340/0             ipv6_dummy
+14855    128376  10873577    4017536     7fffa8a57620/0             otm
+14856    130640  0           2842804     7ffdbb3093a0/0             snmpd
+14857       744  622625      284348      7ffeeb055b10/0             tcpudp_dummy
+14859     71312  838358      418288      7ffdb9353540/0             dcos-xinetd
+14915     73580  1053532     500716      7ffe66cf6e50/0             callhome
+17328     72348  0           423536      7ffd477dfb60/0             nginx
+17329     72348  0           423536      7ffd477dfb60/0             nginx
+17330     72348  0           423536      7ffd477dfb60/0             nginx
+17331     72348  0           423536      7ffd477dfb60/0             nginx
+17347    157740  1706652     733096      7ffe608c7270/0             port-profile
+17360     80640  795966      596292      7ffe21d4ebc0/0             vman
+17364    122544  1395664     475128      7ffc381351b0/0             spm
+17365    151704  0           4252364     7ffd4b732500/0             sdaa
+17367    108264  0           4113328     7fffbc5feaa0/0             rpm
+17370     77592  6816849     2636436     7ffcdb391fc0/0             pltfm_config
+17372     74836  1018851     424660      7fff77de17b0/0             plcmgr
+17374     78156  1105953     515612      7ffe54cd68f0/0             pfstat
+17408     75412  10875957    3977192     7ffd26dc3b30/0             ntp
+17409     96496  1033929     730260      7ffdacc9ef30/0             nia-mgr
+17411     75028  0           3895832     7ffc14ac2a10/0             nbproxy
+17417    101856  11049234    3991780     7ffcb3402c90/0             monitor
+17419    230208  11296123    4149760     7ffdc7b00fe0/0             mld
+17424     86016  851040      515936      7ffdb9e168d0/0             lim
+17428    136968  1162172     647844      7ffe29113270/0             l2rib
+17431    213304  0           2936668     7ffd1338b0b0/0             ipfib
+17434     71044  0           430768      7ffd957469c0/0             intersight
+17439    237348  0           3689412     7ffd8eac7fb0/0             igmp
+17442     94092  1289654     573292      7fffc7aee7b0/0             icam
+17445     95560  1071563     528544      7ffc62ad3250/0             eth_port_channel
+17449     97172  1051807     540252      7ffec5acdab0/0             eltm
+17451     74880  1017241     487872      7fff49da8920/0             ecp
+17452       268  0           3632        7fffd39421c0/0             dcgrpc
+17456       268  0           3632        7ffe9aa9b710/0             dc_nae
+17458       268  0           3632        7ffefce3a130/0             cnmi
+17459       268  0           3632        7ffc7d352f70/0             cfg_cmp
+17464     81032  964762      429696      7ffdd6740180/0             adbm
+17465     73828  1016871     498624      7ffd6a81efe0/0             acllog
+17468     83188  866709      519292      7ffea49fbe00/0             tacacs
+17574     70536  0           418228      7fff6b2a0c00/0             ntpd
+17606     57244  697955      343328      7fff13387ec0/0             eth_dstats
+17607     96328  982362      532792      7ffd14041e50/0             ipqosmgr
+17608     84964  1117037     515084      7fff1ca68fd0/0             lacp
+17628    135356  1436007     629556      7ffe0ca61fe0/0             vlan_mgr
+17660    172936  827584      539820      7ffe96ebd910/0             aclqos
+17674    229412  1071477     581836      7fff459a6520/0             diag_port_lb
+17675    120580  1059606     661956      7fff412521d0/0             ethpm
+17678    141680  1387968     747036      7ffd10363e60/0             l2fm
+17697     89024  1379198     522980      7ffd9b13bde0/0             stp
+17698     75464  846623      501556      7ffc8c51a6b0/0             stripcl
+17750     78752  976866      512332      7fffa120cd90/0             copp
+17753    103128  1037709     700460      7ffe2b4c4c70/0             ufdm
+17754     71248  762992      421720      7ffc15ed7c50/0             u2
+17756     88560  10784983    3858316     7ffc5ba39ba0/0             sal
+17757     76896  10770411    3991916     7fff13571850/0             ofm
+17758    223604  11894964    4260844     7ffdabd831d0/0             mrib
+17759    170648  1969803     686424      7fff76282e50/0             mfdm
+17760     71276  760708      422168      7fffbded6fa0/0             mcm
+17761    223540  11359960    4236468     7ffe5dca7f20/0             m6rib
+17762     75236  1020963     505892      7fffd412f3d0/0             l2pt
+17763     99548  0           4030860     7ffe343006f0/0             hsrp_engine
+17805     99948  1374222     532332      7ffdc4020320/0             interface-vlan
+17811     93232  1236181     443336      7ffcef179960/0             m2rib
+18387       780  0           13548       7ffdcd7698f0/0             tamd_proc
+18400    122392  0           586592      7ffdd59ebb60/0             nxpython3
+18488    119960  0           518752      7ffdd59ebb60/0             nxpython3
+18489    119960  0           518752      7ffdd59ebb60/0             nxpython3
+18490    119960  0           518752      7ffdd59ebb60/0             nxpython3
+20759     53092  0           738428      7fff49c64080/0             nxos_dc
+20771       644  0           16080       7ffc57b36120/0             libvirt_lxc
+20774       924  0           43284       7ffcf9c0a4e0/0             systemd
+20786       296  0           37036       7ffe3686fb70/0             systemd-journal
+20800       440  0           60052       7fffaf924c80/0             dbus-daemon
+20801     17972  0           241080      7ffda6591250/0             rsyslogd
+20805       228  0           8588        7ffe490d7760/0             agetty
+20807       228  0           8588        7fffc7738850/0             agetty
+20808       228  0           8588        7ffe14d529c0/0             agetty
+20809       228  0           8588        7ffd65d8a000/0             agetty
+20811       836  0           24768       7ffeeef25580/0             crond
+20812       228  0           8588        7ffcdb738a60/0             agetty
+20814       936  0           115060      7fff35c3d850/0             sshd
+
+All processes: MemAlloc = 15159192
+ID-PLZBLN-ASsW-2906# show system reso
+
+--- show env all ---
+show env all
+Load average:   1 minute: 1.79   5 minutes: 2.29   15 minutes: 1.57
+Processes   :   816 total, 2 running
+CPU states  :   1.64% user,   2.40% kernel,   95.94% idle
+        CPU0 states  :   2.06% user,   3.09% kernel,   94.84% idle
+        CPU1 states  :   2.04% user,   2.04% kernel,   95.91% idle
+        CPU2 states  :   1.96% user,   0.98% kernel,   97.05% idle
+        CPU3 states  :   1.01% user,   3.03% kernel,   95.95% idle
+        CPU4 states  :   1.00% user,   3.00% kernel,   96.00% idle
+        CPU5 states  :   3.00% user,   6.00% kernel,   91.00% idle
+        CPU6 states  :   1.00% user,   2.00% kernel,   97.00% idle
+        CPU7 states  :   1.98% user,   3.96% kernel,   94.05% idle
+Memory usage:   32803160K total,   10608768K used,   22194392K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   289860K Used
+Kernel cached :   6584436K Used
+Current memory status: OK
+ID-PLZBLN-ASsW-2906# show env
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan2(sys_fan2)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan3(sys_fan3)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan4(sys_fan4)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan_in_PS1      --                   --     front-to-back   Ok
+Fan_in_PS2      --                   --     front-to-back   Ok
+Fan Zone Speed: Zone 1: 0x80
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-1100W-PI      100 W              117 W      1100 W      Ok
+2        NXA-PAC-1100W-PI      122 W              142 W      1100 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)            1100.00 W
+Total Grid-A (first half of PS slots) Power Capacity       3000.00 W
+Total Grid-B (second half of PS slots) Power Capacity      1100.00 W
+Total Power of all Inputs (cumulative)                     4100.00 W
+Total Power Output (actual draw)                            222.00 W
+Total Power Input (actual draw)                             259.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           70              42          17         Ok             
+1        BACK            80              70          30         Ok             
+1        CPU             90              80          35         Ok             
+1        SUN1            110             90          42         Ok             
+ID-PLZBLN-ASsW-2906# show env all
+                              ^
+% Invalid command at '^' marker.
+ID-PLZBLN-ASsW-2906#

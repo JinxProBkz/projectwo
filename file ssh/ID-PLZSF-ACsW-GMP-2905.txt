@@ -1,0 +1,1006 @@
+--- term le 0 ---
+1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+ID-PLZSF-ACsW-GMP-2905# term le 0
+ID-PLZSF-ACsW-GMP-2905# 
+--- show int status ---
+show int status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        --                 connected 613       full    1000    10g        
+Eth1/2        --                 connected 613       full    1000    10g        
+Eth1/3        --                 connected 613       full    1000    10g        
+Eth1/4        --                 connected 613       full    1000    10g        
+Eth1/5        --                 connected 613       full    1000    10g        
+Eth1/6        --                 connected 613       full    1000    10g        
+Eth1/7        --                 connected 613       full    1000    10g        
+Eth1/8        --                 connected 613       full    1000    10g        
+Eth1/9        --                 connected 613       full    1000    10g        
+Eth1/10       --                 connected 613       full    1000    10g        
+Eth1/11       --                 connected 613       full    1000    10g        
+Eth1/12       --                 connected 613       full    1000    10g        
+Eth1/13       --                 connected 613       full    1000    10g        
+Eth1/14       --                 connected 613       full    1000    10g        
+Eth1/15       --                 connected 315       full    1000    10g        
+Eth1/16       --                 connected 315       full    1000    10g        
+Eth1/17       --                 connected 315       full    1000    10g        
+Eth1/18       --                 connected 315       full    1000    10g        
+Eth1/19       --                 connected 614       full    1000    10g        
+Eth1/20       --                 connected 614       full    1000    10g        
+Eth1/21       --                 connected 613       full    1000    10g        
+Eth1/22       --                 connected 613       full    1000    10g        
+Eth1/23       --                 connected 315       full    1000    10g        
+Eth1/24       --                 connected 315       full    1000    10g        
+Eth1/25       --                 connected 613       full    1000    10g        
+Eth1/26       --                 connected 611       full    1000    10g        
+Eth1/27       --                 connected 611       full    1000    10g        
+Eth1/28       --                 connected 611       full    1000    10g        
+Eth1/29       ** Connection to V connected trunk     full    10G     10g        
+Eth1/30       ** vesxrid1j2, Clu connected 616       full    1000    10g        
+Eth1/31       ** vesxrid1j3,Clus connected 616       full    1000    10g        
+Eth1/32       ** vesxrid1j4,Clus connected 616       full    1000    10g        
+Eth1/33       --                 connected trunk     full    10G     10g        
+Eth1/34       --                 connected trunk     full    10G     10g        
+Eth1/35       --                 connected trunk     full    10G     10g        
+Eth1/36       --                 connected trunk     full    10G     10g        
+Eth1/37       --                 connected trunk     full    10G     10g        
+Eth1/38       --                 disabled  routed    auto    auto    10g        
+Eth1/39       --                 disabled  routed    auto    auto    10g        
+Eth1/40       --                 disabled  routed    auto    auto    10g        
+Eth1/41       --                 disabled  routed    auto    auto    10g        
+Eth1/42       --                 disabled  routed    auto    auto    10g        
+Eth1/43       --                 disabled  routed    auto    auto    10g        
+Eth1/44       --                 disabled  routed    auto    auto    10g        
+Eth1/45       --                 disabled  routed    auto    auto    10g        
+Eth1/46       --                 disabled  routed    auto    auto    10g        
+Eth1/47       ** Connection to I notconnec trunk     auto    auto    10g        
+Eth1/48       ** Connected to ID connected routed    full    10G     10g        
+Eth1/49       UPLINK TO ID-DC-N7 channelDo trunk     auto    auto    QSFP-40G-SR-BD
+Eth1/50       UPLINK TO ID-DC-N7 xcvrAbsen trunk     auto    auto    --         
+Eth1/51       ** Connected to ID connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/52       ** Connected to ID connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/53       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/54       ** Connected to ID connected trunk     full    100G    QSFP-100G40G-BIDI
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Po33          ** Server VIOUAMID connected trunk     full    10G     --         
+Po34          ** Server VIOUAMID connected trunk     full    10G     --         
+Po35          ** Server VIOUAMID connected trunk     full    10G     --         
+Po36          ** Server VIOUAMID connected trunk     full    10G     --         
+Po37          ** Server VIOUAMID connected trunk     full    10G     --         
+Po38          ** VIOUAMID21(Link connected trunk     full    10G     --         
+Po100         ** Connected to ID connected trunk     full    100G    --         
+Po103         UPLINK TO ID-DC-N7 disabled  trunk     auto    auto    --         
+Po203         ** Connected to ID connected trunk     full    40G     --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Vlan1         --                 down      routed    auto    auto    --
+ID-PLZSF-ACsW-GMP-2905# 
+--- show int desc ---
+show int desc
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    10G     --
+Eth1/2        eth    10G     --
+Eth1/3        eth    10G     --
+Eth1/4        eth    10G     --
+Eth1/5        eth    10G     --
+Eth1/6        eth    10G     --
+Eth1/7        eth    10G     --
+Eth1/8        eth    10G     --
+Eth1/9        eth    10G     --
+Eth1/10       eth    10G     --
+Eth1/11       eth    10G     --
+Eth1/12       eth    10G     --
+Eth1/13       eth    10G     --
+Eth1/14       eth    10G     --
+Eth1/15       eth    10G     --
+Eth1/16       eth    10G     --
+Eth1/17       eth    10G     --
+Eth1/18       eth    10G     --
+Eth1/19       eth    10G     --
+Eth1/20       eth    10G     --
+Eth1/21       eth    10G     --
+Eth1/22       eth    10G     --
+Eth1/23       eth    10G     --
+Eth1/24       eth    10G     --
+Eth1/25       eth    10G     --
+Eth1/26       eth    10G     --
+Eth1/27       eth    10G     --
+Eth1/28       eth    10G     --
+Eth1/29       eth    10G     ** Connection to VIOUAMID21(Link Enterprise1) **
+Eth1/30       eth    10G     ** vesxrid1j2, Cluster GPFS Link 1**
+Eth1/31       eth    10G     ** vesxrid1j3,Cluster GPFS Link 1 **
+Eth1/32       eth    10G     ** vesxrid1j4,Cluster GPFS Link1 Link 1 **
+Eth1/33       eth    10G     --
+Eth1/34       eth    10G     --
+Eth1/35       eth    10G     --
+Eth1/36       eth    10G     --
+Eth1/37       eth    10G     --
+Eth1/38       eth    10G     --
+Eth1/39       eth    10G     --
+Eth1/40       eth    10G     --
+Eth1/41       eth    10G     --
+Eth1/42       eth    10G     --
+Eth1/43       eth    10G     --
+Eth1/44       eth    10G     --
+Eth1/45       eth    10G     --
+Eth1/46       eth    10G     --
+Eth1/47       eth    10G     ** Connection to ID-PLZSF-HMCsW-2901 **
+Eth1/48       eth    10G     ** Connected to ID-PLZSF-ACsW-GMP-2906 **
+Eth1/49       eth    40G     UPLINK TO ID-DC-N7K-DIST-01
+Eth1/50       eth    100G    UPLINK TO ID-DC-N7K-DIST-02
+Eth1/51       eth    40G     ** Connected to ID-PLZSF-ACdS-2901 eth1/3 ** 
+Eth1/52       eth    40G     ** Connected to ID-PLZSF-ACdS-2902 eth1/3 ** 
+Eth1/53       eth    100G    --
+Eth1/54       eth    100G    ** Connected to ID-PLZSF-ACsW-GMP-2906 **
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po33                     ** Server VIOUAMID21 Enterprise Link 1 **
+Po34                     ** Server VIOUAMID17 Enterprise Link 1 **
+Po35                     ** Server VIOUAMID18 Enterprise Link 1 **
+Po36                     ** Server VIOUAMID19 Enterprise Link 1 **
+Po37                     ** Server VIOUAMID20 Enterprise Link 1 **
+Po38                     ** VIOUAMID21(Link Enterprise1) **
+Po100                    ** Connected to ID-PLZSF-ACsW-GMP-2906 **
+Po103                    UPLINK TO ID-DC-N7K-DIST
+Po203                    ** Connected to ID-PLZSF-ACdS-2901/2902 ** 
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+ID-PLZSF-ACsW-GMP-2905# 
+--- show mac address-table ---
+show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan,
+        (NA)- Not Applicable
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
+*   10     0000.0c07.ac0a   dynamic  NA         F      F    Po203
+*   10     000c.2955.e8cd   dynamic  NA         F      F    Po203
+*   10     000c.29c2.87fd   dynamic  NA         F      F    Po203
+*   10     24d5.e41b.1080   dynamic  NA         F      F    Po203
+*   10     4880.024c.ac80   dynamic  NA         F      F    Po203
+*   10     5486.bc27.f25f   dynamic  NA         F      F    Po203
+*   10     5486.bce0.287f   dynamic  NA         F      F    Po203
+*   10     6805.caf2.2246   dynamic  NA         F      F    Po203
+*   10     80b7.091b.d6f0   dynamic  NA         F      F    Po203
+*   10     8478.ac0d.1b42   dynamic  NA         F      F    Po203
+*   10     8478.ac59.92c2   dynamic  NA         F      F    Po203
+*   10     d009.c8ad.2780   dynamic  NA         F      F    Po203
+*   10     ea83.7d00.01c1   dynamic  NA         F      F    Po203
+*   62     0000.0c07.ac3e   dynamic  NA         F      F    Po203
+*   62     0010.e070.71c4   dynamic  NA         F      F    Po203
+*   62     0010.e070.7282   dynamic  NA         F      F    Po203
+*   62     0010.e070.7fa2   dynamic  NA         F      F    Po203
+*   62     0010.e070.87ea   dynamic  NA         F      F    Po203
+*   62     0014.4ff8.8bf3   dynamic  NA         F      F    Po203
+*   62     0014.4ff9.2956   dynamic  NA         F      F    Po203
+*   62     0014.4ff9.5b76   dynamic  NA         F      F    Po203
+*   62     0014.4ff9.a80f   dynamic  NA         F      F    Po203
+*   62     0014.4ff9.fbc1   dynamic  NA         F      F    Po203
+*   62     0014.4ffa.07cb   dynamic  NA         F      F    Po203
+*   62     0014.4ffa.2217   dynamic  NA         F      F    Po203
+*   62     0014.4ffa.8b04   dynamic  NA         F      F    Po203
+*   62     0014.4ffa.e4da   dynamic  NA         F      F    Po203
+*   62     0014.4ffb.a103   dynamic  NA         F      F    Po203
+*   62     0014.4ffb.e8ea   dynamic  NA         F      F    Po203
+*   62     0021.28e7.f87e   dynamic  NA         F      F    Po203
+*   62     0021.28e7.fdec   dynamic  NA         F      F    Po203
+*   62     0021.28e8.07a8   dynamic  NA         F      F    Po203
+*   62     0021.28e8.0d26   dynamic  NA         F      F    Po203
+*   62     0208.2008.392a   dynamic  NA         F      F    Po203
+*   62     0208.2039.31af   dynamic  NA         F      F    Po203
+*   62     0208.20af.6b8b   dynamic  NA         F      F    Po203
+*   62     8478.ac0d.1b42   dynamic  NA         F      F    Po203
+*   62     8478.ac59.92c2   dynamic  NA         F      F    Po203
+*   63     0000.0c9f.f03f   dynamic  NA         F      F    Po203
+*   63     7a37.3a57.a97b   dynamic  NA         F      F    Po203
+*   63     8478.ac0d.1b42   dynamic  NA         F      F    Po203
+*   70     0000.0c07.ac46   dynamic  NA         F      F    Po203
+*   70     8478.ac0d.1b42   dynamic  NA         F      F    Po203
+*   70     9418.827a.ac74   dynamic  NA         F      F    Po203
+*   71     0000.0c07.ac47   dynamic  NA         F      F    Po203
+*   71     8478.ac0d.1b42   dynamic  NA         F      F    Po203
+*  160     0000.0c07.aca0   dynamic  NA         F      F    Po203
+*  160     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  160     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  161     0000.0c07.aca1   dynamic  NA         F      F    Po203
+*  161     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  161     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  163     0000.0c07.aca3   dynamic  NA         F      F    Po203
+*  163     0014.4ff8.577f   dynamic  NA         F      F    Po203
+*  163     0014.4ff8.c7b3   dynamic  NA         F      F    Po203
+*  163     0014.4ff8.d9b4   dynamic  NA         F      F    Po203
+*  163     0014.4ff9.1697   dynamic  NA         F      F    Po203
+*  163     0014.4ff9.fd66   dynamic  NA         F      F    Po203
+*  163     0014.4ffa.a9e6   dynamic  NA         F      F    Po203
+*  163     0014.4ffb.3f05   dynamic  NA         F      F    Po203
+*  163     0014.4ffb.b643   dynamic  NA         F      F    Po203
+*  163     0014.4ffb.d32f   dynamic  NA         F      F    Po203
+*  163     0208.2000.6c85   dynamic  NA         F      F    Po203
++  163     4260.b02b.e2b9   dynamic  NA         F      F    Po34
++  163     4260.bc77.c2b9   dynamic  NA         F      F    Po34
+*  163     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  163     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  163     7a37.3d9a.cd18   dynamic  NA         F      F    Po203
+*  163     f2d4.2bad.5018   dynamic  NA         F      F    Po203
+*  164     0000.0c07.aca4   dynamic  NA         F      F    Po203
+*  164     0014.4ff9.155f   dynamic  NA         F      F    Po203
+*  164     0014.4ff9.2f31   dynamic  NA         F      F    Po203
+*  164     0014.4ff9.cf6b   dynamic  NA         F      F    Po203
+*  164     0014.4ffa.4d54   dynamic  NA         F      F    Po203
+*  164     0014.4ffa.e6ee   dynamic  NA         F      F    Po203
+*  164     0050.568c.02f2   dynamic  NA         F      F    Po203
+*  164     0050.568c.0861   dynamic  NA         F      F    Po203
+*  164     0050.568c.11e3   dynamic  NA         F      F    Po203
+*  164     0050.568c.11eb   dynamic  NA         F      F    Po203
+*  164     0050.568c.125f   dynamic  NA         F      F    Po203
+*  164     0050.568c.14c3   dynamic  NA         F      F    Po203
+*  164     0050.568c.156f   dynamic  NA         F      F    Po203
+*  164     0050.568c.1685   dynamic  NA         F      F    Po203
+*  164     0050.568c.1a4f   dynamic  NA         F      F    Po203
+*  164     0050.568c.2272   dynamic  NA         F      F    Po203
+*  164     0050.568c.2c00   dynamic  NA         F      F    Po203
+*  164     0050.568c.2da0   dynamic  NA         F      F    Po203
+*  164     0050.568c.2f8f   dynamic  NA         F      F    Po203
+*  164     0050.568c.3200   dynamic  NA         F      F    Po203
+*  164     0050.568c.41c8   dynamic  NA         F      F    Po203
+*  164     0050.568c.4337   dynamic  NA         F      F    Po203
+*  164     0050.568c.4a37   dynamic  NA         F      F    Po203
+*  164     0050.568c.4e35   dynamic  NA         F      F    Po203
+*  164     0050.568c.54c1   dynamic  NA         F      F    Po203
+*  164     0050.568c.55e6   dynamic  NA         F      F    Po203
+*  164     0050.568c.5680   dynamic  NA         F      F    Po203
+*  164     0050.568c.5ec7   dynamic  NA         F      F    Po203
+*  164     0050.568c.5fc8   dynamic  NA         F      F    Po203
+*  164     0050.568c.608d   dynamic  NA         F      F    Po203
+*  164     0050.568c.62ea   dynamic  NA         F      F    Po203
+*  164     0050.568c.65ae   dynamic  NA         F      F    Po203
+*  164     0050.568c.671b   dynamic  NA         F      F    Po203
+*  164     0050.568c.6aa7   dynamic  NA         F      F    Po203
+*  164     0050.568c.6aee   dynamic  NA         F      F    Po203
+*  164     0050.568c.6b34   dynamic  NA         F      F    Po203
+*  164     0050.568c.7564   dynamic  NA         F      F    Po203
+*  164     0050.568c.7653   dynamic  NA         F      F    Po203
+*  164     0050.568c.80bb   dynamic  NA         F      F    Po203
+*  164     0050.568c.8484   dynamic  NA         F      F    Po203
+*  164     0050.568c.8589   dynamic  NA         F      F    Po203
+*  164     0050.568c.8ebb   dynamic  NA         F      F    Po203
+*  164     0050.568c.962b   dynamic  NA         F      F    Po203
+*  164     0050.568c.996c   dynamic  NA         F      F    Po203
+*  164     0050.568c.9999   dynamic  NA         F      F    Po203
+*  164     0050.568c.9a3b   dynamic  NA         F      F    Po203
+*  164     0050.568c.9c91   dynamic  NA         F      F    Po203
+*  164     0050.568c.9c9b   dynamic  NA         F      F    Po203
+*  164     0050.568c.9ca5   dynamic  NA         F      F    Po203
+*  164     0050.568c.9f59   dynamic  NA         F      F    Po203
+*  164     0050.568c.a666   dynamic  NA         F      F    Po203
+*  164     0050.568c.a90c   dynamic  NA         F      F    Po203
+*  164     0050.568c.aaef   dynamic  NA         F      F    Po203
+*  164     0050.568c.ac34   dynamic  NA         F      F    Po203
+*  164     0050.568c.adf2   dynamic  NA         F      F    Po203
+*  164     0050.568c.bdb9   dynamic  NA         F      F    Po203
+*  164     0050.568c.c30a   dynamic  NA         F      F    Po203
+*  164     0050.568c.c480   dynamic  NA         F      F    Po203
+*  164     0050.568c.ca10   dynamic  NA         F      F    Po203
+*  164     0050.568c.cee3   dynamic  NA         F      F    Po203
+*  164     0050.568c.d08b   dynamic  NA         F      F    Po203
+*  164     0050.568c.d1e8   dynamic  NA         F      F    Po203
+*  164     0050.568c.d688   dynamic  NA         F      F    Po203
+*  164     0050.568c.d6c3   dynamic  NA         F      F    Po203
+*  164     0050.568c.de78   dynamic  NA         F      F    Po203
+*  164     0050.568c.de9c   dynamic  NA         F      F    Po203
+*  164     0050.568c.e979   dynamic  NA         F      F    Po203
+*  164     0050.568c.eb3e   dynamic  NA         F      F    Po203
+*  164     0050.568c.ec12   dynamic  NA         F      F    Po203
+*  164     0050.568c.ec19   dynamic  NA         F      F    Po203
+*  164     0050.568c.f208   dynamic  NA         F      F    Po203
+*  164     0050.568c.f213   dynamic  NA         F      F    Po203
+*  164     0050.568c.f706   dynamic  NA         F      F    Po203
+*  164     0050.568c.f777   dynamic  NA         F      F    Po203
+*  164     0050.568c.fdcc   dynamic  NA         F      F    Po203
+*  164     0050.568c.ffd7   dynamic  NA         F      F    Po203
+*  164     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  164     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  164     7a37.3291.c319   dynamic  NA         F      F    Po203
++  164     c274.133b.cab9   dynamic  NA         F      F    Po36
++  164     c274.153f.2ab9   dynamic  NA         F      F    Po36
+*  164     f2d4.27c1.e119   dynamic  NA         F      F    Po203
+*  169     0000.0c07.aca9   dynamic  NA         F      F    Po203
+*  169     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  169     7a37.352f.9617   dynamic  NA         F      F    Po203
+*  169     f2d4.2de5.5e17   dynamic  NA         F      F    Po203
+*  201     0000.0c07.acc9   dynamic  NA         F      F    Po203
++  201     4260.ba07.07b9   dynamic  NA         F      F    Po34
+*  201     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  201     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  201     6c92.cf3b.4a10   dynamic  NA         F      F    Po203
+*  201     6c92.cf3b.4b70   dynamic  NA         F      F    Po203
+*  201     6c92.cf3b.5ac0   dynamic  NA         F      F    Po203
++  201     9a42.048e.d6dd   dynamic  NA         F      F    Po34
++  201     a6b6.c324.d3b9   dynamic  NA         F      F    Po38
++  201     c274.1802.57b9   dynamic  NA         F      F    Po36
++  201     c274.1aed.3ab9   dynamic  NA         F      F    Po36
+*  201     d404.e6f4.7410   dynamic  NA         F      F    Po203
+*  201     d404.e6f5.6ea0   dynamic  NA         F      F    Po203
+*  201     ec01.d573.b29c   dynamic  NA         F      F    Po203
+*  201     f8f2.1ef2.8860   dynamic  NA         F      F    Po203
+*  201     f8f2.1ef2.9110   dynamic  NA         F      F    Po203
+*  201     f8f2.1ef2.b6dc   dynamic  NA         F      F    Po203
+*  202     0000.0c07.acca   dynamic  NA         F      F    Po203
+*  202     0014.4ffa.4aae   dynamic  NA         F      F    Po203
+*  202     0014.4ffb.95bb   dynamic  NA         F      F    Po203
+*  202     0050.5686.0ee6   dynamic  NA         F      F    Po203
+*  202     0050.5686.a383   dynamic  NA         F      F    Po203
+*  202     0050.5686.aa40   dynamic  NA         F      F    Po203
++  202     4260.b3c2.3dc4   dynamic  NA         F      F    Po34
++  202     4260.b5b2.41b9   dynamic  NA         F      F    Po34
++  202     4260.babc.77c4   dynamic  NA         F      F    Po34
+*  202     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  202     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  202     9418.827a.9c98   dynamic  NA         F      F    Po203
+*  202     9418.827a.9cb8   dynamic  NA         F      F    Po203
++  202     a6b6.c5fd.1fc6   dynamic  NA         F      F    Po38
++  202     a6b6.c95f.dbb9   dynamic  NA         F      F    Po38
++  202     c274.15cf.87c4   dynamic  NA         F      F    Po36
++  202     c274.177a.c1c4   dynamic  NA         F      F    Po36
++  202     c274.1810.53b9   dynamic  NA         F      F    Po36
++  202     c274.1ac1.b3b9   dynamic  NA         F      F    Po36
+*  203     0000.0c07.accb   dynamic  NA         F      F    Po203
++  203     4260.b0e1.92ba   dynamic  NA         F      F    Po34
++  203     4260.bcac.bcb9   dynamic  NA         F      F    Po34
+*  203     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  203     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  203     9418.826d.50dc   dynamic  NA         F      F    Po203
+*  203     9418.827b.4190   dynamic  NA         F      F    Po203
++  203     9a42.04bc.4c41   dynamic  NA         F      F    Po36
++  203     a6b6.cc6b.d3b9   dynamic  NA         F      F    Po38
++  203     c274.1743.7fba   dynamic  NA         F      F    Po36
++  203     c274.1798.6eb9   dynamic  NA         F      F    Po36
++  203     c274.1863.1cb9   dynamic  NA         F      F    Po36
+*  211     0000.0c07.acd3   dynamic  NA         F      F    Po203
+*  211     8478.ac0d.1b42   dynamic  NA         F      F    Po203
+*  211     9a42.03ef.85a5   dynamic  NA         F      F    Po203
+*  211     9a42.05be.8d09   dynamic  NA         F      F    Po203
+*  211     f2d4.26cf.f96d   dynamic  NA         F      F    Po203
+*  315     0000.0c9f.f13b   dynamic  NA         F      F    Po203
+*  315     5480.2857.2dc0   dynamic  NA         F      F    Eth1/24
+*  315     5480.2857.3bb2   dynamic  NA         F      F    Eth1/17
+*  315     5480.2857.3d62   dynamic  NA         F      F    Eth1/16
+*  315     5480.2857.3dfe   dynamic  NA         F      F    Eth1/15
+*  315     5480.2857.3e28   dynamic  NA         F      F    Eth1/18
+*  315     5480.2857.3e34   dynamic  NA         F      F    Eth1/23
+*  315     643a.ea93.6cbd   dynamic  NA         F      F    Po203
+*  315     643a.ea9a.284d   dynamic  NA         F      F    Po203
+*  611     0000.0c9f.f263   dynamic  NA         F      F    Po203
+*  611     2c4f.5292.9b75   dynamic  NA         F      F    Po203
+*  611     2c4f.5292.a18d   dynamic  NA         F      F    Po203
+*  611     48df.3767.0db0   dynamic  NA         F      F    Po203
+*  611     48df.3767.59c0   dynamic  NA         F      F    Po203
+*  611     48df.3768.a660   dynamic  NA         F      F    Po203
+*  611     48df.3768.a6c0   dynamic  NA         F      F    Po203
+*  611     48df.3768.a720   dynamic  NA         F      F    Po203
+*  611     48df.3768.a730   dynamic  NA         F      F    Po203
+*  611     48df.3769.f700   dynamic  NA         F      F    Po203
+*  611     48df.3769.fc50   dynamic  NA         F      F    Po203
+*  611     48df.3769.ffa0   dynamic  NA         F      F    Po203
+*  611     48df.376a.d2a0   dynamic  NA         F      F    Po203
+*  611     48df.376a.faa0   dynamic  NA         F      F    Po203
+*  611     48df.376c.9140   dynamic  NA         F      F    Po203
+*  611     48df.376c.a680   dynamic  NA         F      F    Po203
+*  611     48df.376c.aee0   dynamic  NA         F      F    Po203
+*  611     48df.378d.5300   dynamic  NA         F      F    Po203
+*  611     48df.378d.79b0   dynamic  NA         F      F    Po203
+*  611     48df.378e.03f8   dynamic  NA         F      F    Po203
+*  613     0000.0c9f.f265   dynamic  NA         F      F    Po203
+*  613     08f1.ea90.f0ea   dynamic  NA         F      F    Eth1/10
+*  613     08f1.ea92.64a0   dynamic  NA         F      F    Eth1/8
+*  613     08f1.eaef.6866   dynamic  NA         F      F    Eth1/25
+*  613     2c4f.5292.9b75   dynamic  NA         F      F    Po203
+*  613     2c4f.5292.a18d   dynamic  NA         F      F    Po203
+*  613     5480.2857.1494   dynamic  NA         F      F    Eth1/14
+*  613     5480.2857.19da   dynamic  NA         F      F    Eth1/11
+*  613     5480.2857.2088   dynamic  NA         F      F    Eth1/12
+*  613     5480.2857.214e   dynamic  NA         F      F    Eth1/5
+*  613     5480.2857.22bc   dynamic  NA         F      F    Eth1/4
+*  613     5480.2857.23ca   dynamic  NA         F      F    Eth1/13
+*  613     5480.2857.24f0   dynamic  NA         F      F    Eth1/2
+*  613     5480.2857.257a   dynamic  NA         F      F    Eth1/7
+*  613     5480.2857.2592   dynamic  NA         F      F    Eth1/1
+*  613     5480.2857.2646   dynamic  NA         F      F    Eth1/6
+*  613     5480.2857.264c   dynamic  NA         F      F    Eth1/3
+*  613     5480.2857.28b6   dynamic  NA         F      F    Eth1/9
+*  613     5480.2857.3ac8   dynamic  NA         F      F    Eth1/21
+*  613     5480.2857.3c5a   dynamic  NA         F      F    Eth1/22
+*  614     0000.0c9f.f266   dynamic  NA         F      F    Po203
+*  614     2c4f.5292.9b75   dynamic  NA         F      F    Po203
+*  614     2c4f.5292.a18d   dynamic  NA         F      F    Po203
+*  614     5480.2857.392a   dynamic  NA         F      F    Eth1/20
+*  614     5480.2857.3d08   dynamic  NA         F      F    Eth1/19
+*  615     0000.0c9f.f267   dynamic  NA         F      F    Po203
+*  615     00ee.ab4d.f407   dynamic  NA         F      F    Po203
+*  615     00fd.220e.2dc5   dynamic  NA         F      F    Po203
+*  615     2c4f.5292.9b75   dynamic  NA         F      F    Po203
+*  615     2c4f.5292.a18d   dynamic  NA         F      F    Po203
+*  615     5480.2857.23b2   dynamic  NA         F      F    Po203
+*  615     5480.2857.2ff4   dynamic  NA         F      F    Po203
+*  615     5480.2857.326a   dynamic  NA         F      F    Po203
+*  615     5480.2857.33f6   dynamic  NA         F      F    Po203
+*  615     5480.2857.38f4   dynamic  NA         F      F    Po203
+*  615     5480.2857.3dd4   dynamic  NA         F      F    Po203
+*  615     d4e8.8092.0869   dynamic  NA         F      F    Po203
+*  616     0000.0c9f.f268   dynamic  NA         F      F    Po203
+*  616     0050.56bf.dd7a   dynamic  NA         F      F    Po203
+*  616     2c4f.5292.9b75   dynamic  NA         F      F    Po203
+*  616     48df.3769.fba0   dynamic  NA         F      F    Po203
+*  616     48df.376c.a670   dynamic  NA         F      F    Po203
+*  616     48df.376c.a6f0   dynamic  NA         F      F    Po203
+*  616     48df.376c.a720   dynamic  NA         F      F    Po203
++  611     0050.568c.79da   dynamic  NA         F      F    vPC Peer-Link
++  616     0050.5686.c7bb   dynamic  NA         F      F    vPC Peer-Link
+G    -     00fd.220e.2af5   static   -         F      F    sup-eth1(R)
+ID-PLZSF-ACsW-GMP-2905# 
+--- show proc cpu ---
+show proc cpu
+
+--- show proc mem ---
+show proc mem
+
+PID    Runtime(ms)  Invoked   uSecs  1Sec    Process
+-----  -----------  --------  -----  ------  -----------
+    1         5017     55361     90   0.00%  init
+ 6534          375       120   3125   0.00%  dcos_sshd
+ 6591           46       662     69   0.00%  dcos_sshd
+ 6592          407       103   3951   0.00%  vsh.bin
+ 6681            1         1   1000   0.00%  crond
+ 6685            2         3    666   0.00%  sh
+ 6689            0         1      0   0.00%  sleep
+ 7976          214      9103     23   0.00%  rpcbind
+ 8080            0         1      0   0.00%  rpc.mountd
+ 8098            1         7    142   0.00%  rpc.statd
+ 9128         4993     22740    219   0.00%  crond
+ 9872        15431     81410    189   0.00%  swmoni.sh
+ 9938            0         1      0   0.00%  mcelog
+10916            9        11    818   0.00%  libvirtd_mon.sh
+10917            4        11    363   0.00%  sh
+10918       112409   1262998     89   0.00%  sysmgr
+10919        28317    549308     51   0.00%  sysmgr
+10932           11         9   1222   0.00%  inotifywait
+10947          625       260   2403   0.00%  libvirtd
+14520          224        77   2909   0.00%  sdwrapd
+14523      7330341   1431527   5120   0.00%  pfmclnt
+15147           28        28   1000   0.00%  xinetd
+15148           18        12   1500   0.00%  tftpd
+15149           53        22   2409   0.00%  sdwrapd
+15151          600        76   7894   0.00%  fw_app
+15152       298010    808904    368   0.00%  platform
+15156         1677     90323     18   0.00%  dme_bootup_proxy
+15157         1664     90337     18   0.00%  dme_proxy
+15158         1008       185   5448   0.00%  event_manager
+15159         5521    270976     20   0.00%  mts_telemetry_mgr
+15160          806       175   4605   0.00%  policyelem
+15195        15809    282676     55   0.00%  syslogd
+15197        53905    970124     55   0.00%  vshd
+15198         1564      8143    192   0.00%  template_manager
+15199         3126     43784     71   0.00%  tamnw
+15200          692        91   7604   0.00%  smm
+15201         7016    271341     25   0.00%  psshelper
+15202         6383     58780    108   0.00%  pixm_vl
+15203         3345     58128     57   0.00%  pixm_gl
+15204         1566       330   4745   0.00%  nginx_dme
+15205         1596      8175    195   0.00%  mmode
+15207          973       136   7154   0.00%  kim
+15208        17079     20639    827   0.00%  fs-daemon
+15209        52421   1574618     33   0.00%  feature-mgr
+15210          917     11621     78   0.00%  confcheck
+15211         1883     30708     61   0.00%  capability
+15212         2561     35963     71   0.00%  bloggerd
+15213         6973    271078     25   0.00%  psshelper_gsvc
+15217        21986    403608     54   0.00%  tams_proc
+15234            4         2   2000   0.00%  sh
+15241       580968     49343  11774   0.00%  top
+15242         4537    243410     18   0.00%  grep
+15248       286034    866723    330   0.00%  clis
+15249         3456     55680     62   0.00%  licmgr
+15250        45535    276349    164   0.00%  tamd_proc
+15259         2830     93319     30   0.00%  xmlma
+15261         3086     57968     53   0.00%  vmm
+15263         4148     54329     76   0.00%  usbhsd
+15264         8290    138534     59   0.00%  ttyd
+15265      1806514    208405   8668   0.00%  sysinfo
+15266         2501     31054     80   0.00%  snmpmib_proc
+15267         2947      3665    804   0.00%  sksd
+15269         2231      7242    308   0.00%  res_mgr
+15270         6768    274501     24   0.00%  plugin
+15271       113029     79914   1414   0.00%  pltm
+15272         1691     57171     29   0.00%  plog_sup
+15273         4957    270385     18   0.00%  patch-installer
+15274          802       189   4243   0.00%  nxapi
+15275         1190     21843     54   0.00%  mvsh
+15276         1054      3603    292   0.00%  mts_mgr
+15277           42        18   2333   0.00%  mping_server
+15278        24187    106964    226   0.00%  module
+15279         2377     30729     77   0.00%  kafka
+15280         1111       432   2571   0.00%  issu_helper
+15281         1905     21845     87   0.00%  evms
+15282         1000       191   5235   0.00%  epld_upgrade_stdby
+15283        96262     55148   1745   0.00%  diagclient
+15284         2810     30914     90   0.00%  dhclient
+15285         5528     55202    100   0.00%  crdcfg_server
+15286         1140      3714    306   0.00%  core-dmon
+15287         3428     12926    265   0.00%  clk_mgr
+15288        80042     56326   1421   0.00%  bios_daemon
+15289         3141     36994     84   0.00%  ascii-cfg
+15290        12360    270760     45   0.00%  securityd
+15293        11283    273726     41   0.00%  cert_enroll
+15294        19048    347726     54   0.00%  aaa
+15295         1728     36890     46   0.00%  obfl
+15298           47       744     63   0.00%  klogd
+15341        10637     11023    964   0.00%  aclmgr
+15342        16480    344486     47   0.00%  device_test
+15343         2846     24670    115   0.00%  xbar
+15347         1058     17375     60   0.00%  evmc
+15352          878       202   4346   0.00%  l3vm
+15353         1084       206   5262   0.00%  urib
+15505          816       151   5403   0.00%  ExceptionLog
+15506        10830    145561     74   0.00%  bootvar
+15507         3251     54426     59   0.00%  cardclient
+15508       199171    187129   1064   0.00%  diagmgr
+15510        11904     67794    175   0.00%  ifmgr
+15669         2024     11078    182   0.00%  incrond
+15732          668       119   5613   0.00%  npacl
+15734          676       156   4333   0.00%  adjmgr
+15735          908       112   8107   0.00%  u6rib
+15742         4864     57861     84   0.00%  vdc_mgr
+15760         1915     27129     70   0.00%  statsclient
+15773          770       133   5789   0.00%  arp
+15774          703       190   3700   0.00%  icmpv6
+15779          905        72  12569   1.13%  pktmgr
+15815          965       194   4974   0.00%  netstack
+15842        11372    277193     41   0.00%  radius
+15845         7100     98531     72   0.00%  cdp
+15854        47855    213031    224   0.00%  cfs
+15857           35        11   3181   0.00%  ip_dummy
+15858           43        16   2687   0.00%  ipv6_dummy
+15859         1741     12947    134   0.00%  otm
+15860       936158   3663147    255   0.00%  snmpd
+15861           34        15   2266   0.00%  tcpudp_dummy
+15863          682       195   3497   0.00%  dcos-xinetd
+15925         7380    270131     27   0.00%  callhome
+18830            2         4    500   0.00%  nginx
+18831            2         3    666   0.00%  nginx
+18832            1         2    500   0.00%  nginx
+18833            1         1   1000   0.00%  nginx
+18838        32791    287168    114   0.00%  port-profile
+18863         1425     13867    102   0.00%  vman
+18873         1459      5185    281   0.00%  spm
+18874         1056      3723    283   0.00%  sdaa
+18876          869       157   5535   0.00%  rpm
+18880        90659     61307   1478   0.00%  pltfm_config
+18882         1640      8573    191   0.00%  plcmgr
+18883       229578     80207   2862   0.00%  pfstat
+18907         6284     36060    174   0.00%  ntp
+18908        11155    273202     40   0.00%  nia-mgr
+18909         3330     14668    227   0.00%  nbproxy
+18910         5665     14243    397   0.00%  monitor
+18911         1079       231   4670   0.00%  mld
+18913       405844    205153   1978   0.00%  lldp
+18916         4324     64029     67   0.00%  lim
+18918        15417    265151     58   0.00%  l2rib
+18919         3860     22654    170   0.00%  ipfib
+18920        32649     64614    505   0.00%  intersight
+18922         1240       245   5061   0.00%  igmp
+18923       447661     65788   6804   0.00%  icam
+18925        13352     93896    142   0.00%  eth_port_channel
+18926          782       209   3741   0.00%  ecp
+18927        40905    137429    297   0.00%  dcgrpc
+18928        41562    137476    302   0.00%  dc_nae
+18929        41318    137528    300   0.00%  cnmi
+18930        39370    136646    288   0.00%  cfg_cmp
+18931         1543     12654    121   0.00%  adbm
+18936         2245     25788     87   0.00%  acllog
+18947        19855    302053     65   0.00%  tacacs
+18956         2980     36014     82   0.00%  eltm
+18990        19402    349622     55   0.00%  ntpd
+19009         7856    162718     48   0.00%  eth_dstats
+19010       753167    449505   1675   0.00%  ipqosmgr
+19011        39456    123378    319   0.00%  lacp
+19026       169089    183969    919   0.00%  vlan_mgr
+19051         6395     69086     92   0.00%  aclqos
+19056        16861     24343    692   0.00%  diag_port_lb
+19058       665488   2462787    270   0.00%  ethpm
+19060        14913     37049    402   0.00%  l2fm
+19087       961225   6309250    152   0.00%  stp
+19088         2995     57804     51   0.00%  stripcl
+19155        30758     15114   2035   0.00%  copp
+19158        15136     14381   1052   0.00%  vtp
+19159       185339    539819    343   0.00%  vpc
+19160         4330     60442     71   0.00%  ufdm
+19161         1744     27226     64   0.00%  u2
+19163         2248     30744     73   0.00%  sal
+19164         1568      8751    179   0.00%  ofm
+19165          985       188   5239   0.00%  mrib
+19166      8943998  475651025     18   0.00%  mfdm
+19167         3259     57873     56   0.00%  mcm
+19168          995       175   5685   0.00%  m6rib
+19169        67218    277201    242   0.00%  l2pt
+19197         6491     34243    189   0.00%  interface-vlan
+19233         1824     17307    105   0.00%  m2rib
+19355          751     27186     27   0.00%  bloggerd
+19420         6287    271007     23   0.00%  psshelper
+19421         6166    270975     22   0.00%  psshelper
+19422         5058    164338     30   0.00%  plog_lc
+19423         3852    267610     14   0.00%  patch_installer
+19424          620     33457     18   0.00%  obfl_lc
+19425          520     18164     28   0.00%  mvsh
+19426          391     13645     28   0.00%  evmc
+19427         8535    280021     30   0.00%  dt_helper
+19429        33568     28751   1167   0.00%  diagclient
+19431       150534   2587579     58   0.00%  crdcfg_server
+19436          721     27058     26   0.00%  capability
+19441        11393    302546     37   0.00%  device_test
+19446      2211073    119805  18455   0.00%  crdclient
+19449       166989    112558   1483   0.00%  dc3_sensor
+19450      3698513  13540540    273   2.27%  tahusd
+19861           50        55    909   0.00%  getty
+19916       380996     40753   9348   0.00%  nxpython3
+20787        68610    258932    264   0.00%  nxpython3
+20788        57184    216752    263   0.00%  nxpython3
+20789        18181    266533     68   0.00%  nxpython3
+20908         9458    203321     46   0.00%  bfdc
+20909         4674     41427    112   0.00%  iftmc
+20911         1877     54808     34   0.00%  pixc
+20912         9541     99538     95   0.00%  port_client
+20913     19462574   6485283   3001   0.00%  stats_client
+20914          493     13620     36   0.00%  vntagc
+20915          154        75   2053   0.00%  zonelc
+20920         3762     16301    230   0.00%  mtm
+20926         9987     89993    110   0.00%  ipfib
+20938       842719   4338207    194   0.00%  aclqos
+20939          164        29   5655   0.00%  fib
+20940          444      9067     48   0.00%  ptplc
+20941         5883     28447    206   0.00%  tun_enc_lc
+20967          115        24   4791   0.00%  fcoelc
+20968         1160     17443     66   0.00%  monc
+20969        37999   1108789     34   0.00%  nf
+20970          731     22620     32   0.00%  xbar_client
+21346            0         2      0   0.00%  sshd
+23467        15869    259718     61   0.00%  tamd_proc
+23518          974        72  13527   0.00%  nxos_dc
+25312          143        17   8411   0.00%  swtele
+
+--- show system reso ---
+show system reso
+
+CPU util  :    1.25% user,    1.76% kernel,   96.98% idle
+
+CPU utilization for five seconds: 5%/0%; one minute: 10%; five minutes: 8%
+ Please note that only processes from the requested vdc are shown above
+ID-PLZSF-ACsW-GMP-2905# show proc mem
+
+MemAlloc, MemLimit and MemUsed - all in KiloByte
+
+PID    MemAlloc  MemLimit    MemUsed     StackBase/Ptr              Process
+-----  --------  ----------  ----------  -------------------------  ----------------
+    1       176  0           2272        7ffc741c8820/0             init
+ 6534     70700  0           419508      7fffe8c295d0/0             dcos_sshd
+ 6591     70700  0           419508      7fffe8c295d0/0             dcos_sshd
+ 6592     81428  0           719332      7ffee64505d0/0             vsh.bin
+ 6681       820  0           3724        7ffd71a68290/0             crond
+ 6685       264  0           3588        7ffc99f08720/0             sh
+ 6689       176  0           2268        7ffe136d53f0/0             sleep
+ 7976       240  0           2672        7fff5f197060/0             rpcbind
+ 8080       376  0           3216        7ffc600b4d20/0             rpc.mountd
+ 8098       272  0           2820        7ffee506d7a0/0             rpc.statd
+ 9128       712  0           3336        7ffd71a68290/0             crond
+ 9872       264  0           3588        7fffba0c6f90/0             swmoni.sh
+ 9938       716  0           2896        7ffc212d8e40/0             mcelog
+10916       264  0           3588        7ffe784244a0/0             libvirtd_mon.sh
+10917       264  0           3588        7ffe64108f20/0             sh
+10918     76836  0           517676      7fff93618970/0             sysmgr
+10919     74244  0           428152      7ffd2489b470/0             sysmgr
+10932       272  0           2400        7fff169cd250/0             inotifywait
+10947    132936  0           217516      7ffe70d9b270/0             libvirtd
+14520       960  0           277336      7ffc440d6f20/0             sdwrapd
+14523    220092  0           506604      7ffdb9b29c80/0             pfmclnt
+15147       248  932889      2876        7fffb23c80e0/0             xinetd
+15148       464  309842      2960            fff127e0/0             tftpd
+15149      2668  637442      288568      7ffc50e82c10/0             sdwrapd
+15151     74484  0           423796      7ffdc7e78640/0             fw_app
+15152    107652  0           596272      7fff595afa70/0             platform
+15156       748  0           284412      7ffd4f530910/0             dme_bootup_proxy
+15157       748  0           284412      7ffee04c5d70/0             dme_proxy
+15158    262764  0           1068144     7fff0c4e1a60/0             event_manager
+15159     17724  0           304012      7ffcd93300f0/0             mts_telemetry_mgr
+15160    260744  0           1181384     7ffc3bbb8880/0             policyelem
+15195    100188  871302      596836      7fff102c2a00/0             syslogd
+15197     73616  962487      501172      7ffcc03f2c50/0             vshd
+15198     78456  0           715788      7fff41267b70/0             template_manager
+15199      5900  620929      296676      7ffc0fcf8740/0             tamnw
+15200     78196  1234763     753852      7fffa44a7d00/0             smm
+15201     74284  804487      423348      7ffcd6dca310/0             psshelper
+15202    422628  1027967     777060      7ffd5a446270/0             pixm_vl
+15203    143412  1110635     573368      7ffe190cfd10/0             pixm_gl
+15204    291888  0           1732596     7ffd51f59660/0             nginx_dme
+15205     75588  0           711532      7ffec4b3e150/0             mmode
+15207    109464  923474      528812      7ffe9de4be10/0             kim
+15208     74548  0           499692      7ffd9b14a210/0             fs-daemon
+15209     80532  0           584400      7fffbeee7d60/0             feature-mgr
+15210      1540  0           286104      7ffdb7619f10/0             confcheck
+15211     74004  846649      499008      7fff631439c0/0             capability
+15212     98356  770999      589264      7ffde41027c0/0             bloggerd
+15213     74080  804342      420908      7ffcb1f30e60/0             psshelper_gsvc
+15217       532  0           13276       7fff938b6390/0             tams_proc
+15234       268  0           3632        7fff39ad8b20/0             sh
+15241      2316  0           4932        7ffe914f1e30/0             top
+15242       196  0           2516        7ffe8ed1d9c0/0             grep
+15248    117512  0           1038244     7ffc71ca4930/0             clis
+15249     97744  786194      607712      7ffe601f95c0/0             licmgr
+15250       680  0           13452       7ffc9a255890/0             tamd_proc
+15259      1156  0           286208      7ffe0dbc2720/0             xmlma
+15261     72156  785399      428152      7ffc9715f650/0             vmm
+15263      9108  0           358328      7fff92df2410/0             usbhsd
+15264     72348  769985      496588      7ffe68e8a0e0/0             ttyd
+15265     84168  860658      619420      7ffc245cad60/0             sysinfo
+15266     71556  761342      420936      7ffc4be37450/0             snmpmib_proc
+15267     73464  866247      503120      7ffe033210f0/0             sksd
+15269     90616  769669      518016      7ffd1d322600/0             res_mgr
+15270      3400  1947941     365216      7ffd0d118140/0             plugin
+15271     80164  761632      555264      7ffeb6576d10/0             pltm
+15272     60396  725260      348668      7fff4ff3ceb0/0             plog_sup
+15273     71956  0           507816      7fffdc127ee0/0             patch-installer
+15274     71924  0           423436      7ffca1ebb760/0             nxapi
+15275      2696  1145646     291856      7fffc6859cc0/0             mvsh
+15276     71976  0           498216      7fff573d42c0/0             mts_mgr
+15277      1196  0           287208      7fffea2a08d0/0             mping_server
+15278     96136  798629      533892      7ffeb36cab70/0             module
+15279     73280  758561      562124      7ffec8d7e440/0             kafka
+15280     94404  747252      545840      7ffcdf363880/0             issu_helper
+15281     75244  760466      501192      7ffef7aeaf00/0             evms
+15282    126404  919697      476688      7ffc38984fe0/0             epld_upgrade_stdby
+15283     63880  694596      357380      7ffdf366f270/0             diagclient
+15284     86376  0           3977072     7ffdc95b7ef0/0             dhclient
+15285     72436  1126977     423812      7ffc38b9fa30/0             crdcfg_server
+15286     69580  0           416752      7ffdeacd78a0/0             core-dmon
+15287     73824  762794      501980      7ffed5451050/0             clk_mgr
+15288     59148  1362577     350912      7ffff1353c80/0             bios_daemon
+15289     80544  0           695272      7ffc8b9ec200/0             ascii-cfg
+15290     79144  0           518656      7ffe6f8ad200/0             securityd
+15293     74784  0           505444      7ffca90684b0/0             cert_enroll
+15294     74252  0           514612      7ffc5affcce0/0             aaa
+15295     69972  803470      420124      7fffcc7b4130/0             obfl
+15298       180  0           2268        7ffc0ed2b990/0             klogd
+15341     87008  1628459     523800      7ffc6ef22310/0             aclmgr
+15342     83316  860534      566488      7fff2a998690/0             device_test
+15343     86352  0           515308      7ffd9dd0e2e0/0             xbar
+15347      4780  876986      291772      7ffcadb0e680/0             evmc
+15352     96288  1206001     597800      7ffc39af5260/0             l3vm
+15353    675448  0           3336832     7ffcec90ce30/0             urib
+15505     72672  806977      423208      7ffcde9918f0/0             ExceptionLog
+15506     73256  808654      504040      7ffda0f679c0/0             bootvar
+15507     73116  0           424112      7fffabca4830/0             cardclient
+15508     77348  772977      504420      7fff3e7ae580/0             diagmgr
+15510    135832  845855      570584      7ffebe69d330/0             ifmgr
+15669       408  0           5864        7fff96b2c9a0/0             incrond
+15732    101176  1392680     520876      7ffc992ec240/0             npacl
+15734    149876  0           4196640     7ffd3f5f1040/0             adjmgr
+15735    250680  10384391    4222580     7ffc048ec1c0/0             u6rib
+15742     73280  920305      497552      7ffefc3506d0/0             vdc_mgr
+15760    132704  830831      484088      7fff34bd8dd0/0             statsclient
+15773    166004  7464311     2843220     7fff48f7dc40/0             arp
+15774    160472  0           4156648     7ffdbb2d5e50/0             icmpv6
+15779     94120  0           952280      7ffe7a72d810/0             pktmgr
+15815    185756  0           4674064     7ffe5807e250/0             netstack
+15842     77088  7010542     2633368     7ffc3d218b70/0             radius
+15845     98064  7226404     2654160     7ffe0913d540/0             cdp
+15854    105772  1080944     533048      7ffd9801ba00/0             cfs
+15857       744  622651      284372      7fff7cd8ffa0/0             ip_dummy
+15858       744  622651      284372      7ffdaee46320/0             ipv6_dummy
+15859    128392  10873929    4017860     7fffde9f2250/0             otm
+15860    131476  0           2848028     7ffd70969060/0             snmpd
+15861       744  622651      284372      7ffee22fbc00/0             tcpudp_dummy
+15863     70740  838358      418024      7ffc81f666d0/0             dcos-xinetd
+15925     73656  1053906     501112      7ffed8cef570/0             callhome
+18830     72372  0           423884      7ffca1ebb760/0             nginx
+18831     72372  0           423884      7ffca1ebb760/0             nginx
+18832     72372  0           423884      7ffca1ebb760/0             nginx
+18833     72372  0           423884      7ffca1ebb760/0             nginx
+18838    157960  1707021     733652      7fff2bd9df60/0             port-profile
+18863     74836  796380      527100      7fff71ea9cb0/0             vman
+18873    122712  1396024     475608      7ffed8f0bcb0/0             spm
+18874    151716  0           4252672     7ffe163c94c0/0             sdaa
+18876    108276  0           4113652     7ffff81342a0/0             rpm
+18880     76212  6817215     2635416     7ffca88a0330/0             pltfm_config
+18882     74860  1019203     425000      7ffc67da6f60/0             plcmgr
+18883     78100  1106297     553232      7ffc6b5be6d0/0             pfstat
+18907     75400  10876309    3971336     7ffd15f1ffb0/0             ntp
+18908     96524  962204      730592      7ffe6a2a9a60/0             nia-mgr
+18909     75040  0           3896152     7ffdb65aa170/0             nbproxy
+18910    101868  11049595    3992108     7ffc286f2680/0             monitor
+18911    236388  11296484    4157364     7ffd01fcdd30/0             mld
+18913     89132  10878061    3992764     7ffd91989230/0             lldp
+18916     85544  851396      515776      7ffd939f02e0/0             lim
+18918    136988  1162528     648172      7fff5eaf83f0/0             l2rib
+18919    214056  0           2937748     7fff60aa9490/0             ipfib
+18920     71080  0           431104      7fff2c0f60e0/0             intersight
+18922    243532  0           3690392     7ffedb44ad80/0             igmp
+18923     96072  1290010     575584      7ffd8983b2e0/0             icam
+18925     96184  1071915     529476      7ffd49e69e80/0             eth_port_channel
+18926     74892  1089682     488192      7fffc263fb90/0             ecp
+18927       268  0           3632        7ffe06d7f470/0             dcgrpc
+18928       268  0           3632        7ffda628b930/0             dc_nae
+18929       268  0           3632        7ffe16224910/0             cnmi
+18930       268  0           3632        7ffd78cacac0/0             cfg_cmp
+18931     81376  965114      430348      7ffebdfdb4d0/0             adbm
+18936     74604  1017227     499712      7ffeb364ea40/0             acllog
+18947     87060  867057      514544      7ffd51d64280/0             tacacs
+18956     97460  1052203     540884      7ffd25a07ed0/0             eltm
+18990     70548  0           418540      7ffcd802d660/0             ntpd
+19009     57696  697981      345244      7ffd6af99e70/0             eth_dstats
+19010     96692  982727      533472      7ffdc18856d0/0             ipqosmgr
+19011     85880  1117398     516308      7ffd2957fb80/0             lacp
+19026    135116  1436376     629784      7fff8d9dece0/0             vlan_mgr
+19051    172892  827905      540104      7fff4fa161d0/0             aclqos
+19056    229424  1071846     582172      7ffcd0cb9da0/0             diag_port_lb
+19058    123304  1059972     665000      7fffcaf907d0/0             ethpm
+19060    138128  1389750     745092      7ffdd398ce20/0             l2fm
+19087     89892  1379572     524172      7fffdec13840/0             stp
+19088     76172  846979      502576      7ffd6202c2c0/0             stripcl
+19155     78692  977016      512624      7ffcb5cc3f30/0             copp
+19158     74008  0           2622728     7ffd3445b600/0             vtp
+19159    107544  0           4014748     7ffe64ae3cc0/0             vpc
+19160    103816  1038057     701452      7ffe3aa254d0/0             ufdm
+19161     71260  763344      422040      7ffca8c15450/0             u2
+19163     89240  10785339    3859308     7ffee0338980/0             sal
+19164     76936  10770763    3982024     7ffc68ac9270/0             ofm
+19165    223616  0           4260576     7fff80ee1bc0/0             mrib
+19166    171080  1970397     687176      7ffe3b312c00/0             mfdm
+19167     71148  761065      422352      7ffe81a826f0/0             mcm
+19168    223552  11432428    4235636     7ffdf56826e0/0             m6rib
+19169     75904  1021315     506868      7ffedff04370/0             l2pt
+19197    100084  1374587     532788      7ffc53eb98e0/0             interface-vlan
+19233     92616  1236528     443024      7ffdba3ac700/0             m2rib
+19355     20284  0           300332      7ffc66f06630/0             bloggerd
+19420      5916  0           289308      7ffe80b075c0/0             psshelper
+19421      5900  0           289292      7ffc2c1d3e40/0             psshelper
+19422    222720  0           507616      7ffed692dc90/0             plog_lc
+19423      1024  0           278576      7ffc6c0dec70/0             patch_installer
+19424       908  0           281084      7ffd1307b1d0/0             obfl_lc
+19425      1936  0           282660      7fffe6e59fb0/0             mvsh
+19426      4192  0           284980      7ffc5a6ff0a0/0             evmc
+19427    224140  0           514344      7fffe6e535b0/0             dt_helper
+19429    219344  0           506780      7ffd365f33f0/0             diagclient
+19431    217380  0           502940      7ffc9ca6eb40/0             crdcfg_server
+19436       984  0           281000      7ffcad54c300/0             capability
+19441    228524  0           586472      7ffef3740000/0             device_test
+19446    215708  0           501508      7ffe3d744ed0/0             crdclient
+19449    230120  0           519232      7ffe3704b250/0             dc3_sensor
+19450   1793856  0           2799168     7ffe23e0c4c0/0             tahusd
+19861       260  0           2636        7ffd67fec500/0             getty
+19916    122432  0           587008      7fff3b2fe3e0/0             nxpython3
+20787    120000  0           519168      7fff3b2fe3e0/0             nxpython3
+20788    120000  0           519168      7fff3b2fe3e0/0             nxpython3
+20789    120000  0           519168      7fff3b2fe3e0/0             nxpython3
+20908    264728  0           560912      7ffd5d18db30/0             bfdc
+20909    351164  0           659508      7ffc2357b490/0             iftmc
+20911    278192  0           578760      7ffd039634c0/0             pixc
+20912    245580  0           541032      7ffdfc91b7b0/0             port_client
+20913    286080  0           579144      7fff95667800/0             stats_client
+20914    225676  0           520764      7ffc19ace840/0             vntagc
+20915    227696  0           519300      7ffe57a3c780/0             zonelc
+20920    292188  0           591208      7fff0d793cb0/0             mtm
+20926    399552  0           725252      7ffdd7300540/0             ipfib
+20938    435816  0           773796      7ffc1b3d83e0/0             aclqos
+20939    234340  0           529312      7ffce9c650d0/0             fib
+20940    241988  0           540412      7ffe786270d0/0             ptplc
+20941    273236  0           565752      7ffcaf767510/0             tun_enc_lc
+20967    227088  0           522612      7ffd7a54d1b0/0             fcoelc
+20968    227628  0           524944      7ffe72fb2360/0             monc
+20969    234980  0           533276      7fffa86c2b60/0             nf
+20970    242752  0           535724      7ffe9b331b20/0             xbar_client
+21346       444  0           6976        7ffda7e6d810/0             sshd
+23467       772  0           13544       7ffc35341180/0             tamd_proc
+23518     49204  0           1254824     7fff2ec70bd0/0             nxos_dc
+25312   1053588  0           1580472     7ffed9539580/0             swtele
+
+All processes: MemAlloc = 24784056
+ID-PLZSF-ACsW-GMP-2905# show system reso
+Load average:   1 minute: 0.66   5 minutes: 0.63   15 minutes: 0.63
+Processes   :   728 total, 1 running
+CPU states  :   0.63% user,   2.27% kernel,   97.09% idle
+        CPU0 states  :   2.00% user,   7.00% kernel,   91.00% idle
+        CPU1 states  :   1.00% user,   1.00% kernel,   98.00% idle
+        CPU2 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU3 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU4 states  :   0.00% user,   4.00% kernel,   96.00% idle
+        CPU5 states  :   0.99% user,   0.99% kernel,   98.01% idle
+        CPU6 states  :   1.03% user,   1.03% kernel,   97.93% idle
+        CPU7 states  :   2.04% user,   5.10% kernel,   92.85% idle
+Memory usage:   24607580K total,   9225184K used,   15382396K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   77840K Used
+Kernel cached :   6221220K Used
+Current memory status: OK
+ID-PLZSF-ACsW-GMP-2905# 
+--- show env ---
+show env
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0x80
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-650W-PE        94 W               97 W       650 W      Ok
+2        NXA-PAC-650W-PE        98 W              104 W       650 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             650.00 W
+Total Grid-A (first half of PS slots) Power Capacity        650.00 W
+Total Grid-B (second half of PS slots) Power Capacity       650.00 W
+Total Power of all Inputs (cumulative)                     1300.00 W
+Total Power Output (actual draw)                            193.00 W
+Total Power Input (actual draw)                             202.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          31         Ok             
+1        BACK            70              42          29         Ok             
+1        CPU             90              80          38         Ok             
+1        Sugarbowl       100             90          51         Ok             
+ID-PLZSF-ACsW-GMP-2905# 
+--- show env all ---
+show env all
+                                 ^
+% Invalid command at '^' marker.
+ID-PLZSF-ACsW-GMP-2905#

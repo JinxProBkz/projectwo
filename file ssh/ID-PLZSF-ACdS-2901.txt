@@ -1,0 +1,1979 @@
+--- term le 0 ---
+ense (LGPL) Version 2.1 or 
+Lesser General Public License (LGPL) Version 2.0. 
+A copy of each such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://opensource.org/licenses/gpl-3.0.html and
+http://www.opensource.org/licenses/lgpl-2.1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+ID-PLZSF-ACdS-2901# term le 0
+ID-PLZSF-ACdS-2901# 
+--- show int status ---
+show int status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        ** Connected to ID connected trunk     full    40G     QSFP-100G40G-BIDI
+Eth1/2        ** Connected to ID connected trunk     full    40G     QSFP-100G40G-BIDI
+Eth1/3        ** Connected to ID connected trunk     full    40G     QSFP-100G40G-BIDI
+Eth1/4        ** Connected to ID connected trunk     full    40G     QSFP-100G40G-BIDI
+Eth1/5        ** Connected to ID connected trunk     full    100G    QSFP-100G40G-BIDI
+Eth1/6        ** Connected to ID connected trunk     full    100G    QSFP-100G40G-BIDI
+Eth1/7        --                 xcvrAbsen routed    auto    auto    --         
+Eth1/8        --                 xcvrAbsen routed    auto    auto    --         
+Eth1/9        --                 xcvrAbsen routed    auto    auto    --         
+Eth1/10       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/11       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/12       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/13       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/14       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/15       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/16       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/17       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/18       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/19       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/20       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/21       --                 disabled  routed    auto    auto    QSFP-40G-SR-BD
+Eth1/22       ** Connection_To_I connected trunk     full    10G     10Gbase-SR 
+Eth1/23       ** Connection_To_I connected trunk     full    10G     10Gbase-SR 
+Eth1/24       ** Connection to I connected trunk     full    100G    QSFP-100G40G-BIDI
+Eth1/25       ** Connection to I connected trunk     full    100G    QSFP-100G40G-BIDI
+Eth1/26       ** to ID-PLZSF-ACd connected routed    full    100G    QSFP-100G40G-BIDI
+Eth1/27       ** to ID-PLZCR-CRs connected routed    full    100G    QSFP-100G40G-BIDI
+Eth1/28       ** to ID-PLZCR-CRs connected routed    full    100G    QSFP-100G40G-BIDI
+Eth1/29       ** Connected to ID connected trunk     full    10G     10Gbase-SR 
+Eth1/30       ** Connected to ID connected trunk     full    10G     10Gbase-SR 
+Eth1/31       ** Connected to ID connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/32       ** Connected to ID connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/33       ** Connected to ID connected routed    full    1000    1000base-T 
+Eth1/34       ** Connected to ID connected routed    full    1000    1000base-T 
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Po10          ** Connection to I connected trunk     full    100G    --         
+Po12          ** Connected to ID connected trunk     full    10G     --         
+Po20          ** Connection to I noOperMem trunk     auto    auto    --         
+Po99          ** Connected to ID connected routed    full    1000    --         
+Po100         ** Connected to ID connected trunk     full    40G     --         
+Po140         ** Connection_L2_T connected trunk     full    10G     --         
+Po201         ** Connected to ID connected trunk     full    40G     --         
+Po202         ** Connected to ID connected trunk     full    40G     --         
+Po203         ** Connected to ID connected trunk     full    40G     --         
+Po204         ** Connected to ID connected trunk     full    40G     --         
+Po205         ** ** Connected to connected trunk     full    100G    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Lo1           --                 connected routed    auto    auto    --         
+Lo10          ** OSPF Router ID  connected routed    auto    auto    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Vlan1         --                 down      routed    auto    auto    --
+Vlan30        AS400T20-HMC       connected routed    auto    auto    --
+Vlan31        AS400T20-CLUST     connected routed    auto    auto    --
+Vlan38        Z13-Enterprise-LAN connected routed    auto    auto    --
+Vlan39        VAP/MIP_LAN        connected routed    auto    auto    --
+Vlan47        AS400P-HSM         connected routed    auto    auto    --
+Vlan64        NexusDashboard_Man connected routed    auto    auto    --
+Vlan65        NexusDashboard_Dat connected routed    auto    auto    --
+Vlan86        Z13-Mainframe-OSA- connected routed    auto    auto    --
+Vlan101       ** InterVLAN Routi down      routed    auto    auto    --
+Vlan155       XRM_Data_WEB_UAT   connected routed    auto    auto    --
+Vlan156       XRM_Data_APP       connected routed    auto    auto    --
+Vlan157       XRM_Data_APP_UAT   connected routed    auto    auto    --
+Vlan159       XRM_Data_DB_UAT    connected routed    auto    auto    --
+Vlan160       ETL-APP-DEV        connected routed    auto    auto    --
+Vlan161       ETL-DB-DEV         connected routed    auto    auto    --
+Vlan163       Data_App_Crit_Unix connected routed    auto    auto    --
+Vlan164       Data_DB_Unix_UAT   connected routed    auto    auto    --
+Vlan169       Data_Web_Crit_Unix connected routed    auto    auto    --
+Vlan201       LOCAL-UNIX-WEB-APP connected routed    auto    auto    --
+Vlan202       LOCAL-UNIX-APP     connected routed    auto    auto    --
+Vlan203       LOCAL-UNIX-DB      connected routed    auto    auto    --
+Vlan217       AS400_Incountry_En connected routed    auto    auto    --
+Vlan218       AS400_Incountry_En connected routed    auto    auto    --
+Vlan280       AS400_MQ           down      routed    auto    auto    --
+Vlan281       AS400_ATM          down      routed    auto    auto    --
+Vlan282       ** VLAN DEVICES CO connected routed    auto    auto    --
+Vlan283       *** VLAN SBC ***   down      routed    auto    auto    --
+Vlan286       ** InterVLAN Routi connected routed    auto    auto    --
+Vlan304       DATACENTER User_NO connected routed    auto    auto    --
+Vlan315       GMP_Database       connected routed    auto    auto    --
+Vlan336       *** Connected to a connected routed    auto    auto    --
+Vlan353       ** POC Active Dire connected routed    auto    auto    --
+Vlan361       ** NEW VLAN EX 10. connected routed    auto    auto    --
+Vlan362       ** new vlan ex 10. connected routed    auto    auto    --
+Vlan363       ** NEW VLAN EX 10. connected routed    auto    auto    --
+Vlan365       ** NEW VLAN for 10 connected routed    auto    auto    --
+Vlan366       ** FTP Server VLAN connected routed    auto    auto    --
+Vlan367       ** Anti Virus Serv connected routed    auto    auto    --
+Vlan368       NEW_VLAN_EX_10.99. connected routed    auto    auto    --
+Vlan370       NEW_VLAN_EX_10.225 connected routed    auto    auto    --
+Vlan371       NEW_VLAN_EX_10.225 connected routed    auto    auto    --
+Vlan372       ** NEW_VLAN_EX_10. connected routed    auto    auto    --
+Vlan373       NEW_VLAN_TEMP_10.1 connected routed    auto    auto    --
+Vlan374       ** NEW_VLAN_TEMP_1 connected routed    auto    auto    --
+Vlan375       ** UAT_HSM_Thales_ connected routed    auto    auto    --
+Vlan376       ** VLAN_for_Prod_H connected routed    auto    auto    --
+Vlan382       *** VLAN for HIPS  connected routed    auto    auto    --
+ID-PLZSF-ACdS-2901# 
+--- show int desc ---
+show int desc
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    40G     ** Connected to ID-PLZSF-ACSW-GMP-2903 **
+Eth1/2        eth    40G     ** Connected to ID-PLZSF-ACSW-GMP-2904 **
+Eth1/3        eth    40G     ** Connected to ID-PLZSF-ACSW-GMP-2905 **
+Eth1/4        eth    40G     ** Connected to ID-PLZSF-ACSW-GMP-2906 **
+Eth1/5        eth    100G    ** Connected to ID-PLZSF-ACsW-2907 **
+Eth1/6        eth    100G    ** Connected to ID-PLZSF-ACsW-2907 eth 1/49**
+Eth1/7        eth    100G    --
+Eth1/8        eth    100G    --
+Eth1/9        eth    100G    --
+Eth1/10       eth    100G    --
+Eth1/11       eth    100G    --
+Eth1/12       eth    100G    --
+Eth1/13       eth    100G    --
+Eth1/14       eth    100G    --
+Eth1/15       eth    100G    --
+Eth1/16       eth    100G    --
+Eth1/17       eth    100G    --
+Eth1/18       eth    100G    --
+Eth1/19       eth    100G    --
+Eth1/20       eth    100G    --
+Eth1/21       eth    40G     --
+Eth1/22       eth    10G     ** Connection_To_ID-DC-N5K-ACC-01 **
+Eth1/23       eth    10G     ** Connection_To_ID-DC-N5K-ACC-02 **
+Eth1/24       eth    100G    ** Connection to ID-PLZSF-LEsW-2914 **
+Eth1/25       eth    100G    ** Connection to ID-PLZSF-LEsW-2913 **
+Eth1/26       eth    100G    ** to ID-PLZSF-ACdS-2902 Eth1/26 **
+Eth1/27       eth    100G    ** to ID-PLZCR-CRsW-2901 Eth1/51 100G **
+Eth1/28       eth    100G    ** to ID-PLZCR-CRsW-2902 Eth1/51 100G **
+Eth1/29       eth    10G     ** Connected to ID-DC-N7K-DIST-01 **
+Eth1/30       eth    10G     ** Connected to ID-DC-N7K-DIST-02 **
+Eth1/31       eth    40G     ** Connected to ID-PLZSF-ACdS-2902 **
+Eth1/32       eth    40G     ** Connected to ID-PLZSF-ACdS-2902 **
+Eth1/33       eth    1000    ** Connected to ID-PLZSF-ACdS-2902 **
+Eth1/34       eth    1000    ** Connected to ID-PLZSF-ACdS-2902 **
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po10                     ** Connection to ID-PLZSF-LEsW-2913/2914 **
+Po12                     ** Connected to ID-DC-N7K-DIST-01/02 **
+Po20                     ** Connection to ID-PLZSF-ASsW-MISF-2901 **
+Po99                     ** Connected to ID-PLZSF-ACdS-2902 **
+Po100                    ** Connected to ID-PLZSF-ACdS-2902 **
+Po140                    ** Connection_L2_To_ID-DC-N5K-ACC **
+Po201                    ** Connected to ID-PLZSF-ACSW-GMP-2903 eth 1/51**
+Po202                    ** Connected to ID-PLZSF-ACSW-GMP-2904 eth 1/51**
+Po203                    ** Connected to ID-PLZSF-ACSW-GMP-2905 eth 1/51**
+Po204                    ** Connected to ID-PLZSF-ACSW-GMP-2906 eth 1/51**
+Po205                    ** ** Connected to ID-PLZSF-ACsW-2907  eth 1/49**
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Lo1                      --
+Lo10                     ** OSPF Router ID **
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan30                   AS400T20-HMC
+Vlan31                   AS400T20-CLUST
+Vlan38                   Z13-Enterprise-LAN
+Vlan39                   VAP/MIP_LAN
+Vlan47                   AS400P-HSM
+Vlan64                   NexusDashboard_Management
+Vlan65                   NexusDashboard_Data
+Vlan86                   Z13-Mainframe-OSA-CHPID-8
+Vlan101                  ** InterVLAN Routing for DR_SF_DEV_AS400 **
+Vlan155                  XRM_Data_WEB_UAT
+Vlan156                  XRM_Data_APP
+Vlan157                  XRM_Data_APP_UAT
+Vlan159                  XRM_Data_DB_UAT
+Vlan160                  ETL-APP-DEV
+Vlan161                  ETL-DB-DEV 
+Vlan163                  Data_App_Crit_Unix_UAT
+Vlan164                  Data_DB_Unix_UAT
+Vlan169                  Data_Web_Crit_Unix_UAT
+Vlan201                  LOCAL-UNIX-WEB-APP
+Vlan202                  LOCAL-UNIX-APP
+Vlan203                  LOCAL-UNIX-DB
+Vlan217                  AS400_Incountry_Enterprise_#2_BE_DR
+Vlan218                  AS400_Incountry_Enterprise_#2_FE_DR
+Vlan280                  AS400_MQ
+Vlan281                  AS400_ATM
+Vlan282                  ** VLAN DEVICES CONTACT CENTER **
+Vlan283                  *** VLAN SBC ***
+Vlan286                  ** InterVLAN Routing for REPL(MIMIX) **
+Vlan304                  DATACENTER User_NOC
+Vlan315                  GMP_Database
+Vlan336                  *** Connected to acs_VLAN ***
+Vlan353                  ** POC Active Directory **
+Vlan361                  ** NEW VLAN EX 10.1.1.0 **
+Vlan362                  ** new vlan ex 10.3.3.0 **
+Vlan363                  ** NEW VLAN EX 10.226.13.0 **
+Vlan365                  ** NEW VLAN for 10.226.252.x **
+Vlan366                  ** FTP Server VLAN **
+Vlan367                  ** Anti Virus Server VLAN **
+Vlan368                  NEW_VLAN_EX_10.99.1.X
+Vlan370                  NEW_VLAN_EX_10.225.37.X
+Vlan371                  NEW_VLAN_EX_10.225.38.X
+Vlan372                  ** NEW_VLAN_EX_10.225.252.X **
+Vlan373                  NEW_VLAN_TEMP_10.109.4.X
+Vlan374                  ** NEW_VLAN_TEMP_10.225.40.X **
+Vlan375                  ** UAT_HSM_Thales_And_Safenet_Luna **
+Vlan376                  ** VLAN_for_Prod_HSM Thales & Safenet Luna **
+Vlan382                  *** VLAN for HIPS Server ***
+ID-PLZSF-ACdS-2901# 
+--- show mac address-table ---
+show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan,
+        (NA)- Not Applicable
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
++   10     0000.0c07.ac0a   dynamic  NA         F      F    Po12
++   10     000c.2955.e8cd   dynamic  NA         F      F    Po12
++   10     000c.29c2.87fd   dynamic  NA         F      F    Po12
+*   10     24d5.e41b.1080   dynamic  NA         F      F    Po12
++   10     4880.024c.ac80   dynamic  NA         F      F    Po12
+*   10     5486.bc27.f25f   dynamic  NA         F      F    Po12
+*   10     5486.bce0.287f   dynamic  NA         F      F    Po12
++   10     6805.caf2.2246   dynamic  NA         F      F    Po12
++   10     80b7.091b.d6f0   dynamic  NA         F      F    Po12
++   10     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   10     8478.ac59.92c2   dynamic  NA         F      F    Po12
++   10     c0f8.7f93.9c80   dynamic  NA         F      F    Po12
++   10     d009.c8ad.2780   dynamic  NA         F      F    Po12
+*   10     ea83.7d00.01c1   dynamic  NA         F      F    Po12
++   11     0000.0c9f.f00b   dynamic  NA         F      F    Po12
++   11     10f9.20d1.8790   dynamic  NA         F      F    Po12
++   11     242a.048d.3100   dynamic  NA         F      F    Po12
++   11     24d5.e41b.0b80   dynamic  NA         F      F    Po12
++   11     24d5.e41b.3d80   dynamic  NA         F      F    Po12
++   11     482e.72a2.a380   dynamic  NA         F      F    Po12
+*   11     5049.2153.55c0   dynamic  NA         F      F    Po12
++   11     6413.ab91.6aec   dynamic  NA         F      F    Po12
++   11     6413.ab91.6afb   dynamic  NA         F      F    Po12
++   11     6a46.0f23.61df   dynamic  NA         F      F    Po12
++   11     7644.8dba.a035   dynamic  NA         F      F    Po12
++   11     7c31.0efd.7648   dynamic  NA         F      F    Po12
++   11     7c31.0efd.d0ac   dynamic  NA         F      F    Po12
++   11     7c31.0efd.f5a0   dynamic  NA         F      F    Po12
++   11     8027.6c0e.2280   dynamic  NA         F      F    Po12
++   11     8027.6cc5.fa00   dynamic  NA         F      F    Po12
++   11     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   11     86c2.c800.c806   dynamic  NA         F      F    Po12
++   11     984b.e100.a88c   dynamic  NA         F      F    Po12
++   11     9a82.1a8e.46d6   dynamic  NA         F      F    Po12
++   11     a488.735a.3cc8   dynamic  NA         F      F    Po12
++   11     c4e2.8754.8cd2   dynamic  NA         F      F    Po12
++   11     d4eb.6827.9780   dynamic  NA         F      F    Po12
++   11     e86d.e995.c718   dynamic  NA         F      F    Po12
++   11     e86d.e995.c743   dynamic  NA         F      F    Po12
++   11     ec01.d573.f52c   dynamic  NA         F      F    Po12
++   12     0000.0c9f.f00c   dynamic  NA         F      F    Po12
++   12     001d.ac39.16a2   dynamic  NA         F      F    Po12
++   12     0050.5686.832d   dynamic  NA         F      F    Po12
++   12     4880.024c.ac00   dynamic  NA         F      F    Po12
++   12     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   12     8478.ac59.92c2   dynamic  NA         F      F    Po12
++   12     a0bc.6fee.0980   dynamic  NA         F      F    Po12
++   12     a411.bbc0.a580   dynamic  NA         F      F    Po12
++   36     0000.0c9f.f024   dynamic  NA         F      F    Po12
++   36     0050.5686.52fd   dynamic  NA         F      F    Po12
++   36     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   62     0000.0c07.ac3e   dynamic  NA         F      F    Po12
++   62     0010.e070.71c4   dynamic  NA         F      F    Po12
++   62     0010.e070.7282   dynamic  NA         F      F    Po12
++   62     0010.e070.7fa2   dynamic  NA         F      F    Po12
++   62     0010.e070.87ea   dynamic  NA         F      F    Po12
++   62     0014.4ff8.8bf3   dynamic  NA         F      F    Po12
++   62     0014.4ff9.2956   dynamic  NA         F      F    Po12
++   62     0014.4ff9.5b76   dynamic  NA         F      F    Po12
++   62     0014.4ff9.a80f   dynamic  NA         F      F    Po12
++   62     0014.4ff9.fbc1   dynamic  NA         F      F    Po12
++   62     0014.4ffa.07cb   dynamic  NA         F      F    Po12
++   62     0014.4ffa.2217   dynamic  NA         F      F    Po12
++   62     0014.4ffa.8b04   dynamic  NA         F      F    Po12
++   62     0014.4ffa.e4da   dynamic  NA         F      F    Po12
++   62     0014.4ffb.a103   dynamic  NA         F      F    Po12
++   62     0014.4ffb.e8ea   dynamic  NA         F      F    Po12
++   62     0021.28e7.f87e   dynamic  NA         F      F    Po12
++   62     0021.28e7.fdec   dynamic  NA         F      F    Po12
++   62     0021.28e8.07a8   dynamic  NA         F      F    Po12
++   62     0021.28e8.0d26   dynamic  NA         F      F    Po12
++   62     0208.2008.392a   dynamic  NA         F      F    Po12
++   62     0208.2039.31af   dynamic  NA         F      F    Po12
++   62     0208.20af.6b8b   dynamic  NA         F      F    Po12
++   62     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   62     8478.ac59.92c2   dynamic  NA         F      F    Po12
++   63     0000.0c9f.f03f   dynamic  NA         F      F    Po12
++   63     7a37.3a57.a97b   dynamic  NA         F      F    Po12
++   63     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   70     0000.0c07.ac46   dynamic  NA         F      F    Po12
++   70     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   70     9418.827a.ac74   dynamic  NA         F      F    Po12
++   71     0000.0c07.ac47   dynamic  NA         F      F    Po12
++   71     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   91     0000.0c07.ac5b   dynamic  NA         F      F    Po12
++   91     0060.1693.952c   dynamic  NA         F      F    Po12
++   91     0060.1693.9ae5   dynamic  NA         F      F    Po12
++   91     0800.1bff.423c   dynamic  NA         F      F    Po12
++   91     0800.1bff.9275   dynamic  NA         F      F    Po12
++   91     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++   91     8478.ac59.92c2   dynamic  NA         F      F    Po12
++  155     0050.568c.1654   dynamic  NA         F      F    Po10
++  155     0050.568c.176c   dynamic  NA         F      F    Po140
++  155     0050.568c.1d6e   dynamic  NA         F      F    Po10
++  155     0050.568c.1f50   dynamic  NA         F      F    Po10
++  155     0050.568c.2020   dynamic  NA         F      F    Po10
++  155     0050.568c.299b   dynamic  NA         F      F    Po10
++  155     0050.568c.2e03   dynamic  NA         F      F    Po10
++  155     0050.568c.3411   dynamic  NA         F      F    Po10
++  155     0050.568c.358f   dynamic  NA         F      F    Po10
++  155     0050.568c.3eaf   dynamic  NA         F      F    Po140
++  155     0050.568c.44d8   dynamic  NA         F      F    Po10
++  155     0050.568c.466b   dynamic  NA         F      F    Po140
++  155     0050.568c.55e2   dynamic  NA         F      F    Po10
++  155     0050.568c.5a65   dynamic  NA         F      F    Po10
++  155     0050.568c.5d40   dynamic  NA         F      F    Po10
++  155     0050.568c.6b24   dynamic  NA         F      F    Po10
++  155     0050.568c.6e7f   dynamic  NA         F      F    Po10
++  155     0050.568c.75ab   dynamic  NA         F      F    Po10
++  155     0050.568c.7bea   dynamic  NA         F      F    Po10
++  155     0050.568c.7c14   dynamic  NA         F      F    Po10
++  155     0050.568c.7eb7   dynamic  NA         F      F    Po10
++  155     0050.568c.835c   dynamic  NA         F      F    Po10
++  155     0050.568c.83d3   dynamic  NA         F      F    Po10
++  155     0050.568c.8406   dynamic  NA         F      F    Po10
++  155     0050.568c.84fb   dynamic  NA         F      F    Po10
++  155     0050.568c.89f8   dynamic  NA         F      F    Po10
++  155     0050.568c.8a26   dynamic  NA         F      F    Po140
++  155     0050.568c.946e   dynamic  NA         F      F    Po10
++  155     0050.568c.9b40   dynamic  NA         F      F    Po140
++  155     0050.568c.a193   dynamic  NA         F      F    Po10
++  155     0050.568c.adaf   dynamic  NA         F      F    Po10
++  155     0050.568c.bde2   dynamic  NA         F      F    Po140
++  155     0050.568c.c253   dynamic  NA         F      F    Po140
++  155     0050.568c.c2de   dynamic  NA         F      F    Po10
++  155     0050.568c.c85b   dynamic  NA         F      F    Po10
++  155     0050.568c.cfe3   dynamic  NA         F      F    Po140
++  155     0050.568c.ddea   dynamic  NA         F      F    Po10
++  155     0050.568c.e8e1   dynamic  NA         F      F    Po10
++  155     0050.568c.ecfb   dynamic  NA         F      F    Po10
++  155     0050.568c.f58f   dynamic  NA         F      F    Po10
++  155     0050.568c.f8ba   dynamic  NA         F      F    Po140
++  155     14a9.d03d.000c   dynamic  NA         F      F    Po10
++  156     0050.5686.01f1   dynamic  NA         F      F    Po10
++  156     0050.5686.0fb6   dynamic  NA         F      F    Po10
++  156     0050.5686.0fba   dynamic  NA         F      F    Po10
++  156     0050.5686.107f   dynamic  NA         F      F    Po10
++  156     0050.5686.11f1   dynamic  NA         F      F    Po10
++  156     0050.5686.1301   dynamic  NA         F      F    Po10
++  156     0050.5686.1b0c   dynamic  NA         F      F    Po10
++  156     0050.5686.1b1a   dynamic  NA         F      F    Po10
++  156     0050.5686.1daf   dynamic  NA         F      F    Po10
++  156     0050.5686.1e49   dynamic  NA         F      F    Po10
++  156     0050.5686.2090   dynamic  NA         F      F    Po10
++  156     0050.5686.2516   dynamic  NA         F      F    Po10
++  156     0050.5686.2606   dynamic  NA         F      F    Po10
++  156     0050.5686.2877   dynamic  NA         F      F    Po10
++  156     0050.5686.2bb5   dynamic  NA         F      F    Po10
++  156     0050.5686.3f41   dynamic  NA         F      F    Po10
++  156     0050.5686.4063   dynamic  NA         F      F    Po10
++  156     0050.5686.548f   dynamic  NA         F      F    Po10
++  156     0050.5686.59d2   dynamic  NA         F      F    Po10
++  156     0050.5686.5ced   dynamic  NA         F      F    Po10
++  156     0050.5686.616a   dynamic  NA         F      F    Po10
++  156     0050.5686.630d   dynamic  NA         F      F    Po10
++  156     0050.5686.6379   dynamic  NA         F      F    Po10
++  156     0050.5686.670b   dynamic  NA         F      F    Po10
++  156     0050.5686.6a71   dynamic  NA         F      F    Po10
++  156     0050.5686.6b0f   dynamic  NA         F      F    Po10
++  156     0050.5686.750c   dynamic  NA         F      F    Po10
++  156     0050.5686.8047   dynamic  NA         F      F    Po10
++  156     0050.5686.8493   dynamic  NA         F      F    Po10
++  156     0050.5686.86da   dynamic  NA         F      F    Po10
++  156     0050.5686.8b68   dynamic  NA         F      F    Po10
++  156     0050.5686.9053   dynamic  NA         F      F    Po10
++  156     0050.5686.9122   dynamic  NA         F      F    Po10
++  156     0050.5686.9847   dynamic  NA         F      F    Po10
++  156     0050.5686.a43b   dynamic  NA         F      F    Po10
++  156     0050.5686.a80a   dynamic  NA         F      F    Po10
++  156     0050.5686.a9cc   dynamic  NA         F      F    Po10
++  156     0050.5686.ab6c   dynamic  NA         F      F    Po10
++  156     0050.5686.adc6   dynamic  NA         F      F    Po10
++  156     0050.5686.ae3b   dynamic  NA         F      F    Po10
++  156     0050.5686.ae86   dynamic  NA         F      F    Po10
++  156     0050.5686.b7a6   dynamic  NA         F      F    Po10
++  156     0050.5686.b8db   dynamic  NA         F      F    Po10
++  156     0050.5686.b956   dynamic  NA         F      F    Po10
++  156     0050.5686.bfc8   dynamic  NA         F      F    Po10
++  156     0050.5686.c00f   dynamic  NA         F      F    Po10
++  156     0050.5686.c88a   dynamic  NA         F      F    Po10
++  156     0050.5686.d0b0   dynamic  NA         F      F    Po10
++  156     0050.5686.d321   dynamic  NA         F      F    Po10
++  156     0050.5686.d67f   dynamic  NA         F      F    Po10
++  156     0050.5686.d6b6   dynamic  NA         F      F    Po10
++  156     0050.5686.d768   dynamic  NA         F      F    Po10
++  156     0050.5686.e0bd   dynamic  NA         F      F    Po10
++  156     0050.5686.e427   dynamic  NA         F      F    Po10
++  156     0050.5686.e4c4   dynamic  NA         F      F    Po10
++  156     0050.5686.e9c9   dynamic  NA         F      F    Po10
++  156     0050.5686.eb01   dynamic  NA         F      F    Po10
++  156     0050.5686.f033   dynamic  NA         F      F    Po10
++  156     0050.5686.f117   dynamic  NA         F      F    Po10
++  156     0050.5686.f24c   dynamic  NA         F      F    Po10
++  156     0050.5686.f4be   dynamic  NA         F      F    Po10
++  156     0050.5686.f53a   dynamic  NA         F      F    Po10
++  156     0050.5686.f5c7   dynamic  NA         F      F    Po10
++  156     0050.5686.f6ba   dynamic  NA         F      F    Po10
++  156     0050.5686.fb34   dynamic  NA         F      F    Po10
++  156     0050.5686.fbe8   dynamic  NA         F      F    Po10
++  156     0050.5686.fc80   dynamic  NA         F      F    Po10
++  156     0050.5686.fd3d   dynamic  NA         F      F    Po10
++  156     0050.5686.fe01   dynamic  NA         F      F    Po10
++  157     0050.568c.00ba   dynamic  NA         F      F    Po10
++  157     0050.568c.00f8   dynamic  NA         F      F    Po10
++  157     0050.568c.0234   dynamic  NA         F      F    Po10
++  157     0050.568c.0e07   dynamic  NA         F      F    Po10
++  157     0050.568c.0f21   dynamic  NA         F      F    Po10
++  157     0050.568c.10b5   dynamic  NA         F      F    Po10
++  157     0050.568c.143a   dynamic  NA         F      F    Po10
++  157     0050.568c.1556   dynamic  NA         F      F    Po10
++  157     0050.568c.1665   dynamic  NA         F      F    Po140
++  157     0050.568c.16c2   dynamic  NA         F      F    Po140
++  157     0050.568c.1761   dynamic  NA         F      F    Po140
++  157     0050.568c.1795   dynamic  NA         F      F    Po10
++  157     0050.568c.1849   dynamic  NA         F      F    Po10
++  157     0050.568c.1b1d   dynamic  NA         F      F    Po10
++  157     0050.568c.1c79   dynamic  NA         F      F    Po140
++  157     0050.568c.1c8a   dynamic  NA         F      F    Po10
++  157     0050.568c.1d83   dynamic  NA         F      F    Po10
++  157     0050.568c.1dd9   dynamic  NA         F      F    Po140
++  157     0050.568c.1ddc   dynamic  NA         F      F    Po10
++  157     0050.568c.1f31   dynamic  NA         F      F    Po10
++  157     0050.568c.1f41   dynamic  NA         F      F    Po10
++  157     0050.568c.1fca   dynamic  NA         F      F    Po10
++  157     0050.568c.202b   dynamic  NA         F      F    Po10
++  157     0050.568c.2273   dynamic  NA         F      F    Po10
++  157     0050.568c.22ba   dynamic  NA         F      F    Po10
++  157     0050.568c.22f6   dynamic  NA         F      F    Po10
++  157     0050.568c.2428   dynamic  NA         F      F    Po10
++  157     0050.568c.2710   dynamic  NA         F      F    Po10
++  157     0050.568c.27dd   dynamic  NA         F      F    Po10
++  157     0050.568c.2b0e   dynamic  NA         F      F    Po10
++  157     0050.568c.2d94   dynamic  NA         F      F    Po10
++  157     0050.568c.3167   dynamic  NA         F      F    Po10
++  157     0050.568c.32e0   dynamic  NA         F      F    Po10
++  157     0050.568c.32fd   dynamic  NA         F      F    Po140
++  157     0050.568c.3444   dynamic  NA         F      F    Po10
++  157     0050.568c.3468   dynamic  NA         F      F    Po10
++  157     0050.568c.36c5   dynamic  NA         F      F    Po10
++  157     0050.568c.376b   dynamic  NA         F      F    Po140
++  157     0050.568c.37b9   dynamic  NA         F      F    Po10
++  157     0050.568c.3834   dynamic  NA         F      F    Po10
++  157     0050.568c.399a   dynamic  NA         F      F    Po10
++  157     0050.568c.39c8   dynamic  NA         F      F    Po10
++  157     0050.568c.39ef   dynamic  NA         F      F    Po10
++  157     0050.568c.3bdd   dynamic  NA         F      F    Po140
++  157     0050.568c.4291   dynamic  NA         F      F    Po10
++  157     0050.568c.42cd   dynamic  NA         F      F    Po140
++  157     0050.568c.4924   dynamic  NA         F      F    Po140
++  157     0050.568c.4aec   dynamic  NA         F      F    Po10
++  157     0050.568c.4f8d   dynamic  NA         F      F    Po140
++  157     0050.568c.5008   dynamic  NA         F      F    Po10
++  157     0050.568c.50e0   dynamic  NA         F      F    Po10
++  157     0050.568c.5605   dynamic  NA         F      F    Po10
++  157     0050.568c.56ce   dynamic  NA         F      F    Po10
++  157     0050.568c.5835   dynamic  NA         F      F    Po10
++  157     0050.568c.59b5   dynamic  NA         F      F    Po10
++  157     0050.568c.59d9   dynamic  NA         F      F    Po10
++  157     0050.568c.59df   dynamic  NA         F      F    Po10
++  157     0050.568c.5bd0   dynamic  NA         F      F    Po10
++  157     0050.568c.5bf1   dynamic  NA         F      F    Po10
++  157     0050.568c.5e68   dynamic  NA         F      F    Po140
++  157     0050.568c.5e83   dynamic  NA         F      F    Po10
+*  157     0050.568c.5ec5   dynamic  NA         F      F    Po140
++  157     0050.568c.5ef3   dynamic  NA         F      F    Po10
++  157     0050.568c.5f02   dynamic  NA         F      F    Po10
++  157     0050.568c.5f78   dynamic  NA         F      F    Po10
++  157     0050.568c.5f9a   dynamic  NA         F      F    Po10
++  157     0050.568c.603f   dynamic  NA         F      F    Po10
++  157     0050.568c.6075   dynamic  NA         F      F    Po10
++  157     0050.568c.66e9   dynamic  NA         F      F    Po10
++  157     0050.568c.6929   dynamic  NA         F      F    Po10
++  157     0050.568c.6a37   dynamic  NA         F      F    Po10
++  157     0050.568c.6b45   dynamic  NA         F      F    Po10
++  157     0050.568c.6d62   dynamic  NA         F      F    Po10
++  157     0050.568c.6e04   dynamic  NA         F      F    Po140
++  157     0050.568c.6f78   dynamic  NA         F      F    Po10
++  157     0050.568c.701d   dynamic  NA         F      F    Po10
++  157     0050.568c.714a   dynamic  NA         F      F    Po10
++  157     0050.568c.7210   dynamic  NA         F      F    Po10
++  157     0050.568c.7230   dynamic  NA         F      F    Po10
++  157     0050.568c.723c   dynamic  NA         F      F    Po140
++  157     0050.568c.726f   dynamic  NA         F      F    Po10
++  157     0050.568c.7577   dynamic  NA         F      F    Po140
++  157     0050.568c.761f   dynamic  NA         F      F    Po140
++  157     0050.568c.7919   dynamic  NA         F      F    Po10
++  157     0050.568c.792d   dynamic  NA         F      F    Po10
++  157     0050.568c.7c0f   dynamic  NA         F      F    Po10
++  157     0050.568c.7c91   dynamic  NA         F      F    Po10
++  157     0050.568c.7dcc   dynamic  NA         F      F    Po10
++  157     0050.568c.80de   dynamic  NA         F      F    Po10
++  157     0050.568c.8193   dynamic  NA         F      F    Po10
++  157     0050.568c.83e5   dynamic  NA         F      F    Po10
++  157     0050.568c.8a0d   dynamic  NA         F      F    Po10
++  157     0050.568c.8a39   dynamic  NA         F      F    Po10
++  157     0050.568c.8b94   dynamic  NA         F      F    Po10
++  157     0050.568c.8cdf   dynamic  NA         F      F    Po140
++  157     0050.568c.9428   dynamic  NA         F      F    Po10
++  157     0050.568c.9595   dynamic  NA         F      F    Po10
++  157     0050.568c.9664   dynamic  NA         F      F    Po10
++  157     0050.568c.9893   dynamic  NA         F      F    Po10
++  157     0050.568c.99e7   dynamic  NA         F      F    Po10
++  157     0050.568c.9b7f   dynamic  NA         F      F    Po10
++  157     0050.568c.9d77   dynamic  NA         F      F    Po10
++  157     0050.568c.9df9   dynamic  NA         F      F    Po10
++  157     0050.568c.9e2f   dynamic  NA         F      F    Po10
++  157     0050.568c.9eee   dynamic  NA         F      F    Po10
++  157     0050.568c.9fb0   dynamic  NA         F      F    Po10
++  157     0050.568c.a13f   dynamic  NA         F      F    Po10
++  157     0050.568c.a1fd   dynamic  NA         F      F    Po10
+*  157     0050.568c.a202   dynamic  NA         F      F    Po140
++  157     0050.568c.a204   dynamic  NA         F      F    Po10
++  157     0050.568c.a2aa   dynamic  NA         F      F    Po10
++  157     0050.568c.a309   dynamic  NA         F      F    Po10
++  157     0050.568c.a349   dynamic  NA         F      F    Po10
++  157     0050.568c.a5a0   dynamic  NA         F      F    Po10
++  157     0050.568c.a6df   dynamic  NA         F      F    Po140
++  157     0050.568c.a783   dynamic  NA         F      F    Po10
++  157     0050.568c.a84f   dynamic  NA         F      F    Po10
++  157     0050.568c.a935   dynamic  NA         F      F    Po10
++  157     0050.568c.a9d7   dynamic  NA         F      F    Po140
++  157     0050.568c.ad65   dynamic  NA         F      F    Po140
++  157     0050.568c.aea7   dynamic  NA         F      F    Po10
++  157     0050.568c.aeab   dynamic  NA         F      F    Po10
++  157     0050.568c.b528   dynamic  NA         F      F    Po10
++  157     0050.568c.b631   dynamic  NA         F      F    Po10
++  157     0050.568c.b67b   dynamic  NA         F      F    Po10
++  157     0050.568c.b6c9   dynamic  NA         F      F    Po10
++  157     0050.568c.b889   dynamic  NA         F      F    Po10
++  157     0050.568c.b957   dynamic  NA         F      F    Po10
++  157     0050.568c.ba97   dynamic  NA         F      F    Po140
++  157     0050.568c.bdda   dynamic  NA         F      F    Po10
++  157     0050.568c.bf68   dynamic  NA         F      F    Po10
++  157     0050.568c.bf85   dynamic  NA         F      F    Po10
++  157     0050.568c.c066   dynamic  NA         F      F    Po10
++  157     0050.568c.c251   dynamic  NA         F      F    Po10
++  157     0050.568c.c2ac   dynamic  NA         F      F    Po10
++  157     0050.568c.c6fd   dynamic  NA         F      F    Po10
++  157     0050.568c.c829   dynamic  NA         F      F    Po10
++  157     0050.568c.c859   dynamic  NA         F      F    Po10
++  157     0050.568c.c9d9   dynamic  NA         F      F    Po10
++  157     0050.568c.cbfb   dynamic  NA         F      F    Po140
++  157     0050.568c.cc8f   dynamic  NA         F      F    Po140
++  157     0050.568c.cf28   dynamic  NA         F      F    Po10
++  157     0050.568c.d068   dynamic  NA         F      F    Po10
++  157     0050.568c.d129   dynamic  NA         F      F    Po10
++  157     0050.568c.d207   dynamic  NA         F      F    Po10
++  157     0050.568c.d32d   dynamic  NA         F      F    Po10
++  157     0050.568c.d3d6   dynamic  NA         F      F    Po140
++  157     0050.568c.de75   dynamic  NA         F      F    Po10
+*  157     0050.568c.df91   dynamic  NA         F      F    Po10
++  157     0050.568c.dfa7   dynamic  NA         F      F    Po10
++  157     0050.568c.dfbf   dynamic  NA         F      F    Po10
++  157     0050.568c.dfc3   dynamic  NA         F      F    Po10
++  157     0050.568c.e030   dynamic  NA         F      F    Po10
++  157     0050.568c.e156   dynamic  NA         F      F    Po140
++  157     0050.568c.e1aa   dynamic  NA         F      F    Po140
++  157     0050.568c.e352   dynamic  NA         F      F    Po10
++  157     0050.568c.e396   dynamic  NA         F      F    Po10
++  157     0050.568c.e3cb   dynamic  NA         F      F    Po10
++  157     0050.568c.e6bb   dynamic  NA         F      F    Po10
++  157     0050.568c.e6f1   dynamic  NA         F      F    Po10
++  157     0050.568c.e6f3   dynamic  NA         F      F    Po10
++  157     0050.568c.e968   dynamic  NA         F      F    Po10
++  157     0050.568c.e9d8   dynamic  NA         F      F    Po10
++  157     0050.568c.eabf   dynamic  NA         F      F    Po140
++  157     0050.568c.ec7c   dynamic  NA         F      F    Po10
++  157     0050.568c.ef03   dynamic  NA         F      F    Po10
++  157     0050.568c.efcc   dynamic  NA         F      F    Po10
++  157     0050.568c.f18f   dynamic  NA         F      F    Po10
++  157     0050.568c.f25d   dynamic  NA         F      F    Po10
++  157     0050.568c.f284   dynamic  NA         F      F    Po10
++  157     0050.568c.f363   dynamic  NA         F      F    Po10
++  157     0050.568c.f56b   dynamic  NA         F      F    Po10
++  157     0050.568c.f5ed   dynamic  NA         F      F    Po10
+*  157     0050.568c.f607   dynamic  NA         F      F    Po140
++  157     0050.568c.f78f   dynamic  NA         F      F    Po10
++  157     0050.568c.f7f5   dynamic  NA         F      F    Po140
++  157     0050.568c.f83d   dynamic  NA         F      F    Po140
++  157     0050.568c.f9b6   dynamic  NA         F      F    Po10
++  157     0050.568c.fa71   dynamic  NA         F      F    Po10
+*  157     0050.568c.fb7e   dynamic  NA         F      F    Po140
++  157     0050.568c.fd37   dynamic  NA         F      F    Po10
++  157     0050.568c.fdac   dynamic  NA         F      F    Po10
++  157     0050.568c.fe01   dynamic  NA         F      F    Po10
++  159     0050.568c.0623   dynamic  NA         F      F    Po10
++  159     0050.568c.0734   dynamic  NA         F      F    Po10
++  159     0050.568c.0811   dynamic  NA         F      F    Po10
++  159     0050.568c.0de3   dynamic  NA         F      F    Po10
++  159     0050.568c.1080   dynamic  NA         F      F    Po10
++  159     0050.568c.179e   dynamic  NA         F      F    Po10
++  159     0050.568c.2056   dynamic  NA         F      F    Po10
++  159     0050.568c.2dbd   dynamic  NA         F      F    Po10
++  159     0050.568c.2ed2   dynamic  NA         F      F    Po10
++  159     0050.568c.34f8   dynamic  NA         F      F    Po10
++  159     0050.568c.368d   dynamic  NA         F      F    Po10
++  159     0050.568c.3bdb   dynamic  NA         F      F    Po10
++  159     0050.568c.3bf2   dynamic  NA         F      F    Po10
++  159     0050.568c.44c0   dynamic  NA         F      F    Po10
++  159     0050.568c.47ff   dynamic  NA         F      F    Po10
++  159     0050.568c.48b6   dynamic  NA         F      F    Po10
++  159     0050.568c.4c72   dynamic  NA         F      F    Po10
++  159     0050.568c.528d   dynamic  NA         F      F    Po10
++  159     0050.568c.5638   dynamic  NA         F      F    Po10
++  159     0050.568c.5aa3   dynamic  NA         F      F    Po10
++  159     0050.568c.5d27   dynamic  NA         F      F    Po10
++  159     0050.568c.5f7e   dynamic  NA         F      F    Po10
++  159     0050.568c.5fba   dynamic  NA         F      F    Po10
++  159     0050.568c.638d   dynamic  NA         F      F    Po10
++  159     0050.568c.673a   dynamic  NA         F      F    Po10
++  159     0050.568c.6984   dynamic  NA         F      F    Po10
++  159     0050.568c.6c19   dynamic  NA         F      F    Po10
++  159     0050.568c.6d5a   dynamic  NA         F      F    Po10
++  159     0050.568c.723b   dynamic  NA         F      F    Po10
++  159     0050.568c.79c4   dynamic  NA         F      F    Po10
++  159     0050.568c.7bb5   dynamic  NA         F      F    Po10
++  159     0050.568c.82ce   dynamic  NA         F      F    Po10
++  159     0050.568c.8949   dynamic  NA         F      F    Po10
++  159     0050.568c.9128   dynamic  NA         F      F    Po10
++  159     0050.568c.9c23   dynamic  NA         F      F    Po10
++  159     0050.568c.a590   dynamic  NA         F      F    Po10
++  159     0050.568c.a9e1   dynamic  NA         F      F    Po10
++  159     0050.568c.ac57   dynamic  NA         F      F    Po10
++  159     0050.568c.b1dd   dynamic  NA         F      F    Po10
++  159     0050.568c.b7e5   dynamic  NA         F      F    Po10
++  159     0050.568c.bb14   dynamic  NA         F      F    Po10
++  159     0050.568c.bbef   dynamic  NA         F      F    Po10
++  159     0050.568c.d260   dynamic  NA         F      F    Po10
++  159     0050.568c.d283   dynamic  NA         F      F    Po10
++  159     0050.568c.da5d   dynamic  NA         F      F    Po10
++  159     0050.568c.db36   dynamic  NA         F      F    Po10
++  159     0050.568c.e08a   dynamic  NA         F      F    Po10
++  159     0050.568c.e14a   dynamic  NA         F      F    Po10
++  159     0050.568c.e60f   dynamic  NA         F      F    Po10
++  159     0050.568c.e644   dynamic  NA         F      F    Po10
++  159     0050.568c.eef0   dynamic  NA         F      F    Po10
++  159     0050.568c.ef1e   dynamic  NA         F      F    Po10
++  159     0050.568c.ef81   dynamic  NA         F      F    Po10
++  159     0050.568c.f257   dynamic  NA         F      F    Po10
++  159     0050.568c.f50f   dynamic  NA         F      F    Po10
++  159     0050.568c.f6ce   dynamic  NA         F      F    Po10
++  159     0050.568c.fa82   dynamic  NA         F      F    Po10
++  159     0050.568c.fc9e   dynamic  NA         F      F    Po10
++  163     0014.4ff8.577f   dynamic  NA         F      F    Po140
++  163     0014.4ff8.c7b3   dynamic  NA         F      F    Po10
++  163     0014.4ff8.d9b4   dynamic  NA         F      F    Po10
++  163     0014.4ff9.1697   dynamic  NA         F      F    Po140
++  163     0014.4ff9.fd66   dynamic  NA         F      F    Po10
++  163     0014.4ffa.a9e6   dynamic  NA         F      F    Po140
++  163     0014.4ffb.3f05   dynamic  NA         F      F    Po10
++  163     0014.4ffb.b643   dynamic  NA         F      F    Po140
++  163     0014.4ffb.d32f   dynamic  NA         F      F    Po10
++  163     0208.2000.6c85   dynamic  NA         F      F    Po140
++  163     4260.b02b.e2b9   dynamic  NA         F      F    Po203
++  163     4260.bc77.c2b9   dynamic  NA         F      F    Po203
++  163     7a37.3d9a.cd18   dynamic  NA         F      F    Po140
++  163     f2d4.2bad.5018   dynamic  NA         F      F    Po140
++  164     0014.4ff9.155f   dynamic  NA         F      F    Po140
++  164     0014.4ff9.2f31   dynamic  NA         F      F    Po140
++  164     0014.4ff9.cf6b   dynamic  NA         F      F    Po140
++  164     0014.4ffa.4d54   dynamic  NA         F      F    Po140
++  164     0014.4ffa.e6ee   dynamic  NA         F      F    Po140
++  164     0050.568c.02f2   dynamic  NA         F      F    Po140
++  164     0050.568c.054e   dynamic  NA         F      F    Po10
++  164     0050.568c.0861   dynamic  NA         F      F    Po140
++  164     0050.568c.0bb8   dynamic  NA         F      F    Po10
++  164     0050.568c.0cbb   dynamic  NA         F      F    Po140
++  164     0050.568c.11e3   dynamic  NA         F      F    Po10
++  164     0050.568c.11eb   dynamic  NA         F      F    Po140
++  164     0050.568c.125f   dynamic  NA         F      F    Po140
++  164     0050.568c.13c0   dynamic  NA         F      F    Po10
++  164     0050.568c.14c3   dynamic  NA         F      F    Po140
++  164     0050.568c.156f   dynamic  NA         F      F    Po10
++  164     0050.568c.1685   dynamic  NA         F      F    Po10
++  164     0050.568c.1a4f   dynamic  NA         F      F    Po10
++  164     0050.568c.2249   dynamic  NA         F      F    Po10
++  164     0050.568c.2272   dynamic  NA         F      F    Po140
++  164     0050.568c.2c00   dynamic  NA         F      F    Po10
++  164     0050.568c.2cde   dynamic  NA         F      F    Po10
++  164     0050.568c.2da0   dynamic  NA         F      F    Po10
++  164     0050.568c.2f8f   dynamic  NA         F      F    Po10
++  164     0050.568c.3200   dynamic  NA         F      F    Po10
++  164     0050.568c.384e   dynamic  NA         F      F    Po10
++  164     0050.568c.41c8   dynamic  NA         F      F    Po140
++  164     0050.568c.41cd   dynamic  NA         F      F    Po10
++  164     0050.568c.4337   dynamic  NA         F      F    Po10
++  164     0050.568c.4a37   dynamic  NA         F      F    Po140
++  164     0050.568c.4e35   dynamic  NA         F      F    Po10
++  164     0050.568c.512e   dynamic  NA         F      F    Po10
++  164     0050.568c.54c1   dynamic  NA         F      F    Po140
++  164     0050.568c.55e6   dynamic  NA         F      F    Po140
++  164     0050.568c.5680   dynamic  NA         F      F    Po140
++  164     0050.568c.5ec7   dynamic  NA         F      F    Po10
++  164     0050.568c.5fc8   dynamic  NA         F      F    Po10
++  164     0050.568c.608d   dynamic  NA         F      F    Po10
++  164     0050.568c.62ea   dynamic  NA         F      F    Po10
++  164     0050.568c.65ae   dynamic  NA         F      F    Po140
++  164     0050.568c.671b   dynamic  NA         F      F    Po10
++  164     0050.568c.6aa7   dynamic  NA         F      F    Po10
++  164     0050.568c.6aee   dynamic  NA         F      F    Po10
++  164     0050.568c.6b34   dynamic  NA         F      F    Po140
++  164     0050.568c.6cbc   dynamic  NA         F      F    Po10
++  164     0050.568c.7000   dynamic  NA         F      F    Po140
++  164     0050.568c.7564   dynamic  NA         F      F    Po10
++  164     0050.568c.7653   dynamic  NA         F      F    Po140
++  164     0050.568c.80bb   dynamic  NA         F      F    Po10
++  164     0050.568c.8484   dynamic  NA         F      F    Po140
++  164     0050.568c.8589   dynamic  NA         F      F    Po10
++  164     0050.568c.85bf   dynamic  NA         F      F    Po140
++  164     0050.568c.8db3   dynamic  NA         F      F    Po10
++  164     0050.568c.8ebb   dynamic  NA         F      F    Po140
++  164     0050.568c.8f7d   dynamic  NA         F      F    Po140
++  164     0050.568c.962b   dynamic  NA         F      F    Po10
++  164     0050.568c.996c   dynamic  NA         F      F    Po140
++  164     0050.568c.9999   dynamic  NA         F      F    Po10
++  164     0050.568c.9a3b   dynamic  NA         F      F    Po10
++  164     0050.568c.9c91   dynamic  NA         F      F    Po140
++  164     0050.568c.9c92   dynamic  NA         F      F    Po140
++  164     0050.568c.9c9b   dynamic  NA         F      F    Po140
++  164     0050.568c.9ca5   dynamic  NA         F      F    Po140
++  164     0050.568c.9d97   dynamic  NA         F      F    Po140
++  164     0050.568c.9e51   dynamic  NA         F      F    Po140
++  164     0050.568c.9f59   dynamic  NA         F      F    Po10
++  164     0050.568c.a321   dynamic  NA         F      F    Po140
++  164     0050.568c.a666   dynamic  NA         F      F    Po140
++  164     0050.568c.a90c   dynamic  NA         F      F    Po10
++  164     0050.568c.aaef   dynamic  NA         F      F    Po140
++  164     0050.568c.ac34   dynamic  NA         F      F    Po10
++  164     0050.568c.adf2   dynamic  NA         F      F    Po140
++  164     0050.568c.b96b   dynamic  NA         F      F    Po10
++  164     0050.568c.bbfa   dynamic  NA         F      F    Po140
++  164     0050.568c.bdb9   dynamic  NA         F      F    Po140
++  164     0050.568c.bf1a   dynamic  NA         F      F    Po140
++  164     0050.568c.c30a   dynamic  NA         F      F    Po140
++  164     0050.568c.c480   dynamic  NA         F      F    Po140
++  164     0050.568c.c768   dynamic  NA         F      F    Po10
++  164     0050.568c.c831   dynamic  NA         F      F    Po10
++  164     0050.568c.ca10   dynamic  NA         F      F    Po140
++  164     0050.568c.ce37   dynamic  NA         F      F    Po140
++  164     0050.568c.cee3   dynamic  NA         F      F    Po10
++  164     0050.568c.cf2f   dynamic  NA         F      F    Po10
++  164     0050.568c.d08b   dynamic  NA         F      F    Po140
++  164     0050.568c.d1e8   dynamic  NA         F      F    Po10
++  164     0050.568c.d23c   dynamic  NA         F      F    Po140
++  164     0050.568c.d327   dynamic  NA         F      F    Po10
++  164     0050.568c.d688   dynamic  NA         F      F    Po10
++  164     0050.568c.d6c3   dynamic  NA         F      F    Po10
++  164     0050.568c.d9be   dynamic  NA         F      F    Po140
++  164     0050.568c.de78   dynamic  NA         F      F    Po10
++  164     0050.568c.de9c   dynamic  NA         F      F    Po140
++  164     0050.568c.e2a8   dynamic  NA         F      F    Po10
++  164     0050.568c.e3f3   dynamic  NA         F      F    Po10
++  164     0050.568c.e611   dynamic  NA         F      F    Po140
++  164     0050.568c.e785   dynamic  NA         F      F    Po140
++  164     0050.568c.e979   dynamic  NA         F      F    Po140
++  164     0050.568c.eb3e   dynamic  NA         F      F    Po10
++  164     0050.568c.ec12   dynamic  NA         F      F    Po140
++  164     0050.568c.ec19   dynamic  NA         F      F    Po10
++  164     0050.568c.f208   dynamic  NA         F      F    Po140
++  164     0050.568c.f213   dynamic  NA         F      F    Po140
++  164     0050.568c.f64a   dynamic  NA         F      F    Po10
++  164     0050.568c.f706   dynamic  NA         F      F    Po140
++  164     0050.568c.f777   dynamic  NA         F      F    Po10
++  164     0050.568c.f891   dynamic  NA         F      F    Po140
++  164     0050.568c.fa95   dynamic  NA         F      F    Po140
++  164     0050.568c.fb3f   dynamic  NA         F      F    Po140
++  164     0050.568c.fdcc   dynamic  NA         F      F    Po10
++  164     0050.568c.ffd7   dynamic  NA         F      F    Po10
++  164     7a37.3291.c319   dynamic  NA         F      F    Po140
++  164     c274.133b.cab9   dynamic  NA         F      F    Po203
++  164     c274.153f.2ab9   dynamic  NA         F      F    Po203
++  164     f2d4.27c1.e119   dynamic  NA         F      F    Po140
++  167     0000.0c07.aca7   dynamic  NA         F      F    Po12
++  167     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++  167     8478.ac59.92c2   dynamic  NA         F      F    Po12
++  169     7a37.352f.9617   dynamic  NA         F      F    Po140
++  169     f2d4.2de5.5e17   dynamic  NA         F      F    Po140
++  186     0000.0c07.acba   dynamic  NA         F      F    Po12
+*  186     000c.2984.7dbd   dynamic  NA         F      F    Po12
+*  186     000c.29b5.57a6   dynamic  NA         F      F    Po12
++  186     0894.ef81.abba   dynamic  NA         F      F    Po12
+*  186     0894.ef82.bd90   dynamic  NA         F      F    Po12
+*  186     0894.ef82.bd92   dynamic  NA         F      F    Po12
++  186     0894.ef82.bd93   dynamic  NA         F      F    Po12
++  186     08f1.ea96.acae   dynamic  NA         F      F    Po12
+*  186     08f1.ea98.9e36   dynamic  NA         F      F    Po12
+*  186     08f1.eaf6.f8d8   dynamic  NA         F      F    Po12
++  186     5480.2850.813a   dynamic  NA         F      F    Po12
+*  186     5480.2850.8d4c   dynamic  NA         F      F    Po12
+*  186     5480.2851.311c   dynamic  NA         F      F    Po12
++  186     5480.2851.4820   dynamic  NA         F      F    Po12
++  186     5480.2851.693c   dynamic  NA         F      F    Po12
++  186     5480.2856.9cdc   dynamic  NA         F      F    Po12
+*  186     5480.2856.ba9a   dynamic  NA         F      F    Po12
+*  186     5cba.2c24.d548   dynamic  NA         F      F    Po12
+*  186     5cba.2c25.86cc   dynamic  NA         F      F    Po12
++  186     5cba.2c2b.92f4   dynamic  NA         F      F    Po12
+*  186     5ced.8c2a.0c5a   dynamic  NA         F      F    Po12
+*  186     5ced.8c2a.1c2c   dynamic  NA         F      F    Po12
++  186     5ced.8c2a.1c8a   dynamic  NA         F      F    Po12
++  186     5ced.8c2a.8d6c   dynamic  NA         F      F    Po12
+*  186     5ced.8c2a.a930   dynamic  NA         F      F    Po12
+*  186     5ced.8c2a.fb52   dynamic  NA         F      F    Po12
++  186     5ced.8c2a.fbde   dynamic  NA         F      F    Po12
++  186     5ced.8c35.cfb6   dynamic  NA         F      F    Po12
+*  186     5ced.8c35.fcb8   dynamic  NA         F      F    Po12
+*  186     5ced.8c36.d01e   dynamic  NA         F      F    Po12
++  186     5ced.8c36.d04c   dynamic  NA         F      F    Po12
++  186     5ced.8c36.d092   dynamic  NA         F      F    Po12
+*  186     5ced.8c36.d094   dynamic  NA         F      F    Po12
+*  186     5ced.8c36.e014   dynamic  NA         F      F    Po12
+*  186     5ced.8c36.e0ca   dynamic  NA         F      F    Po12
+*  186     5ced.8cac.0836   dynamic  NA         F      F    Po12
++  186     5ced.8cac.ff4c   dynamic  NA         F      F    Po12
+*  186     5ced.8cc3.8f50   dynamic  NA         F      F    Po12
++  186     5ced.8cc3.8f5e   dynamic  NA         F      F    Po12
++  186     5ced.8cc3.8f7e   dynamic  NA         F      F    Po12
+*  186     5ced.8cc3.8f9e   dynamic  NA         F      F    Po12
++  186     5ced.8cc3.8fa0   dynamic  NA         F      F    Po12
+*  186     5ced.8cc3.8fbe   dynamic  NA         F      F    Po12
++  186     5ced.8cc3.8fee   dynamic  NA         F      F    Po12
+*  186     5ced.8cc3.9f1a   dynamic  NA         F      F    Po12
+*  186     5ced.8cc3.9f2e   dynamic  NA         F      F    Po12
+*  186     5ced.8cc3.9f70   dynamic  NA         F      F    Po12
+*  186     5ced.8cc3.9f72   dynamic  NA         F      F    Po12
++  186     5ced.8cc3.af22   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.2a16   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.2a3c   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.2a5c   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.2a5e   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.2ae0   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.39e0   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.3a46   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.3a9a   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.3aac   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.3abc   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.3ad6   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.4a58   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.4a5a   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.4a8c   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.4a94   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.4aa8   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.4abe   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.5a3e   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.5a50   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.7a9c   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.98a2   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.aaac   dynamic  NA         F      F    Po12
+*  186     5ced.8cc4.aad8   dynamic  NA         F      F    Po12
++  186     5ced.8cc4.e834   dynamic  NA         F      F    Po12
+*  186     5ced.8cf3.6530   dynamic  NA         F      F    Po12
+*  186     5ced.8cf3.fa2c   dynamic  NA         F      F    Po12
++  186     5ced.8cf3.fa8a   dynamic  NA         F      F    Po12
++  186     7ca6.2a31.3a8e   dynamic  NA         F      F    Po12
+*  186     7ca6.2a31.3ace   dynamic  NA         F      F    Po12
++  186     7ca6.2a31.6af6   dynamic  NA         F      F    Po12
+*  186     7ca6.2a31.6afa   dynamic  NA         F      F    Po12
+*  186     7ca6.2a31.7a4a   dynamic  NA         F      F    Po12
+*  186     7ca6.2a31.7a52   dynamic  NA         F      F    Po12
++  186     7ca6.2a33.21f8   dynamic  NA         F      F    Po12
+*  186     7ca6.2a38.0df6   dynamic  NA         F      F    Po12
++  186     7ca6.2a38.3d86   dynamic  NA         F      F    Po12
+*  186     7ca6.2a38.4d0c   dynamic  NA         F      F    Po12
+*  186     7ca6.2a38.4dca   dynamic  NA         F      F    Po12
+*  186     7ca6.2a38.5d06   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.3174   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.7068   dynamic  NA         F      F    Po12
+*  186     7ca6.2a3a.7074   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.71e8   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.805a   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.813a   dynamic  NA         F      F    Po12
+*  186     7ca6.2a3a.818e   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.a210   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.a212   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.a228   dynamic  NA         F      F    Po12
++  186     7ca6.2a3a.c17a   dynamic  NA         F      F    Po12
+*  186     7ca6.2a3c.1192   dynamic  NA         F      F    Po12
+*  186     7ca6.2a3e.155a   dynamic  NA         F      F    Po12
+*  186     7ca6.2a40.49ba   dynamic  NA         F      F    Po12
++  186     7ca6.2a40.49c2   dynamic  NA         F      F    Po12
++  186     7ca6.2a40.49cc   dynamic  NA         F      F    Po12
++  186     7ca6.2a40.49d8   dynamic  NA         F      F    Po12
++  186     7ca6.2a40.49da   dynamic  NA         F      F    Po12
+*  186     7ca6.2a40.9fde   dynamic  NA         F      F    Po12
+*  186     7ca6.2a40.c7a2   dynamic  NA         F      F    Po12
+*  186     7ca6.2a40.d778   dynamic  NA         F      F    Po12
++  186     7ca6.2a40.e736   dynamic  NA         F      F    Po12
++  186     7ca6.2a40.e7da   dynamic  NA         F      F    Po12
+*  186     7ca6.2a40.f71c   dynamic  NA         F      F    Po12
+*  186     7ca6.2a40.f786   dynamic  NA         F      F    Po12
+*  186     7ca6.2a65.679a   dynamic  NA         F      F    Po12
++  186     7ca6.2a65.67b4   dynamic  NA         F      F    Po12
+*  186     7ca6.2a65.9736   dynamic  NA         F      F    Po12
++  186     7ca6.2a82.2242   dynamic  NA         F      F    Po12
+*  186     7ca6.2a82.22f6   dynamic  NA         F      F    Po12
++  186     7ca6.2a82.2340   dynamic  NA         F      F    Po12
+*  186     7ca6.2a82.30e0   dynamic  NA         F      F    Po12
+*  186     7ca6.2a82.311e   dynamic  NA         F      F    Po12
+*  186     7ca6.2a82.3198   dynamic  NA         F      F    Po12
+*  186     7ca6.2a82.31ca   dynamic  NA         F      F    Po12
+*  186     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++  186     8478.ac59.92c2   dynamic  NA         F      F    Po12
+*  186     9418.8274.eb9a   dynamic  NA         F      F    Po12
++  186     9418.8274.ebf0   dynamic  NA         F      F    Po12
+*  186     9440.c91e.b1b6   dynamic  NA         F      F    Po12
++  186     9440.c91e.ec7e   dynamic  NA         F      F    Po12
++  186     9440.c91f.588e   dynamic  NA         F      F    Po12
++  186     9440.c9ee.bd28   dynamic  NA         F      F    Po12
++  186     9440.c9ee.bf6e   dynamic  NA         F      F    Po12
+*  186     9440.c9ee.bf9e   dynamic  NA         F      F    Po12
++  186     9440.c9f9.7f40   dynamic  NA         F      F    Po12
+*  186     98be.947e.dd5c   dynamic  NA         F      F    Po12
+*  186     98be.947e.de88   dynamic  NA         F      F    Po12
+*  186     98f2.b333.5e56   dynamic  NA         F      F    Po12
+*  186     98f2.b335.b2c8   dynamic  NA         F      F    Po12
+*  186     98f2.b335.c230   dynamic  NA         F      F    Po12
++  186     98f2.b335.c2d2   dynamic  NA         F      F    Po12
+*  186     98f2.b335.c2d6   dynamic  NA         F      F    Po12
++  186     98f2.b335.c2f0   dynamic  NA         F      F    Po12
++  186     98f2.b336.00f4   dynamic  NA         F      F    Po12
++  186     98f2.b337.8d40   dynamic  NA         F      F    Po12
+*  186     98f2.b337.8d4c   dynamic  NA         F      F    Po12
++  186     98f2.b337.8d60   dynamic  NA         F      F    Po12
+*  186     ac1f.6b0c.51a4   dynamic  NA         F      F    Po12
++  186     b47a.f133.f800   dynamic  NA         F      F    Po12
++  186     b47a.f137.7454   dynamic  NA         F      F    Po12
+*  186     b47a.f137.7484   dynamic  NA         F      F    Po12
+*  186     b47a.f1a2.7aae   dynamic  NA         F      F    Po12
+*  186     b47a.f1a2.82ee   dynamic  NA         F      F    Po12
++  186     b47a.f1c5.92c0   dynamic  NA         F      F    Po12
++  186     b47a.f1e4.b708   dynamic  NA         F      F    Po12
++  186     c4cb.e1c5.56c8   dynamic  NA         F      F    Po12
+*  186     c4cb.e1c5.56f8   dynamic  NA         F      F    Po12
++  186     ec2a.72ee.15b8   dynamic  NA         F      F    Po12
+*  186     eceb.b890.08f0   dynamic  NA         F      F    Po12
++  186     eceb.b890.2828   dynamic  NA         F      F    Po12
+*  186     eceb.b890.3848   dynamic  NA         F      F    Po12
+*  186     eceb.b890.76c0   dynamic  NA         F      F    Po12
++  186     eceb.b890.d69a   dynamic  NA         F      F    Po12
++  186     eceb.b8a2.266c   dynamic  NA         F      F    Po12
+*  201     2088.1044.8ba1   dynamic  NA         F      F    Po10
++  201     2088.1045.b7a1   dynamic  NA         F      F    Po10
++  201     4260.ba07.07b9   dynamic  NA         F      F    Po203
++  201     6c92.cf3b.4a10   dynamic  NA         F      F    Po10
++  201     6c92.cf3b.4b70   dynamic  NA         F      F    Po10
++  201     6c92.cf3b.5ac0   dynamic  NA         F      F    Po10
++  201     9418.827a.0d8c   dynamic  NA         F      F    Po140
++  201     9418.827a.bc04   dynamic  NA         F      F    Po140
++  201     9a42.048e.d6dd   dynamic  NA         F      F    Po203
++  201     a6b6.c324.d3b9   dynamic  NA         F      F    Po203
++  201     c274.1802.57b9   dynamic  NA         F      F    Po203
++  201     c274.1aed.3ab9   dynamic  NA         F      F    Po203
++  201     d404.e6f4.7410   dynamic  NA         F      F    Po10
++  201     d404.e6f5.6ea0   dynamic  NA         F      F    Po10
++  201     ec01.d573.b29c   dynamic  NA         F      F    Po201
++  201     f8f2.1ef2.8860   dynamic  NA         F      F    Po10
++  201     f8f2.1ef2.9110   dynamic  NA         F      F    Po10
++  201     f8f2.1ef2.b6dc   dynamic  NA         F      F    Po10
++  202     0014.4ffa.4aae   dynamic  NA         F      F    Po140
++  202     0014.4ffb.95bb   dynamic  NA         F      F    Po10
++  202     0050.5686.003b   dynamic  NA         F      F    Po10
++  202     0050.5686.0116   dynamic  NA         F      F    Po10
++  202     0050.5686.07a8   dynamic  NA         F      F    Po10
++  202     0050.5686.0ee6   dynamic  NA         F      F    Po10
++  202     0050.5686.10af   dynamic  NA         F      F    Po10
++  202     0050.5686.1231   dynamic  NA         F      F    Po10
++  202     0050.5686.19e6   dynamic  NA         F      F    Po10
++  202     0050.5686.1edc   dynamic  NA         F      F    Po10
++  202     0050.5686.21da   dynamic  NA         F      F    Po10
++  202     0050.5686.24ad   dynamic  NA         F      F    Po10
++  202     0050.5686.24dd   dynamic  NA         F      F    Po10
++  202     0050.5686.292b   dynamic  NA         F      F    Po10
++  202     0050.5686.307c   dynamic  NA         F      F    Po10
++  202     0050.5686.31a1   dynamic  NA         F      F    Po10
++  202     0050.5686.3795   dynamic  NA         F      F    Po10
++  202     0050.5686.3ffb   dynamic  NA         F      F    Po10
++  202     0050.5686.4302   dynamic  NA         F      F    Po10
++  202     0050.5686.4a9d   dynamic  NA         F      F    Po10
++  202     0050.5686.5e4e   dynamic  NA         F      F    Po10
++  202     0050.5686.67d9   dynamic  NA         F      F    Po10
++  202     0050.5686.6f2f   dynamic  NA         F      F    Po10
++  202     0050.5686.7241   dynamic  NA         F      F    Po10
++  202     0050.5686.794e   dynamic  NA         F      F    Po10
++  202     0050.5686.7d2e   dynamic  NA         F      F    Po10
++  202     0050.5686.83f1   dynamic  NA         F      F    Po10
++  202     0050.5686.a383   dynamic  NA         F      F    Po10
++  202     0050.5686.a544   dynamic  NA         F      F    Po10
++  202     0050.5686.aa40   dynamic  NA         F      F    Po10
++  202     0050.5686.b212   dynamic  NA         F      F    Po10
++  202     0050.5686.b34b   dynamic  NA         F      F    Po10
++  202     0050.5686.bdbe   dynamic  NA         F      F    Po10
++  202     0050.5686.c6b3   dynamic  NA         F      F    Po10
++  202     0050.5686.c861   dynamic  NA         F      F    Po10
++  202     0050.5686.d54b   dynamic  NA         F      F    Po10
++  202     0050.5686.dd15   dynamic  NA         F      F    Po10
++  202     0050.5686.e7e8   dynamic  NA         F      F    Po10
++  202     0050.5686.f8aa   dynamic  NA         F      F    Po10
++  202     0432.014a.92e0   dynamic  NA         F      F    Po10
++  202     0432.014a.da40   dynamic  NA         F      F    Po10
++  202     2067.7cd8.8318   dynamic  NA         F      F    Po140
++  202     2067.7cd8.83f0   dynamic  NA         F      F    Po140
++  202     4260.b3c2.3dc4   dynamic  NA         F      F    Po203
++  202     4260.b5b2.41b9   dynamic  NA         F      F    Po203
++  202     4260.babc.77c4   dynamic  NA         F      F    Po203
++  202     9418.8279.7d10   dynamic  NA         F      F    Po140
++  202     9418.827a.9c98   dynamic  NA         F      F    Po140
++  202     9418.827a.9cb8   dynamic  NA         F      F    Po140
++  202     9418.827b.3160   dynamic  NA         F      F    Po140
++  202     a6b6.c5fd.1fc6   dynamic  NA         F      F    Po203
++  202     a6b6.c95f.dbb9   dynamic  NA         F      F    Po203
++  202     c274.15cf.87c4   dynamic  NA         F      F    Po203
++  202     c274.177a.c1c4   dynamic  NA         F      F    Po203
++  202     c274.1810.53b9   dynamic  NA         F      F    Po203
++  202     c274.1ac1.b3b9   dynamic  NA         F      F    Po203
++  202     eceb.b887.3270   dynamic  NA         F      F    Po140
++  202     eceb.b887.4214   dynamic  NA         F      F    Po140
++  203     4260.b0e1.92ba   dynamic  NA         F      F    Po203
++  203     4260.bcac.bcb9   dynamic  NA         F      F    Po203
++  203     48df.37a0.2b5b   dynamic  NA         F      F    Po140
++  203     9418.826d.50dc   dynamic  NA         F      F    Po140
++  203     9418.827b.4190   dynamic  NA         F      F    Po140
++  203     9a42.04bc.4c41   dynamic  NA         F      F    Po203
++  203     a6b6.cc6b.d3b9   dynamic  NA         F      F    Po203
++  203     c274.1743.7fba   dynamic  NA         F      F    Po203
++  203     c274.1798.6eb9   dynamic  NA         F      F    Po203
++  203     c274.1863.1cb9   dynamic  NA         F      F    Po203
++  204     0000.0c07.accc   dynamic  NA         F      F    Po140
++  204     000c.29fd.a52d   dynamic  NA         F      F    Po140
++  204     000c.29fd.a537   dynamic  NA         F      F    Po140
++  204     0050.568c.0b63   dynamic  NA         F      F    Po140
++  204     0050.568c.38d2   dynamic  NA         F      F    Po140
++  204     0050.568c.43aa   dynamic  NA         F      F    Po140
++  204     0050.568c.4e91   dynamic  NA         F      F    Po140
++  204     0050.568c.5578   dynamic  NA         F      F    Po140
++  204     0050.568c.6429   dynamic  NA         F      F    Po140
++  204     0050.568c.65b1   dynamic  NA         F      F    Po140
++  204     0050.568c.7559   dynamic  NA         F      F    Po140
++  204     0050.568c.7b0b   dynamic  NA         F      F    Po140
++  204     0050.568c.8b46   dynamic  NA         F      F    Po140
++  204     0050.568c.8d41   dynamic  NA         F      F    Po140
++  204     0050.568c.916d   dynamic  NA         F      F    Po140
++  204     0050.568c.9221   dynamic  NA         F      F    Po140
++  204     0050.568c.9764   dynamic  NA         F      F    Po140
++  204     0050.568c.9836   dynamic  NA         F      F    Po140
++  204     0050.568c.afd5   dynamic  NA         F      F    Po140
++  204     0050.568c.c47b   dynamic  NA         F      F    Po140
++  204     0050.568c.d7c4   dynamic  NA         F      F    Po140
++  204     0050.568c.eba8   dynamic  NA         F      F    Po140
++  204     0050.568c.ef0b   dynamic  NA         F      F    Po140
++  204     0050.568c.f692   dynamic  NA         F      F    Po140
++  204     0050.568c.fd7e   dynamic  NA         F      F    Po140
++  204     0050.568c.ffa1   dynamic  NA         F      F    Po140
++  204     8478.ac0d.1b42   dynamic  NA         F      F    Po140
++  204     8478.ac59.92c2   dynamic  NA         F      F    Po140
++  204     9418.8278.bd54   dynamic  NA         F      F    Po140
++  204     9457.a554.4f70   dynamic  NA         F      F    Po140
++  204     ac16.2d86.e07a   dynamic  NA         F      F    Po140
++  204     ac16.2d86.f867   dynamic  NA         F      F    Po140
++  204     d239.eaa8.142c   dynamic  NA         F      F    Po140
++  204     d239.eaa9.50de   dynamic  NA         F      F    Po140
++  204     d239.eaa9.64b2   dynamic  NA         F      F    Po140
++  204     d239.eaa9.6b26   dynamic  NA         F      F    Po140
++  204     ece7.a702.03c4   dynamic  NA         F      F    Po140
++  204     ece7.a702.06fc   dynamic  NA         F      F    Po140
++  204     ece7.a702.0e2c   dynamic  NA         F      F    Po140
++  204     ece7.a702.0f04   dynamic  NA         F      F    Po140
++  204     ece7.a702.1bf0   dynamic  NA         F      F    Po140
++  204     ece7.a702.1f28   dynamic  NA         F      F    Po140
++  204     ece7.a702.1f94   dynamic  NA         F      F    Po140
++  204     ece7.a702.27b4   dynamic  NA         F      F    Po140
++  211     0000.0c07.acd3   dynamic  NA         F      F    Po12
++  211     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++  211     9a42.03ef.85a5   dynamic  NA         F      F    Po12
++  211     9a42.05be.8d09   dynamic  NA         F      F    Po12
++  211     f2d4.26cf.f96d   dynamic  NA         F      F    Po12
++  215     0000.0c07.acd7   dynamic  NA         F      F    Po12
++  215     3ca8.2a1c.a9b8   dynamic  NA         F      F    Po12
++  215     3ca8.2a1c.a9b9   dynamic  NA         F      F    Po12
++  215     3ca8.2a1c.b918   dynamic  NA         F      F    Po12
++  215     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++  218     b83f.d289.9c4c   dynamic  NA         F      F    Po10
++  256     0050.568c.283d   dynamic  NA         F      F    Po140
++  282     90b1.1c55.1bcb   dynamic  NA         F      F    Po201
++  286     0023.7d15.75b9   dynamic  NA         F      F    Po10
++  299     0000.0c9f.f12b   dynamic  NA         F      F    Po140
++  299     0050.5686.10b9   dynamic  NA         F      F    Po140
++  299     0050.5686.1bec   dynamic  NA         F      F    Po140
++  299     0050.5686.83db   dynamic  NA         F      F    Po140
++  299     0050.5686.d182   dynamic  NA         F      F    Po140
++  299     0050.5686.d990   dynamic  NA         F      F    Po140
++  299     0050.5686.f2ad   dynamic  NA         F      F    Po140
++  299     8478.ac0d.1b42   dynamic  NA         F      F    Po140
++  299     8478.ac59.92c2   dynamic  NA         F      F    Po140
++  304     9c7b.ef27.4524   dynamic  NA         F      F    Po201
++  304     d009.c8ad.27e4   dynamic  NA         F      F    Po201
++  315     5480.2857.2dc0   dynamic  NA         F      F    Po203
++  315     5480.2857.3bb2   dynamic  NA         F      F    Po203
++  315     5480.2857.3d62   dynamic  NA         F      F    Po203
++  315     5480.2857.3dfe   dynamic  NA         F      F    Po203
++  315     5480.2857.3e28   dynamic  NA         F      F    Po203
++  315     5480.2857.3e34   dynamic  NA         F      F    Po203
++  336     14a9.d074.960c   dynamic  NA         F      F    Po10
++  336     14a9.d074.a58c   dynamic  NA         F      F    Po10
++  336     78ac.4463.a9a0   dynamic  NA         F      F    Po10
++  336     c45a.b1b4.9a09   dynamic  NA         F      F    Po201
++  336     d009.c8ad.27e6   dynamic  NA         F      F    Po201
++  336     ec01.d573.f532   dynamic  NA         F      F    Po10
++  361     2880.239f.8004   dynamic  NA         F      F    Po10
++  361     3ca8.2a1c.a9bb   dynamic  NA         F      F    Po201
++  361     4880.024c.acfe   dynamic  NA         F      F    Po201
++  361     d89d.6726.2790   dynamic  NA         F      F    Po10
++  362     001e.0bd1.a678   dynamic  NA         F      F    Po201
++  362     001e.0bd1.f128   dynamic  NA         F      F    Po201
++  362     0021.5af0.388c   dynamic  NA         F      F    Po201
++  362     4880.024c.accb   dynamic  NA         F      F    Po201
++  362     9418.8209.2d30   dynamic  NA         F      F    Po201
++  362     9418.8209.2d54   dynamic  NA         F      F    Po201
++  362     9418.8268.7404   dynamic  NA         F      F    Po201
++  362     e839.3526.e0c6   dynamic  NA         F      F    Po10
++  362     e839.3528.0bdc   dynamic  NA         F      F    Po201
++  363     d009.c8ad.27de   dynamic  NA         F      F    Po201
++  363     d89d.6727.da88   dynamic  NA         F      F    Po201
++  365     009c.02a3.9056   dynamic  NA         F      F    Po201
++  365     2880.23a1.aeae   dynamic  NA         F      F    Po201
++  365     2892.4a35.6962   dynamic  NA         F      F    Po201
++  365     d009.c8ad.27ff   dynamic  NA         F      F    Po201
++  366     68b5.9979.d7fa   dynamic  NA         F      F    Po201
++  367     40a8.f032.0260   dynamic  NA         F      F    Po201
++  367     40a8.f032.1638   dynamic  NA         F      F    Po201
++  368     2c44.fd82.da70   dynamic  NA         F      F    Po201
++  368     2c44.fd86.c2d9   dynamic  NA         F      F    Po201
++  368     2c76.8aac.d47c   dynamic  NA         F      F    Po201
++  368     3cd9.2b0a.a34e   dynamic  NA         F      F    Po201
++  368     441e.a137.ae9c   dynamic  NA         F      F    Po201
++  368     4880.024c.ace0   dynamic  NA         F      F    Po201
++  368     98f2.b329.4298   dynamic  NA         F      F    Po201
++  368     ac16.2db1.bccc   dynamic  NA         F      F    Po201
++  368     f403.4354.02f0   dynamic  NA         F      F    Po201
++  370     4880.024c.acc4   dynamic  NA         F      F    Po10
++  371     4880.024c.acde   dynamic  NA         F      F    Po10
++  372     2880.23a7.34c4   dynamic  NA         F      F    Po201
++  372     3ca8.2a13.2ca7   dynamic  NA         F      F    Po201
++  372     3ca8.2a14.f39f   dynamic  NA         F      F    Po201
++  372     4880.024c.aceb   dynamic  NA         F      F    Po201
++  372     eceb.b88a.1475   dynamic  NA         F      F    Po201
++  373     0018.7176.3dc9   dynamic  NA         F      F    Po201
++  373     4880.024c.acfe   dynamic  NA         F      F    Po201
++  374     08f1.ea96.ac74   dynamic  NA         F      F    Po201
++  374     6c92.cf0d.f2f3   dynamic  NA         F      F    Po10
++  374     9440.c91f.5891   dynamic  NA         F      F    Po10
++  375     0015.b2ac.b4e6   dynamic  NA         F      F    Po201
++  375     0015.b2ad.1bf0   dynamic  NA         F      F    Po10
++  375     0015.b2ad.1cbc   dynamic  NA         F      F    Po201
++  375     0015.b2ad.20c0   dynamic  NA         F      F    Po10
++  375     00d0.fa06.d9d4   dynamic  NA         F      F    Po201
++  376     0015.b2ab.6fe6   dynamic  NA         F      F    Po10
++  376     0015.b2ab.86a2   dynamic  NA         F      F    Po10
++  376     0015.b2ab.e242   dynamic  NA         F      F    Po201
++  376     0015.b2ab.e47a   dynamic  NA         F      F    Po10
++  376     0015.b2ac.acfa   dynamic  NA         F      F    Po201
++  376     0015.b2ad.1a20   dynamic  NA         F      F    Po201
++  376     0015.b2ad.26d8   dynamic  NA         F      F    Po10
++  376     007e.9596.8241   dynamic  NA         F      F    Po10
++  382     4880.024c.acf4   dynamic  NA         F      F    Po201
++  382     a4a5.8466.2c80   dynamic  NA         F      F    Po10
++  382     eceb.b89b.5c40   dynamic  NA         F      F    Po201
++  611     0000.0c9f.f263   dynamic  NA         F      F    Po10
++  611     0050.568c.79da   dynamic  NA         F      F    Po203
++  611     2c4f.5292.9b75   dynamic  NA         F      F    Po10
++  611     2c4f.5292.a18d   dynamic  NA         F      F    Po10
++  611     48df.3767.0db0   dynamic  NA         F      F    Po10
++  611     48df.3767.59c0   dynamic  NA         F      F    Po10
++  611     48df.3768.a660   dynamic  NA         F      F    Po10
++  611     48df.3768.a6c0   dynamic  NA         F      F    Po10
++  611     48df.3768.a720   dynamic  NA         F      F    Po10
++  611     48df.3768.a730   dynamic  NA         F      F    Po10
++  611     48df.3769.f700   dynamic  NA         F      F    Po10
++  611     48df.3769.fc50   dynamic  NA         F      F    Po10
++  611     48df.3769.ffa0   dynamic  NA         F      F    Po10
++  611     48df.376a.d2a0   dynamic  NA         F      F    Po10
++  611     48df.376a.faa0   dynamic  NA         F      F    Po10
++  611     48df.376c.9140   dynamic  NA         F      F    Po10
++  611     48df.376c.a680   dynamic  NA         F      F    Po10
++  611     48df.376c.aee0   dynamic  NA         F      F    Po10
++  611     48df.378d.5300   dynamic  NA         F      F    Po10
++  611     48df.378d.79b0   dynamic  NA         F      F    Po10
++  611     48df.378e.03f8   dynamic  NA         F      F    Po10
++  613     0000.0c9f.f265   dynamic  NA         F      F    Po10
++  613     08f1.ea90.f0ea   dynamic  NA         F      F    Po203
++  613     08f1.ea92.64a0   dynamic  NA         F      F    Po203
++  613     08f1.eaef.6866   dynamic  NA         F      F    Po203
++  613     2c4f.5292.9b75   dynamic  NA         F      F    Po10
++  613     2c4f.5292.a18d   dynamic  NA         F      F    Po10
++  613     5480.2857.1494   dynamic  NA         F      F    Po203
++  613     5480.2857.19da   dynamic  NA         F      F    Po203
++  613     5480.2857.2088   dynamic  NA         F      F    Po203
++  613     5480.2857.214e   dynamic  NA         F      F    Po203
++  613     5480.2857.22bc   dynamic  NA         F      F    Po203
++  613     5480.2857.23ca   dynamic  NA         F      F    Po203
++  613     5480.2857.24f0   dynamic  NA         F      F    Po203
++  613     5480.2857.257a   dynamic  NA         F      F    Po203
++  613     5480.2857.2592   dynamic  NA         F      F    Po203
++  613     5480.2857.2646   dynamic  NA         F      F    Po203
++  613     5480.2857.264c   dynamic  NA         F      F    Po203
++  613     5480.2857.28b6   dynamic  NA         F      F    Po203
++  613     5480.2857.3ac8   dynamic  NA         F      F    Po203
++  613     5480.2857.3c5a   dynamic  NA         F      F    Po203
++  614     0000.0c9f.f266   dynamic  NA         F      F    Po10
++  614     2c4f.5292.9b75   dynamic  NA         F      F    Po10
++  614     2c4f.5292.a18d   dynamic  NA         F      F    Po10
++  614     5480.2857.392a   dynamic  NA         F      F    Po203
++  614     5480.2857.3d08   dynamic  NA         F      F    Po203
++  615     0000.0c9f.f267   dynamic  NA         F      F    Po10
++  615     00ee.ab4d.f407   dynamic  NA         F      F    Po10
++  615     00fd.220e.2dc5   dynamic  NA         F      F    Po10
++  615     2c4f.5292.9b75   dynamic  NA         F      F    Po10
++  615     2c4f.5292.a18d   dynamic  NA         F      F    Po10
++  615     5480.2857.23b2   dynamic  NA         F      F    Po10
++  615     5480.2857.2ff4   dynamic  NA         F      F    Po10
++  615     5480.2857.326a   dynamic  NA         F      F    Po10
++  615     5480.2857.33f6   dynamic  NA         F      F    Po10
++  615     5480.2857.38f4   dynamic  NA         F      F    Po10
++  615     5480.2857.3dd4   dynamic  NA         F      F    Po10
++  615     d4e8.8092.0869   dynamic  NA         F      F    Po10
++  616     0000.0c9f.f268   dynamic  NA         F      F    Po10
++  616     0050.5686.c7bb   dynamic  NA         F      F    Po203
++  616     0050.56bf.dd7a   dynamic  NA         F      F    Po10
++  616     2c4f.5292.9b75   dynamic  NA         F      F    Po10
++  616     2c4f.5292.a18d   dynamic  NA         F      F    Po10
++  616     48df.3765.fef8   dynamic  NA         F      F    Po201
++  616     48df.3769.fba0   dynamic  NA         F      F    Po201
++  616     48df.376c.a670   dynamic  NA         F      F    Po201
++  616     48df.376c.a6f0   dynamic  NA         F      F    Po201
++  616     48df.376c.a720   dynamic  NA         F      F    Po201
++  616     48df.378d.5518   dynamic  NA         F      F    Po201
++  687     0000.0c9f.f2af   dynamic  NA         F      F    Po12
++  687     08f1.ea90.f0e8   dynamic  NA         F      F    Po12
++  687     08f1.ea92.649e   dynamic  NA         F      F    Po12
++  687     08f1.eaef.6864   dynamic  NA         F      F    Po12
++  687     5480.2857.1492   dynamic  NA         F      F    Po12
++  687     5480.2857.19d8   dynamic  NA         F      F    Po12
++  687     5480.2857.2086   dynamic  NA         F      F    Po12
++  687     5480.2857.214c   dynamic  NA         F      F    Po12
++  687     5480.2857.22ba   dynamic  NA         F      F    Po12
++  687     5480.2857.23c8   dynamic  NA         F      F    Po12
++  687     5480.2857.24ee   dynamic  NA         F      F    Po12
++  687     5480.2857.2578   dynamic  NA         F      F    Po12
++  687     5480.2857.2590   dynamic  NA         F      F    Po12
++  687     5480.2857.2644   dynamic  NA         F      F    Po12
++  687     5480.2857.264a   dynamic  NA         F      F    Po12
++  687     5480.2857.28b4   dynamic  NA         F      F    Po12
++  687     5480.2857.2dbe   dynamic  NA         F      F    Po12
++  687     5480.2857.3928   dynamic  NA         F      F    Po12
++  687     5480.2857.3ac6   dynamic  NA         F      F    Po12
++  687     5480.2857.3bb0   dynamic  NA         F      F    Po12
++  687     5480.2857.3c58   dynamic  NA         F      F    Po12
++  687     5480.2857.3d06   dynamic  NA         F      F    Po12
++  687     5480.2857.3d60   dynamic  NA         F      F    Po12
++  687     5480.2857.3dfc   dynamic  NA         F      F    Po12
++  687     5480.2857.3e26   dynamic  NA         F      F    Po12
++  687     5480.2857.3e32   dynamic  NA         F      F    Po12
++  687     8478.ac0d.1b42   dynamic  NA         F      F    Po12
++  687     eceb.b88f.dd22   dynamic  NA         F      F    Po12
++  687     eceb.b88f.dd8e   dynamic  NA         F      F    Po12
+G   30     0000.0c07.ac1e   static   -         F      F    sup-eth1(R)
+G   31     0000.0c07.ac1f   static   -         F      F    sup-eth1(R)
+G   38     0000.0c07.ac26   static   -         F      F    sup-eth1(R)
+G   39     0000.0c07.ac27   static   -         F      F    sup-eth1(R)
+G   47     0000.0c07.ac2f   static   -         F      F    sup-eth1(R)
+G   64     0000.0c07.ac40   static   -         F      F    sup-eth1(R)
+G   65     0000.0c07.ac41   static   -         F      F    sup-eth1(R)
+G   86     0000.0c07.ac56   static   -         F      F    sup-eth1(R)
+G  155     0000.0c07.ac9b   static   -         F      F    sup-eth1(R)
+G  156     0000.0c07.ac9c   static   -         F      F    sup-eth1(R)
+G  157     0000.0c07.ac9d   static   -         F      F    sup-eth1(R)
+G  159     0000.0c07.ac9f   static   -         F      F    sup-eth1(R)
+G  160     0000.0c07.aca0   static   -         F      F    sup-eth1(R)
+G  161     0000.0c07.aca1   static   -         F      F    sup-eth1(R)
+G  163     0000.0c07.aca3   static   -         F      F    sup-eth1(R)
+G  164     0000.0c07.aca4   static   -         F      F    sup-eth1(R)
+G  169     0000.0c07.aca9   static   -         F      F    sup-eth1(R)
+G  201     0000.0c07.acc9   static   -         F      F    sup-eth1(R)
+G  202     0000.0c07.acca   static   -         F      F    sup-eth1(R)
+G  203     0000.0c07.accb   static   -         F      F    sup-eth1(R)
+G  217     0000.0c9f.f0d9   static   -         F      F    sup-eth1(R)
+G  218     0000.0c9f.f0da   static   -         F      F    sup-eth1(R)
+G  282     0000.0c9f.f11a   static   -         F      F    sup-eth1(R)
+G  286     0000.0c9f.f11e   static   -         F      F    sup-eth1(R)
+G  304     0000.0c9f.f130   static   -         F      F    sup-eth1(R)
+G  315     0000.0c9f.f13b   static   -         F      F    sup-eth1(R)
+G  336     0000.0c9f.f150   static   -         F      F    sup-eth1(R)
+G  353     0000.0c9f.f161   static   -         F      F    sup-eth1(R)
+G  361     0000.0c9f.f169   static   -         F      F    sup-eth1(R)
+G  362     0000.0c9f.f16a   static   -         F      F    sup-eth1(R)
+G  363     0000.0c9f.f16b   static   -         F      F    sup-eth1(R)
+G  365     0000.0c9f.f16d   static   -         F      F    sup-eth1(R)
+G  366     0000.0c9f.f16d   static   -         F      F    sup-eth1(R)
+G  367     0000.0c9f.f16f   static   -         F      F    sup-eth1(R)
+G  368     0000.0c9f.f170   static   -         F      F    sup-eth1(R)
+G  370     0000.0c9f.f172   static   -         F      F    sup-eth1(R)
+G  371     0000.0c9f.f173   static   -         F      F    sup-eth1(R)
+G  372     0000.0c9f.f174   static   -         F      F    sup-eth1(R)
+G  373     0000.0c9f.f175   static   -         F      F    sup-eth1(R)
+G  374     0000.0c9f.f176   static   -         F      F    sup-eth1(R)
+G  375     0000.0c9f.f177   static   -         F      F    sup-eth1(R)
+G  376     0000.0c9f.f178   static   -         F      F    sup-eth1(R)
+G  382     0000.0c9f.f17e   static   -         F      F    sup-eth1(R)
+G  282     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   30     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  286     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   31     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   38     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   39     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   47     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  304     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  315     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   64     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   65     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  336     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G   86     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  353     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  361     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  362     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  363     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  365     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  366     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  367     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  368     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  370     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  371     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  372     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  373     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  374     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  375     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  376     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  382     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  155     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  156     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  157     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  159     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  160     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  161     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  163     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  164     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  169     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  201     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  202     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  203     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  217     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G  218     643a.ea93.6cbd   static   -         F      F    vPC Peer-Link(R)
+G    -     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  282     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   30     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  286     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   31     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   38     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   39     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   47     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  304     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  315     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   64     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   65     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  336     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G   86     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  353     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  361     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  362     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  363     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  365     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  366     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  367     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  368     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  370     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  371     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  372     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  373     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  374     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  375     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  376     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  382     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  155     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  156     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  157     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  159     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  160     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  161     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  163     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  164     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  169     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  201     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  202     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  203     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  217     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+G  218     643a.ea9a.284d   static   -         F      F    sup-eth1(R)
+ID-PLZSF-ACdS-2901# 
+--- show proc cpu ---
+show proc cpu
+
+--- show proc mem ---
+show proc mem
+
+PID    Runtime(ms)  Invoked   uSecs  1Sec    Process
+-----  -----------  --------  -----  ------  -----------
+    1       315965   9736421     32   0.00%  init
+ 2122      1771483  23040848     76   0.00%  interface-vlan
+ 2765          398        52   7653   0.00%  ospf
+ 7221        34731   1618918     21   0.00%  rpcbind
+ 7397            0         2      0   0.00%  rpc.mountd
+ 7419            1         7    142   0.00%  rpc.statd
+ 8597       656968   3339971    196   0.00%  crond
+ 8778      2582570  15640053    165   0.00%  swmoni.sh
+ 8841            0         1      0   0.00%  mcelog
+ 9610            9        11    818   0.00%  libvirtd_mon.sh
+ 9611            4        13    307   0.00%  sh
+ 9612     17571437  232222004     75   0.00%  sysmgr
+ 9613      4259164  98279592     43   0.00%  sysmgr
+ 9628            8        10    800   0.00%  inotifywait
+ 9649          622       297   2094   0.00%  libvirtd
+12751          195        59   3305   0.00%  sdwrapd
+12754   1023646964  255215271   4010   0.00%  pfmclnt
+13410           25        22   1136   0.00%  xinetd
+13411           14        13   1076   0.00%  tftpd
+13412           89       408    218   0.00%  sdwrapd
+13414          605       511   1183   0.00%  fw_app
+13415     66285628  300040103    220   0.00%  platform
+13419       215902  16095014     13   0.00%  dme_bootup_proxy
+13420       214083  16091719     13   0.00%  dme_proxy
+13421          864       228   3789   0.00%  event_manager
+13422       659028  48286664     13   0.00%  mts_telemetry_mgr
+13423          590       259   2277   0.00%  policyelem
+13455      2444296  51140577     47   0.00%  syslogd
+13458      7742943  179017009     43   0.00%  vshd
+13459       141970   2140777     66   0.00%  template_manager
+13460       693535  10966448     63   0.00%  tamnw
+13461          540        48  11250   0.00%  smm
+13462       819278  48363140     16   0.00%  psshelper
+13463       423317  11778414     35   0.00%  pixm_vl
+13464       379629  11653398     32   0.00%  pixm_gl
+13465         1297       270   4803   0.00%  nginx_dme
+13466       129138   2052931     62   0.00%  mmode
+13468      2928021   4869459    601   0.00%  fs-daemon
+13469      7384819  314597977     23   0.00%  feature-mgr
+13470       113753   1908942     59   0.00%  confcheck
+13471       205191   6362064     32   0.00%  capability
+13472       313327   6201740     50   0.00%  bloggerd
+13475       820444  48362989     16   0.00%  psshelper_gsvc
+13477      5166128  75059720     68   0.00%  tams_proc
+13504     30749770  164935496    186   0.00%  clis
+13505       405249  11278003     35   0.00%  licmgr
+13522      8921426  54015170    165   0.00%  tamd_proc
+13524       396474  16673362     23   0.00%  xmlma
+13525       346300  11640290     29   0.00%  vmm
+13526       754157   9850739     76   0.00%  usbhsd
+13527      1086689  25776446     42   0.00%  ttyd
+13528    273433309  56165147   4868   0.00%  sysinfo
+13529       223357   6520474     34   0.00%  snmpmib_proc
+13530       364716   1033328    352   0.00%  sksd
+13536       206962   2225929     92   0.00%  res_mgr
+13539       851385  49228367     17   0.00%  plugin
+13540    108122129  21854990   4947   0.00%  pltm
+13541       226910   9812165     23   0.00%  plog_sup
+13542       775385  48277097     16   0.00%  patch-installer
+13543          661       166   3981   0.00%  nxapi
+13544       173761   4600487     37   0.00%  mvsh
+13545        91618   1014983     90   0.00%  mts_mgr
+13546           63       425    148   0.00%  mping_server
+13549      3735341  21361273    174   0.00%  module
+13550          790       195   4051   0.00%  kim
+13551       231579   6510335     35   0.00%  kafka
+13552          442       446    991   0.00%  issu_helper
+13553       191932   4674361     41   0.00%  evms
+13554          833       550   1514   0.00%  epld_upgrade_stdby
+13555     15585190  13497474   1154   0.00%  diagclient
+13557       257924   6581452     39   0.00%  dhclient
+13558       763170  10232366     74   0.00%  crdcfg_server
+13560        51924    806120     64   0.00%  core-dmon
+13561       309024   3310590     93   0.00%  clk_mgr
+13562       479151  10056338     47   0.00%  bios_daemon
+13563       449055   7304831     61   0.00%  ascii-cfg
+13564      1758306  49741852     35   0.00%  securityd
+13565      1273264  49640869     25   0.00%  cert_enroll
+13566      5468463  65931735     82   0.00%  aaa
+13567       150974   6697227     22   0.00%  obfl
+13593           43       590     72   0.00%  klogd
+13600      2309935  62975264     36   0.00%  device_test
+13601       342882   5341915     64   0.00%  xbar
+13662      1973527   4824551    409   0.00%  aclmgr
+13721       155345   3710715     41   0.00%  evmc
+13745          778       570   1364   0.00%  ExceptionLog
+13746      1495158  28429291     52   0.00%  bootvar
+13749       386586   9834624     39   0.00%  cardclient
+13753     32532841  46530534    699   0.00%  diagmgr
+13772      1593937  17172603     92   0.00%  ifmgr
+13812         8717     48291    180   0.00%  incrond
+13814          956       301   3176   0.00%  urib
+13822          716       155   4619   0.00%  l3vm
+13898          547       126   4341   0.00%  npacl
+13909       597727  12363086     48   0.00%  vdc_mgr
+13917          575        80   7187   0.00%  adjmgr
+13918          774       167   4634   0.00%  u6rib
+13922       149972   4890106     30   0.00%  statsclient
+13966          676        91   7428   0.00%  arp
+13967          486        50   9720   0.00%  icmpv6
+13978          619        62   9983   0.00%  pktmgr
+14001          842       177   4757   0.00%  netstack
+14072      1649375  49979476     33   0.00%  radius
+14073      1050287  25031815     41   0.00%  cdp
+14074     13623981  75771036    179   0.00%  cfs
+14075           48       347    138   0.00%  ip_dummy
+14076           42       341    123   0.00%  ipv6_dummy
+14078       144216   2899003     49   0.00%  otm
+14079    126907912  757967446    167   0.00%  snmpd
+14080           40       351    113   0.00%  tcpudp_dummy
+14083         2240      7604    294   0.00%  dcos-xinetd
+14237      1172424  48875256     23   0.00%  callhome
+14713     11342165  102246507    110   0.00%  hsrp_engine
+16742            1         3    333   0.00%  nginx
+16743            2         3    666   0.00%  nginx
+16744            1         1   1000   0.00%  nginx
+16745            1         1   1000   0.00%  nginx
+16746      3590189  42284474     84   0.00%  port-profile
+16761       172700   2872585     60   0.00%  vman
+16766        28309    895511     31   0.00%  spm
+16767        89716   1005658     89   0.00%  sdaa
+16768          721       128   5632   0.00%  rpm
+16769     12714891  17121504    742   0.00%  pltfm_config
+16771       113389   1958663     57   0.00%  plcmgr
+16773     18075433  15179998   1190   0.00%  pfstat
+16789       886534   7170651    123   0.00%  ntp
+16790      1451298  48560540     29   0.00%  nia-mgr
+16793       106524   2562928     41   0.00%  nbproxy
+16797       988607   7079176    139   0.00%  monitor
+16798          914       197   4639   0.00%  mld
+16803       547893  12854984     42   0.00%  lim
+16808      2394145  47826310     50   0.00%  l2rib
+16811       441086   5093560     86   0.00%  ipfib
+16815      5553406  12021540    461   0.00%  intersight
+16816          997       199   5010   0.00%  igmp
+16817     62851496  26303026   2389   0.00%  icam
+16818      1455249  21417213     67   0.00%  eth_port_channel
+16819          610        91   6703   0.00%  ecp
+16824       141392   2889049     48   0.00%  adbm
+16825       286049   5379459     53   0.00%  acllog
+16833      5266747  62135144     84   0.00%  tacacs
+16846       234130   6421729     36   0.00%  eltm
+16881      3075213  64350102     47   0.00%  ntpd
+16888      1107745  29612501     37   0.00%  eth_dstats
+16889     61963759  99749359    621   0.00%  ipqosmgr
+16890      6693475  19090115    350   0.00%  lacp
+16894     21957772  40233384    545   0.00%  vlan_mgr
+16921       797231  13065861     61   0.00%  aclqos
+16926      2591932   5460761    474   0.00%  diag_port_lb
+16928     57143369  326285575    175   0.00%  ethpm
+16929     10082639  16606099    607   0.00%  l2fm
+16943     98913335  1175080476     84   0.00%  stp
+16944       392712  11808426     33   0.00%  stripcl
+16982      4143953   6095815    679   0.00%  copp
+17029     31207114  114838875    271   0.00%  vpc
+17030       685108  13424502     51   0.00%  ufdm
+17031       133792   5439211     24   0.00%  u2
+17033       228673   6450541     35   0.00%  sal
+17034       141114   1865002     75   0.00%  ofm
+17035          787       173   4549   0.00%  mrib
+17036    847440765  3928659728      0   0.77%  mfdm
+17037       384877  11730325     32   0.00%  mcm
+17038          777       140   5550   0.00%  m6rib
+17040     11044467  52608333    209   0.00%  l2pt
+17073       171180   3732449     45   0.00%  m2rib
+17238       101558   4861267     20   0.00%  bloggerd
+17350       823491  48360044     17   0.00%  psshelper
+17351       830233  48361076     17   0.00%  psshelper
+17352       298199   9838869     30   0.00%  plog_lc
+17353       740151  47841144     15   0.00%  patch_installer
+17354       116286   5994300     19   0.00%  obfl_lc
+17355        75016   3617653     20   0.00%  mvsh
+17356        55841   2697939     20   0.00%  evmc
+17357      1216835  50157538     24   0.00%  dt_helper
+17358      5280174   6105569    864   0.00%  diagclient
+17359     16326649  252885678     64   0.00%  crdcfg_server
+17360       143329   4878125     29   0.00%  capability
+17366      1647273  54650552     30   0.00%  device_test
+17371      2201019  15435586    142   0.00%  crdclient
+17387     13988450  20311457    688   0.00%  dc3_sensor
+17388    396603323  1043917182   4494   4.68%  tahusd
+17772           38        65    584   0.00%  getty
+18113     42665938  12315110   3464   0.00%  nxpython3
+18204     11580015  48154140    240   0.00%  nxpython3
+18205      9956471  40521394    245   0.00%  nxpython3
+18206      2853486  48187408     59   0.00%  nxpython3
+18890          334       103   3242   0.00%  dcos_sshd
+18929           50       955     52   0.00%  dcos_sshd
+18930          361        77   4688   0.00%  vsh.bin
+19349            0        38      0   0.00%  sshd
+19433      1516129  36814949     41   0.00%  bfdc
+19434       641103   7743432     82   0.00%  iftmc
+19435       214755  10676712     20   0.00%  pixc
+19436      1732295  21066938     82   0.00%  port_client
+19437   2589919805  654138190   3959   0.00%  stats_client
+19438        55079   2698031     20   0.00%  vntagc
+19439          140        49   2857   0.00%  zonelc
+19441      1505896  11008335    136   0.00%  mtm
+19444      1653546  15705102    105   0.00%  ipfib
+19448    133808447  1732536709     77   0.00%  aclqos
+19449          113        35   3228   0.00%  fib
+19450        48856   3205193     15   0.00%  ptplc
+19451       485844   5865089     82   0.00%  tun_enc_lc
+19461          105        19   5526   0.00%  fcoelc
+19462       208467   4928375     42   0.00%  monc
+19464        93371   4525724     20   0.00%  xbar_client
+20374      3168846  46404943     68   0.00%  tamd_proc
+22115      1939963  13807480    140   0.00%  ksmtuned.sh
+24217          102        14   7285   0.00%  swtele
+24635          895        95   9421   0.00%  nxos_dc
+24643           81        31   2612   0.00%  dcgrpc
+24650           50        50   1000   0.00%  cnmi
+24656        48340    514669     93   0.00%  nae
+24676          798       978    815   0.00%  cfg_cmp
+
+CPU util  :    8.04% user,    1.63% kernel,   90.32% idle
+
+CPU utilization for five seconds: 6%/0%; one minute: 9%; five minutes: 9%
+ Please note that only processes from the requested vdc are shown above
+ID-PLZSF-ACdS-2901# show proc mem
+
+--- show system reso ---
+show system reso
+
+PID    MemAlloc  MemLimit    MemUsed     StackBase/Ptr              Process
+-----  --------  ----------  ----------  -------------------------  ----------------
+    1       176  0           2272        7ffd29d243d0/0             init
+ 2122     71436  1283784     499928      7fffe1dae1e0/0             interface-vlan
+ 2765    111120  0           1731612     7ffdafbaffa0/0             ospf
+ 7221       364  0           2796        7ffddd7208a0/0             rpcbind
+ 7397       376  0           3216        7ffd753c3280/0             rpc.mountd
+ 7419       272  0           2820        7ffcb01f4d30/0             rpc.statd
+ 8597       712  0           3332        7fff72187f10/0             crond
+ 8778       264  0           3588        7ffe184cb690/0             swmoni.sh
+ 8841       716  0           2896        7ffefea48b80/0             mcelog
+ 9610       264  0           3588        7ffcc7323d50/0             libvirtd_mon.sh
+ 9611       264  0           3588        7ffecdb3ebc0/0             sh
+ 9612     53240  0           489576      7ffe5d3b38c0/0             sysmgr
+ 9613     50752  0           402596      7fff1fc424e0/0             sysmgr
+ 9628       272  0           2400        7ffd97759460/0             inotifywait
+ 9649    132928  0           217200      7fff312e11b0/0             libvirtd
+12751       944  0           277232      7fffc4023500/0             sdwrapd
+12754    125144  0           410236      7ffc3150e890/0             pfmclnt
+13410       248  932889      2876        7ffcfb018c20/0             xinetd
+13411       464  309842      2960            fffa6d30/0             tftpd
+13412      2656  637103      288260      7ffdd1103ef0/0             sdwrapd
+13414     50996  0           398356      7ffc0220f140/0             fw_app
+13415     79880  0           563744      7ffc4d2b65f0/0             platform
+13419       736  0           284112      7fff1b8172e0/0             dme_bootup_proxy
+13420       736  0           284112      7ffc55f25d90/0             dme_proxy
+13421    187308  0           1018436     7ffd1c821bb0/0             event_manager
+13422     17708  0           303684      7ffdbff47a30/0             mts_telemetry_mgr
+13423    180684  0           1032724     7ffcfb739440/0             policyelem
+13455     76600  840568      569108      7ffda0d1f2b0/0             syslogd
+13458     50072  934652      473384      7fff0b12e6e0/0             vshd
+13459     54180  0           687184      7ffeb26d25c0/0             template_manager
+13460      5940  620582      296416      7ffdc3c8cec0/0             tamnw
+13461     51544  1062772     659972      7ffd49dac490/0             smm
+13462     51064  776991      398328      7fff3aaaf650/0             psshelper
+13463    395808  997695      748232      7ffc0141d950/0             pixm_vl
+13464    117656  1077657     543216      7ffe3d8f1030/0             pixm_gl
+13465    243636  0           1739952     7fffb553bb40/0             nginx_dme
+13466     51888  0           683540      7fff92cba8a0/0             mmode
+13468     50988  0           471860      7ffd38177c10/0             fs-daemon
+13469     56956  0           556408      7ffc7bab46e0/0             feature-mgr
+13470      1524  0           285768      7fffcb666830/0             confcheck
+13471     50440  816100      471164      7ffebe719c40/0             capability
+13472     72548  741145      559060      7ffe4e19a450/0             bloggerd
+13475     50944  776842      395972      7ffc6f2cf9d0/0             psshelper_gsvc
+13477       524  0           13280       7ffe756f9c70/0             tams_proc
+13504     94544  0           998028      7fff3a11e170/0             clis
+13505     74164  757607      578984      7ffcb38962e0/0             licmgr
+13522       672  0           13468       7ffe5b2f84f0/0             tamd_proc
+13524      1144  0           285908      7ffee39316c0/0             xmlma
+13525     48928  757877      403124      7ffe40654da0/0             vmm
+13526      9096  0           358028      7fff389e2850/0             usbhsd
+13527     48824  742116      468812      7fff36e58310/0             ttyd
+13528     58708  832670      585140      7ffd21f24920/0             sysinfo
+13529     48384  733398      397252      7ffe4c375ea0/0             snmpmib_proc
+13530     49848  834550      474272      7ffc0000a950/0             sksd
+13536     52048  741839      475160      7ffe3eaa7b60/0             res_mgr
+13539      3388  1947602     364908      7fffb1ba2210/0             plugin
+13540     56904  735514      529152      7ffe48a698b0/0             pltm
+13541     37384  698874      324684      7ffc11bda1d0/0             plog_sup
+13542     48416  0           477620      7ffc811c4510/0             patch-installer
+13543     48452  0           398096      7ffd2a4c8520/0             nxapi
+13544      1912  1145308     290776      7ffd2eb9bdb0/0             mvsh
+13545     48432  0           470388      7ffeeeff33d0/0             mts_mgr
+13546      1180  0           286880      7ffea6319370/0             mping_server
+13549     55164  751492      488508      7ffd23325240/0             module
+13550     88084  895618      505524      7fffc4ed91c0/0             kim
+13551     49588  730384      468496      7ffe4b4561d0/0             kafka
+13552     47960  719457      490176      7ffe91bd0080/0             issu_helper
+13553     50872  732623      472552      7ffc25820c70/0             evms
+13554     64756  849411      412984      7ffecb398700/0             epld_upgrade_stdby
+13555     41124  668737      332116      7ffc33924090/0             diagclient
+13557     62796  0           2114220     7ffd1f7fbd10/0             dhclient
+13558     48696  1099081     398140      7ffe2060a240/0             crdcfg_server
+13560     46108  0           391452      7ffda6a732d0/0             core-dmon
+13561     50260  734652      473984      7ffd9cbc02a0/0             clk_mgr
+13562     36900  1362577     327632      7fff3b929250/0             bios_daemon
+13563     55696  0           665896      7fff6c5f5ca0/0             ascii-cfg
+13564     55952  0           490964      7ffe50a4c2e0/0             securityd
+13565     51256  0           477532      7ffe6c7b7480/0             cert_enroll
+13566     51384  0           487416      7ffeb12e5eb0/0             aaa
+13567     46512  775522      394676      7ffceb0d8530/0             obfl
+13593       180  0           2268        7ffe91b08a30/0             klogd
+13600     59964  832533      606528      7ffcaf25c410/0             device_test
+13601     62632  0           487132      7ffd24160d70/0             xbar
+13662     69072  1600414     503684      7ffe0bce9e50/0             aclmgr
+13721      4488  876643      291180      7fff09081780/0             evmc
+13745     49192  779002      397744      7fff3f84f1e0/0             ExceptionLog
+13746     69060  780335      495260      7ffcf69dba30/0             bootvar
+13749     49544  0           398568      7ffeb1596ee0/0             cardclient
+13753     53788  745125      476552      7ffc81e3d720/0             diagmgr
+13772    104792  809761      534816      7fff1be755e0/0             ifmgr
+13812       412  0           5868        7ffd7f043da0/0             incrond
+13814    370336  0           1966696     7ffe59fd52e0/0             urib
+13822     72928  1175346     569932      7ffc2864a360/0             l3vm
+13898     52272  1264746     470132      7ffd7bbe0450/0             npacl
+13909     49724  889681      469772      7ffdcf1ebc10/0             vdc_mgr
+13917    115440  0           2294068     7ffddb68fe50/0             adjmgr
+13918    202456  5606410     2322904     7ffd09b4d140/0             u6rib
+13922     91224  782801      440440      7ffce0f86970/0             statsclient
+13966    143968  4284989     1766352     7fff10a16260/0             arp
+13967    111648  0           2252608     7ffcfca5c9f0/0             icmpv6
+13978     72948  0           928904      7ffdb47030b0/0             pktmgr
+14001    168308  0           2798108     7ffd8b836c20/0             netstack
+14072     51488  3833944     1554744     7ffdafc189d0/0             radius
+14073     74416  3835297     1579840     7ffe52068510/0             cdp
+14074     82256  1053066     505236      7ffcde32c6a0/0             cfs
+14075       732  622321      284072      7ffc07be5c30/0             ip_dummy
+14076       732  622321      284072      7fff369d76a0/0             ipv6_dummy
+14078    104780  5338299     2154976     7ffe7ef447b0/0             otm
+14079    152300  0           1815488     7ffe48979830/0             snmpd
+14080       732  622321      284072      7fff8b458890/0             tcpudp_dummy
+14083     47272  838358      392728      7fff49fd6680/0             dcos-xinetd
+14237     50024  1023211     473160      7fff64a24690/0             callhome
+14713     76624  0           2154688     7ffe8ce2eb60/0             hsrp_engine
+16742     48852  0           398496      7ffd2a4c8520/0             nginx
+16743     48852  0           398496      7ffd2a4c8520/0             nginx
+16744     48852  0           398496      7ffd2a4c8520/0             nginx
+16745     48852  0           398496      7ffd2a4c8520/0             nginx
+16746    137008  1678839     710736      7ffe5d18f710/0             port-profile
+16761     51248  768193      498872      7fff72be99a0/0             vman
+16766     99064  1368172     450104      7ffed75fc7c0/0             spm
+16767    103680  0           2364368     7ffcd1ccd0f0/0             sdaa
+16768     87124  0           2238972     7ffde3fb8da0/0             rpm
+16769     53932  3643247     1560088     7ffe908b2350/0             pltfm_config
+16771     51388  991364      399700      7ffccbdcf680/0             plcmgr
+16773     56160  1075219     489632      7fffca976500/0             pfstat
+16789     51708  5340213     2107916     7ffcac5f77a0/0             ntp
+16790     72716  933046      704084      7ffd5fc38f50/0             nia-mgr
+16793     51576  0           2035856     7ffd3159bfa0/0             nbproxy
+16797     81168  5512781     2131092     7fff134fd320/0             monitor
+16798    216812  5736361     2286672     7fff9a54d830/0             mld
+16803     64024  824011      489928      7fff9c0694a0/0             lim
+16808     95372  1038474     587848      7ffd8abba450/0             l2rib
+16811    187664  0           1846140     7ffc107a3140/0             ipfib
+16815     47540  0           405652      7ffd9db9b160/0             intersight
+16816    223816  0           2602384     7ffd4dbf2e40/0             igmp
+16817     72644  1262044     547712      7fff2a6561a0/0             icam
+16818     72928  1040063     500824      7ffde9cc0510/0             eth_port_channel
+16819     51416  1061839     462880      7fff6a97bc00/0             ecp
+16824     57896  937279      405040      7fff64bd5dd0/0             adbm
+16825     50284  989441      471184      7ffd9bd5fb40/0             acllog
+16833     60104  836442      483320      7ffc6a6652f0/0             tacacs
+16846     75812  1023876     514572      7ffdd64c59f0/0             eltm
+16881     47076  0           393244      7ffced136880/0             ntpd
+16888     35444  672448      322000      7ffe5a99e100/0             eth_dstats
+16889     71600  954426      504020      7ffe2a91f3e0/0             ipqosmgr
+16890     57724  1082264     483840      7ffebc681960/0             lacp
+16894    112328  1405563     602412      7ffffc0d6700/0             vlan_mgr
+16921    146236  803239      511308      7ffc826b3400/0             aclqos
+16926    207996  1043845     558776      7ffe345a55a0/0             diag_port_lb
+16928     91840  1007330     626620      7ffdf8806070/0             ethpm
+16929    121972  1344620     719268      7ffcb6418f30/0             l2fm
+16943     67500  1348988     497452      7fff5e3c3740/0             stp
+16944     51912  816368      474024      7fff39487710/0             stripcl
+16982     55608  948974      485108      7ffe56138d80/0             copp
+17029     84820  0           2152640     7fffb43a42b0/0             vpc
+17030     82228  1009906     675392      7ffe1c151340/0             ufdm
+17031     47776  735290      396536      7fff4b369cc0/0             u2
+17033     65096  5252472     1998320     7ffc87fa4eb0/0             sal
+17034     53340  5236682     2119124     7ffc13f987b0/0             ofm
+17035    184612  0           2368236     7ffcfa35d490/0             mrib
+17036    146660  1939298     658292      7ffe22ec29d0/0             mfdm
+17037     47792  733222      397168      7ffd6a5d0f20/0             mcm
+17038    184496  5850930     2343808     7ffc2a3d58f0/0             m6rib
+17040     52320  993366      478904      7ffc2ea8b9f0/0             l2pt
+17073     69708  1208602     418188      7ffee9431fb0/0             m2rib
+17238     18476  0           298420      7fff75624fa0/0             bloggerd
+17350      5880  0           289124      7ffe1e879a80/0             psshelper
+17351      5864  0           289108      7ffff84fb450/0             psshelper
+17352    125856  0           409356      7ffdaba4fb40/0             plog_lc
+17353      1012  0           278476      7fff94301570/0             patch_installer
+17354       892  0           280948      7fff9e203de0/0             obfl_lc
+17355      1920  0           282528      7ffd045b23d0/0             mvsh
+17356      4176  0           284844      7fff1c9f8130/0             evmc
+17357    131100  0           419836      7ffead7cad80/0             dt_helper
+17358    124196  0           410128      7ffed00cbdc0/0             diagclient
+17359    122148  0           406308      7fff4948bd50/0             crdcfg_server
+17360       968  0           280848      7ffeed23f620/0             capability
+17366    131392  0           552196      7ffcaa425970/0             device_test
+17371    120724  0           405116      7ffc725e6aa0/0             crdclient
+17387    131948  0           419412      7fff3e232b90/0             dc3_sensor
+17388   2254672  0           3620180     7ffc19014760/0             tahusd
+17772       260  0           2636        7ffe967f2130/0             getty
+18113     99340  0           562048      7fffb0338880/0             nxpython3
+18204     96772  0           494072      7fffb0338880/0             nxpython3
+18205     96772  0           494072      7fffb0338880/0             nxpython3
+18206     96772  0           494072      7fffb0338880/0             nxpython3
+18890     47116  0           394028      7ffd3584f0c0/0             dcos_sshd
+18929     47392  0           394304      7ffd3584f0c0/0             dcos_sshd
+18930     57916  0           693560      7fffd0bf2450/0             vsh.bin
+19000       176  0           2268        7fff3078c7f0/0             sleep
+19349       448  0           6792        7ffcbb962470/0             sshd
+19433    167788  0           462292      7ffdf92aba10/0             bfdc
+19434    261900  0           567724      7ffe53f4f190/0             iftmc
+19435    184956  0           483960      7ffd7fa708c0/0             pixc
+19436    140788  0           434608      7ffe32ed9740/0             port_client
+19437    172808  0           465200      7ffed0c1a3e0/0             stats_client
+19438    132636  0           426252      7ffcb053b820/0             vntagc
+19439    130540  0           420696      7ffc474087f0/0             zonelc
+19441    200616  0           498316      7ffeba692d80/0             mtm
+19444    304624  0           629280      7fff8a4bf670/0             ipfib
+19448    345520  0           683140      7fffec0a3340/0             aclqos
+19449    137040  0           430544      7ffca85567e0/0             fib
+19450    139916  0           436824      7ffce1528f70/0             ptplc
+19451    176340  0           467400      7ffed4eb3860/0             tun_enc_lc
+19461    134136  0           428192      7ffe7e6a65c0/0             fcoelc
+19462    138652  0           434388      7ffecd70ae50/0             monc
+19464    149640  0           441116      7ffe11e95240/0             xbar_client
+20374       768  0           13564       7ffd33aa21a0/0             tamd_proc
+22115      1424  0           4748        7ffd11c25c30/0             ksmtuned.sh
+24217    923040  0           1629024     7fff72146120/0             swtele
+24635     54164  0           738076      7ffd479be530/0             nxos_dc
+24643     58856  0           469424      7ffee9493620/0             dcgrpc
+24650    136540  0           1494408     7ffcab6f1700/0             cnmi
+24656    157844  0           1681992     7fff6adc95a0/0             nae
+24676     36744  0           181428      7ffe9713f980/0             cfg_cmp
+
+All processes: MemAlloc = 19170284
+ID-PLZSF-ACdS-2901# show system reso
+Load average:   1 minute: 0.81   5 minutes: 1.01   15 minutes: 0.90
+Processes   :   766 total, 2 running
+CPU states  :   12.78% user,   3.00% kernel,   84.21% idle
+        CPU0 states  :   6.93% user,   8.91% kernel,   84.15% idle
+        CPU1 states  :   1.01% user,   1.01% kernel,   97.97% idle
+        CPU2 states  :   10.20% user,   1.02% kernel,   88.77% idle
+        CPU3 states  :   53.00% user,   6.00% kernel,   41.00% idle
+        CPU4 states  :   9.90% user,   2.97% kernel,   87.12% idle
+        CPU5 states  :   4.04% user,   1.01% kernel,   94.94% idle
+        CPU6 states  :   16.16% user,   3.03% kernel,   80.80% idle
+        CPU7 states  :   0.00% user,   1.00% kernel,   99.00% idle
+Memory usage:   16322920K total,   9795816K used,   6527104K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   285348K Used
+Kernel cached :   5275296K Used
+Current memory status: OK
+ID-PLZSF-ACdS-2901# 
+--- show env ---
+show env
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-35CFM-PE     --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-35CFM-PE     --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-35CFM-PE     --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-35CFM-PE     --     back-to-front   Ok 
+Fan5(sys_fan5)  NXA-FAN-35CFM-PE     --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0xb3
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-1100W-PE2     120 W              138 W      1100 W      Ok
+2        NXA-PAC-1100W-PE2     122 W              146 W      1100 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)            1100.00 W
+Total Grid-A (first half of PS slots) Power Capacity       1100.00 W
+Total Grid-B (second half of PS slots) Power Capacity      1100.00 W
+Total Power of all Inputs (cumulative)                     2200.00 W
+Total Power Output (actual draw)                            242.00 W
+Total Power Input (actual draw)                             284.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          31         Ok             
+1        BACK            70              42          30         Ok             
+1        CPU             90              80          38         Ok             
+1        Bigsky          110             90          46         Ok             
+ID-PLZSF-ACdS-2901# 
+--- show env all ---
+show env all
+                             ^
+% Invalid command at '^' marker.
+ID-PLZSF-ACdS-2901#

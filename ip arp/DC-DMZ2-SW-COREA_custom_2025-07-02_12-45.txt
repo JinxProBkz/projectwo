@@ -1,0 +1,94 @@
+
+
+---------------------------------------------------------------------------
+show ip arp
+---------------------------------------------------------------------------
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.200.203.10           0   Incomplete      ARPA   
+Internet  10.200.203.13           0   Incomplete      ARPA   
+Internet  10.224.44.194           -   0017.5ad9.9dff  ARPA   Vlan210
+Internet  10.200.203.12           0   Incomplete      ARPA   
+Internet  10.224.44.195          72   0017.5ad9.9dbf  ARPA   Vlan210
+Internet  10.224.44.193           -   0000.0c07.ac00  ARPA   Vlan210
+Internet  10.200.203.1            -   0000.0c07.ac08  ARPA   Vlan203
+Internet  10.200.203.3            1   0017.5ad9.9dbf  ARPA   Vlan203
+Internet  10.224.44.205           5   e411.5bb2.1e94  ARPA   Vlan210
+Internet  10.9.9.1                -   0000.0c07.ac01  ARPA   Vlan1
+Internet  10.200.203.2            -   0017.5ad9.9dff  ARPA   Vlan203
+Internet  10.224.40.226           -   0017.5ad9.9dff  ARPA   Vlan379
+Internet  10.224.40.227           0   0017.5ad9.9dbf  ARPA   Vlan379
+Internet  10.224.40.225           -   0000.0c07.ac00  ARPA   Vlan379
+Internet  10.224.40.242           -   0017.5ad9.9dff  ARPA   Vlan380
+Internet  10.224.40.243         207   0017.5ad9.9dbf  ARPA   Vlan380
+Internet  10.225.36.253          34   0017.5ad9.9dbf  ARPA   Vlan102
+Internet  10.225.36.252           -   0017.5ad9.9dff  ARPA   Vlan102
+Internet  10.224.40.241           -   0000.0c07.ac00  ARPA   Vlan380
+Internet  10.9.9.74               0   Incomplete      ARPA   
+Internet  10.9.9.73               0   Incomplete      ARPA   
+Internet  10.9.9.71               0   Incomplete      ARPA   
+Internet  10.9.9.90               0   Incomplete      ARPA   
+Internet  10.9.9.91               8   f84f.57f8.d540  ARPA   Vlan1
+Internet  10.9.9.89               0   Incomplete      ARPA   
+Internet  10.99.1.9               9   b83f.d289.9c40  ARPA   Vlan101
+Internet  10.99.1.10              4   b83f.d289.bc90  ARPA   Vlan101
+Internet  10.99.1.1               -   0000.0c07.ac65  ARPA   Vlan101
+Internet  10.99.1.3             110   b83f.d289.9c40  ARPA   Vlan101
+Internet  10.9.9.102              0   Incomplete      ARPA   
+Internet  10.99.1.5               9   1070.fd78.8aa1  ARPA   Vlan101
+Internet  10.99.1.6             109   1070.fd78.8aa1  ARPA   Vlan101
+Internet  10.9.9.101              0   Incomplete      ARPA   
+Internet  10.99.1.7               9   b83f.d289.a11d  ARPA   Vlan101
+Internet  10.224.65.43            0   0015.b2ad.1a20  ARPA   Vlan376
+Internet  10.224.65.42            4   00d0.fa07.2326  ARPA   Vlan376
+Internet  10.224.65.41          184   0015.b2ac.acfa  ARPA   Vlan376
+Internet  10.224.65.47          165   0015.b2ab.86a2  ARPA   Vlan376
+Internet  10.224.65.46          132   0015.b2ab.e242  ARPA   Vlan376
+Internet  10.224.65.44           50   0015.b2ad.26d8  ARPA   Vlan376
+Internet  10.224.65.35          200   0017.5ad9.9dbf  ARPA   Vlan376
+Internet  10.224.65.34            -   0017.5ad9.9dff  ARPA   Vlan376
+Internet  10.224.65.33            -   0000.0c07.ac00  ARPA   Vlan376
+Internet  10.99.1.252             -   0017.5ad9.9dff  ARPA   Vlan101
+Internet  10.99.1.253             5   0017.5ad9.9dbf  ARPA   Vlan101
+Internet  10.224.65.50          173   007e.9596.8241  ARPA   Vlan376
+Internet  10.224.65.49          165   0015.b2ab.e47a  ARPA   Vlan376
+Internet  10.224.65.48          132   0015.b2ab.6fe6  ARPA   Vlan376
+Internet  10.200.200.162          -   0000.0c07.ac06  ARPA   Vlan214
+Internet  10.224.66.1             -   0000.0c07.ac00  ARPA   Vlan377
+Internet  10.200.200.163          -   0017.5ad9.9dff  ARPA   Vlan214
+Internet  10.224.66.2             -   0017.5ad9.9dff  ARPA   Vlan377
+Internet  10.224.66.3           109   0017.5ad9.9dbf  ARPA   Vlan377
+Internet  10.200.200.164         30   0017.5ad9.9dbf  ARPA   Vlan214
+Internet  10.224.43.1             -   0000.0c07.ac10  ARPA   Vlan213
+Internet  10.224.41.2             -   0017.5ad9.9dff  ARPA   GigabitEthernet2/11
+Internet  10.224.41.1            19   000f.3514.f400  ARPA   GigabitEthernet2/11
+Internet  10.224.43.3             0   0017.5ad9.9dbf  ARPA   Vlan213
+Internet  10.224.43.2             -   0017.5ad9.9dff  ARPA   Vlan213
+Internet  10.224.35.1             -   0000.0c07.ac0c  ARPA   Vlan205
+Internet  10.224.41.10            -   0017.5ad9.9dff  ARPA   GigabitEthernet2/12
+Internet  10.224.34.1             -   0000.0c07.ac0d  ARPA   Vlan206
+Internet  10.224.41.9           121   000f.3514.0800  ARPA   GigabitEthernet2/12
+Internet  10.224.35.3           207   0017.5ad9.9dbf  ARPA   Vlan205
+Internet  10.224.34.2             -   0017.5ad9.9dff  ARPA   Vlan206
+Internet  10.224.34.3           118   0017.5ad9.9dbf  ARPA   Vlan206
+Internet  10.224.35.2             -   0017.5ad9.9dff  ARPA   Vlan205
+Internet  10.224.43.15            0   Incomplete      ARPA   
+Internet  10.225.36.1             -   0000.0c07.ac66  ARPA   Vlan102
+Internet  10.224.43.17            0   Incomplete      ARPA   
+Internet  10.224.59.1             -   0000.0c07.ac00  ARPA   Vlan369
+Internet  10.224.43.16            0   Incomplete      ARPA   
+Internet  10.224.59.3            41   0017.5ad9.9dbf  ARPA   Vlan369
+Internet  10.224.43.18            0   Incomplete      ARPA   
+Internet  10.224.59.2             -   0017.5ad9.9dff  ARPA   Vlan369
+Internet  10.224.35.20           33   0017.5ad9.9dbf  ARPA   Vlan205
+Internet  10.224.40.34            -   0017.5ad9.9dff  ARPA   Vlan334
+Internet  10.224.40.35          119   0017.5ad9.9dbf  ARPA   Vlan334
+Internet  10.224.40.33            -   0000.0c07.ac00  ARPA   Vlan334
+Internet  10.9.9.251              0   Incomplete      ARPA   
+Internet  10.224.47.49            -   0000.0c07.ac15  ARPA   Vlan11
+Internet  10.9.9.254              0   0017.5ad9.9dbf  ARPA   Vlan1
+Internet  10.9.9.252              0   Incomplete      ARPA   
+Internet  10.224.47.51          114   0017.5ad9.9dbf  ARPA   Vlan11
+Internet  10.224.47.50            -   0017.5ad9.9dff  ARPA   Vlan11
+Internet  10.9.9.253              -   0017.5ad9.9dff  ARPA   Vlan1
+---------------------------------------------------------------------------
+
