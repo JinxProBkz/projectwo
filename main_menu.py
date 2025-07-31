@@ -20,7 +20,7 @@ ASCII_ART = r"""
                   |__/   
   
      Definitive Edition V1.1 for Asesment Use Only 
-     any issue/bug please email mohamad.mahesa@mastersystem.co.id
+     any issue/bug please email mohamad.mahesa@mastersystem.co.id2
 """
 
 
