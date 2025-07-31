@@ -95,12 +95,12 @@ def check_and_update():
     if local_version == remote_version:
         print(" Sudah menggunakan versi terbaru.")
     else:
-        print("🚀 Versi baru tersedia!")
+        print(" Versi baru tersedia!")
         pilihan = input("Ingin update sekarang? (y/n): ").strip().lower()
         if pilihan == 'y':
             update_from_github_zip()
         else:
-            print("⏭ Update dibatalkan.")
+            print(" Update dibatalkan.")
 
     input("Tekan Enter untuk kembali ke menu...")
 
