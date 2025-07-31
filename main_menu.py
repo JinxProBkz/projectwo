@@ -27,12 +27,23 @@ def generate_excel():
     # Jalankan json_to_excel.py
     subprocess.run([sys.executable, "core/json_to_excel.py"])
 
+def update_from_github():
+    print("\n[3] Menjalankan update dari GitHub...")
+    result = subprocess.run(["git", "pull"], capture_output=True, text=True)
+    print(result.stdout)
+    if result.returncode == 0:
+        print(" Update berhasil.")
+    else:
+        print(" Gagal update. Cek koneksi atau akses repo.")
+
+
 def main_menu():
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
         print(ASCII_ART)
         print("1. Generate Json File parsing from txt")
         print("2. Generate Excel File From Json")
+        print("3. Update All script from GitHub")
         print("0. Back / Exit")
         choice = input("\nPilih menu: ")
 
@@ -42,6 +53,8 @@ def main_menu():
         elif choice == "2":
             generate_excel()
             input("\nTekan ENTER untuk kembali ke menu...")
+        elif pilihan == '3':
+            update_from_github()
         elif choice == "0":
             print("Keluar dari program.")
             break
