@@ -24,7 +24,7 @@ ASCII_ART = r"""
 """
 
 
-GITHUB_REPO = "https://github.com/JinxProBkz/projectwo.git"  
+GITHUB_REPO = "https://github.com/JinxProBkz/projectwo"  
 BRANCH = "main"  
 
 def get_local_version():
@@ -35,13 +35,13 @@ def get_local_version():
         return "0.0.0"
 
 def get_remote_version():
-    raw_url = f"{GITHUB_REPO}/raw/{BRANCH}/version.txt".replace("github.com", "raw.githubusercontent.com")
+    raw_url = f"https://raw.githubusercontent.com/JinxProBkz/projectwo/{BRANCH}/version.txt"
     try:
         response = requests.get(raw_url)
         response.raise_for_status()
         return response.text.strip()
     except Exception as e:
-        print(f"⚠️ Gagal mengambil versi dari GitHub: {e}")
+        print(f" Gagal mengambil versi dari GitHub: {e}")
         return None
 
 def update_from_github_zip():
