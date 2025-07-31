@@ -28,30 +28,31 @@ GITHUB_REPO = "https://github.com/JinxProBkz/projectwo.git"
 BRANCH = "main"  
 
 def update_from_github_zip():
-    print("\n Menjalankan update dari GitHub ZIP (tanpa Git)...")
+    print("\n🔄 Menjalankan update dari GitHub ZIP (tanpa Git)...")
 
     zip_url = f"{GITHUB_REPO}/archive/refs/heads/{BRANCH}.zip"
     
     try:
-        # 1. Download ZIP
+        # 1. Download ZIP dari GitHub
         response = requests.get(zip_url)
-        response.raise_for_status()
-        print(" ZIP repo berhasil diunduh.")
+        if response.status_code != 200:
+            raise Exception(f"Gagal mengunduh ZIP. Status code: {response.status_code}\nURL: {zip_url}")
+        
+        print("📥 ZIP repo berhasil diunduh.")
 
         # 2. Ekstrak ke memory
         with zipfile.ZipFile(io.BytesIO(response.content)) as zip_ref:
-            extract_folder = f"__update_temp__"
+            extract_folder = "__update_temp__"
             zip_ref.extractall(extract_folder)
 
-        # 3. Ambil nama folder hasil ekstraksi (repo-main)
+        # 3. Ambil nama folder hasil ekstraksi
         extracted_subfolder = os.path.join(extract_folder, os.listdir(extract_folder)[0])
 
-        # 4. Copy semua file ke current folder, menimpa yang lama
+        # 4. Salin semua file/folder ke direktori kerja
         for item in os.listdir(extracted_subfolder):
             s = os.path.join(extracted_subfolder, item)
             d = os.path.join(".", item)
 
-            # Hapus folder lama jika perlu
             if os.path.isdir(s):
                 if os.path.exists(d):
                     shutil.rmtree(d)
@@ -66,7 +67,10 @@ def update_from_github_zip():
         sys.exit()
 
     except Exception as e:
-        print(f"❌ Gagal update dari GitHub: {e}")
+        print("\n❌ Gagal update dari GitHub.")
+        print("📄 Error detail:")
+        traceback.print_exc()
+        input("\nTekan Enter untuk keluar...")
 
 def generate_json():
     print("\n[1] Generate JSON File from TXT...")
