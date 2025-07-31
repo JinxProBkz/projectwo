@@ -19,8 +19,8 @@ ASCII_ART = r"""
                    _/ |                                        
                   |__/   
   
-     Definitive Edition V1.1 for Asesment Use Only 
-     any issue/bug please email mohamad.mahesa@mastersystem.co.id2
+     Definitive Edition V1.4 for Asesment Use Only 
+     any issue/bug please email mohamad.mahesa@mastersystem.co.id
 """
 
 
@@ -48,7 +48,7 @@ def update_from_github_zip():
     zip_url = f"{GITHUB_REPO}/archive/refs/heads/{BRANCH}.zip"
     
     try:
-        print("📥 Mengunduh update...")
+        print(" Mengunduh update...")
         response = requests.get(zip_url)
         response.raise_for_status()
 
@@ -70,37 +70,37 @@ def update_from_github_zip():
                 shutil.copy2(s, d)
 
         shutil.rmtree(extract_folder)
-        print("✅ Update selesai. Silakan restart aplikasi.")
+        print(" Update selesai. Silakan restart aplikasi.")
         input("Tekan Enter untuk keluar...")
         sys.exit()
 
     except Exception as e:
-        print("❌ Gagal update:", e)
+        print(" Gagal update:", e)
         input("Tekan Enter untuk keluar...")
 
 def check_and_update():
-    print("\n🔎 Mengecek versi...")
+    print("\n Mengecek versi...")
 
     local_version = get_local_version()
     remote_version = get_remote_version()
 
     if remote_version is None:
-        print("❌ Tidak bisa mengambil versi dari GitHub.")
+        print(" Tidak bisa mengambil versi dari GitHub.")
         input("Tekan Enter untuk kembali ke menu...")
         return
 
-    print(f"📌 Versi saat ini: {local_version}")
-    print(f"🌐 Versi tersedia: {remote_version}")
+    print(f" Versi saat ini: {local_version}")
+    print(f" Versi tersedia: {remote_version}")
 
     if local_version == remote_version:
-        print("✅ Sudah menggunakan versi terbaru.")
+        print(" Sudah menggunakan versi terbaru.")
     else:
         print("🚀 Versi baru tersedia!")
         pilihan = input("Ingin update sekarang? (y/n): ").strip().lower()
         if pilihan == 'y':
             update_from_github_zip()
         else:
-            print("⏭️ Update dibatalkan.")
+            print("⏭ Update dibatalkan.")
 
     input("Tekan Enter untuk kembali ke menu...")
 
