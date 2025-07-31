@@ -27,28 +27,37 @@ ASCII_ART = r"""
 GITHUB_REPO = "https://github.com/JinxProBkz/projectwo.git"  
 BRANCH = "main"  
 
-def update_from_github_zip():
-    print("\n🔄 Menjalankan update dari GitHub ZIP (tanpa Git)...")
+def get_local_version():
+    try:
+        with open("version.txt", "r") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return "0.0.0"
 
+def get_remote_version():
+    raw_url = f"{GITHUB_REPO}/raw/{BRANCH}/version.txt".replace("github.com", "raw.githubusercontent.com")
+    try:
+        response = requests.get(raw_url)
+        response.raise_for_status()
+        return response.text.strip()
+    except Exception as e:
+        print(f"⚠️ Gagal mengambil versi dari GitHub: {e}")
+        return None
+
+def update_from_github_zip():
     zip_url = f"{GITHUB_REPO}/archive/refs/heads/{BRANCH}.zip"
     
     try:
-        # 1. Download ZIP dari GitHub
+        print("📥 Mengunduh update...")
         response = requests.get(zip_url)
-        if response.status_code != 200:
-            raise Exception(f"Gagal mengunduh ZIP. Status code: {response.status_code}\nURL: {zip_url}")
-        
-        print("📥 ZIP repo berhasil diunduh.")
+        response.raise_for_status()
 
-        # 2. Ekstrak ke memory
         with zipfile.ZipFile(io.BytesIO(response.content)) as zip_ref:
             extract_folder = "__update_temp__"
             zip_ref.extractall(extract_folder)
 
-        # 3. Ambil nama folder hasil ekstraksi
         extracted_subfolder = os.path.join(extract_folder, os.listdir(extract_folder)[0])
 
-        # 4. Salin semua file/folder ke direktori kerja
         for item in os.listdir(extracted_subfolder):
             s = os.path.join(extracted_subfolder, item)
             d = os.path.join(".", item)
@@ -60,17 +69,40 @@ def update_from_github_zip():
             else:
                 shutil.copy2(s, d)
 
-        # 5. Bersihkan folder sementara
         shutil.rmtree(extract_folder)
-        print("✅ Update berhasil. Silakan restart aplikasi untuk melihat perubahan.")
+        print("✅ Update selesai. Silakan restart aplikasi.")
         input("Tekan Enter untuk keluar...")
         sys.exit()
 
     except Exception as e:
-        print("\n❌ Gagal update dari GitHub.")
-        print("📄 Error detail:")
-        traceback.print_exc()
-        input("\nTekan Enter untuk keluar...")
+        print("❌ Gagal update:", e)
+        input("Tekan Enter untuk keluar...")
+
+def check_and_update():
+    print("\n🔎 Mengecek versi...")
+
+    local_version = get_local_version()
+    remote_version = get_remote_version()
+
+    if remote_version is None:
+        print("❌ Tidak bisa mengambil versi dari GitHub.")
+        input("Tekan Enter untuk kembali ke menu...")
+        return
+
+    print(f"📌 Versi saat ini: {local_version}")
+    print(f"🌐 Versi tersedia: {remote_version}")
+
+    if local_version == remote_version:
+        print("✅ Sudah menggunakan versi terbaru.")
+    else:
+        print("🚀 Versi baru tersedia!")
+        pilihan = input("Ingin update sekarang? (y/n): ").strip().lower()
+        if pilihan == 'y':
+            update_from_github_zip()
+        else:
+            print("⏭️ Update dibatalkan.")
+
+    input("Tekan Enter untuk kembali ke menu...")
 
 def generate_json():
     print("\n[1] Generate JSON File from TXT...")
@@ -100,7 +132,7 @@ def main_menu():
             generate_excel()
             input("\nTekan ENTER untuk kembali ke menu...")
         elif choice == '3':
-           update_from_github_zip()
+            check_and_update()
         elif choice == "0":
             print("Keluar dari program.")
             break
