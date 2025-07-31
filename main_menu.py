@@ -1,6 +1,12 @@
 import os
 import sys
 import subprocess
+import requests
+import zipfile
+import io
+import os
+import shutil
+import sys
 
 # ASCII Art
 ASCII_ART = r"""
@@ -17,6 +23,51 @@ ASCII_ART = r"""
      any issue/bug please email mohamad.mahesa@mastersystem.co.id
 """
 
+
+GITHUB_REPO = "https://github.com/JinxProBkz/projectwo.git"  
+BRANCH = "main"  
+
+def update_from_github_zip():
+    print("\n Menjalankan update dari GitHub ZIP (tanpa Git)...")
+
+    zip_url = f"{GITHUB_REPO}/archive/refs/heads/{BRANCH}.zip"
+    
+    try:
+        # 1. Download ZIP
+        response = requests.get(zip_url)
+        response.raise_for_status()
+        print(" ZIP repo berhasil diunduh.")
+
+        # 2. Ekstrak ke memory
+        with zipfile.ZipFile(io.BytesIO(response.content)) as zip_ref:
+            extract_folder = f"__update_temp__"
+            zip_ref.extractall(extract_folder)
+
+        # 3. Ambil nama folder hasil ekstraksi (repo-main)
+        extracted_subfolder = os.path.join(extract_folder, os.listdir(extract_folder)[0])
+
+        # 4. Copy semua file ke current folder, menimpa yang lama
+        for item in os.listdir(extracted_subfolder):
+            s = os.path.join(extracted_subfolder, item)
+            d = os.path.join(".", item)
+
+            # Hapus folder lama jika perlu
+            if os.path.isdir(s):
+                if os.path.exists(d):
+                    shutil.rmtree(d)
+                shutil.copytree(s, d)
+            else:
+                shutil.copy2(s, d)
+
+        # 5. Bersihkan folder sementara
+        shutil.rmtree(extract_folder)
+        print("✅ Update berhasil. Silakan restart aplikasi untuk melihat perubahan.")
+        input("Tekan Enter untuk keluar...")
+        sys.exit()
+
+    except Exception as e:
+        print(f"❌ Gagal update dari GitHub: {e}")
+
 def generate_json():
     print("\n[1] Generate JSON File from TXT...")
     # Jalankan txt_to_json.py
@@ -26,15 +77,6 @@ def generate_excel():
     print("\n[2] Generate Excel File from JSON...")
     # Jalankan json_to_excel.py
     subprocess.run([sys.executable, "core/json_to_excel.py"])
-
-def update_from_github():
-    print("\n[3] Menjalankan update dari GitHub...")
-    result = subprocess.run(["git", "pull"], capture_output=True, text=True)
-    print(result.stdout)
-    if result.returncode == 0:
-        print(" Update berhasil.")
-    else:
-        print(" Gagal update. Cek koneksi atau akses repo.")
 
 
 def main_menu():
@@ -53,8 +95,8 @@ def main_menu():
         elif choice == "2":
             generate_excel()
             input("\nTekan ENTER untuk kembali ke menu...")
-        elif pilihan == '3':
-            update_from_github()
+        elif choice == '3':
+           update_from_github_zip()
         elif choice == "0":
             print("Keluar dari program.")
             break
