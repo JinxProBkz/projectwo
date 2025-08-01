@@ -7,7 +7,7 @@
                    _/ |                                        
                   |__/   
   
-     Definitive Edition V1.1 for Asesment Use Only 
+     Definitive Edition  for Asesment Use Only 
 
 Prequest
 1.Script ini Menggunakan Python. harap menginstal python terlebih dahulu
